@@ -119,7 +119,7 @@
                 android:resource="@string/live_display_summary" />
         </activity-alias>
 
-        <!-- Button settings (System category) -->
+        <!-- Button settings (System category)
         <activity-alias
             android:name=".input.ButtonSettings"
             android:label="@string/button_pref_title"
@@ -136,7 +136,7 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:value="@string/summary_empty" />
-        </activity-alias>
+        </activity-alias> -->
 
         <activity android:name=".gestures.KeyHandler" />
 
