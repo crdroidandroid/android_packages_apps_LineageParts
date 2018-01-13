@@ -34,10 +34,10 @@
           android:fragment="org.lineageos.lineageparts.notificationlight.BatteryLightSettings"
           lineage:xmlRes="@xml/battery_light_settings" />
 
-    <part android:key="button_settings"
+    <!--<part android:key="button_settings"
           android:title="@string/button_pref_title"
           android:fragment="org.lineageos.lineageparts.input.ButtonSettings"
-          lineage:xmlRes="@xml/button_settings" />
+          lineage:xmlRes="@xml/button_settings" />-->
 
     <part android:key="contributors"
           android:title="@string/contributors_cloud_fragment_title"
