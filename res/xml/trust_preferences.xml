@@ -52,8 +52,8 @@
             android:summary="@string/trust_restrict_usb_summary"
             android:defaultValue="false" />
 
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
-            android:key="lineagestats" />
+        <!--<org.lineageos.internal.lineageparts.LineagePartsPreference
+            android:key="lineagestats" />-->
 
         <ListPreference
             android:key="sms_security_check_limit"
