@@ -46,8 +46,8 @@
         <org.lineageos.internal.lineageparts.LineagePartsPreference
             android:key="privacy_guard_manager" />
 
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
-            android:key="lineagestats" />
+        <!--<org.lineageos.internal.lineageparts.LineagePartsPreference
+            android:key="lineagestats" />-->
 
         <ListPreference
             android:key="sms_security_check_limit"

@@ -23,7 +23,7 @@
             android:key="stats_collection"
             android:title="@string/stats_collection_title"
             android:summary="@string/stats_collection_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
     <PreferenceScreen
         android:title="@string/preview_data_title"
