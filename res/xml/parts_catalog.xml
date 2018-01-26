@@ -69,10 +69,10 @@
           android:fragment="org.lineageos.lineageparts.statusbar.StatusBarSettings"
           lineage:xmlRes="@xml/status_bar_settings" />-->
 
-    <part android:key="lineagestats"
+    <!--<part android:key="lineagestats"
           android:title="@string/anonymous_statistics_title"
           android:fragment="org.lineageos.lineageparts.lineagestats.AnonymousStats"
-          lineage:xmlRes="@xml/anonymous_stats" />
+          lineage:xmlRes="@xml/anonymous_stats" />-->
 
     <part android:key="power_menu"
           android:title="@string/power_menu_title"

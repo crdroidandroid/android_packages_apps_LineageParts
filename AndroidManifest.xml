@@ -226,7 +226,7 @@
                 android:resource="@string/expanded_desktop_settings_summary" />
         </activity-alias>
 
-        <!-- Anonymous Statistics -->
+        <!-- Anonymous Statistics
         <receiver android:name=".lineagestats.ReportingServiceManager"
             android:enabled="true"
             android:exported="false"
@@ -235,7 +235,7 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="org.lineageos.lineageparts.action.TRIGGER_REPORT_METRICS" />
             </intent-filter>
-        </receiver>
+        </receiver> -->
 
         <service android:label="ReportingService"
             android:enabled="true"
