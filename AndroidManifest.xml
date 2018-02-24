@@ -208,7 +208,7 @@
             </intent-filter>
         </activity-alias>
 
-        <!-- Expanded Desktop settings (Display category) -->
+        <!-- Expanded Desktop settings (Display category)
         <activity-alias
             android:name=".applications.ExpandedDesktopSettings"
             android:label="@string/expanded_desktop_settings_title"
@@ -224,7 +224,7 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/expanded_desktop_settings_summary" />
-        </activity-alias>
+        </activity-alias> -->
 
         <!-- Anonymous Statistics
         <receiver android:name=".lineagestats.ReportingServiceManager"
