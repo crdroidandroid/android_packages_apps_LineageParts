@@ -511,7 +511,7 @@ public class ExpandedDesktopSettings extends SettingsPreferenceFragment
             textColorSecondary = new TypedValue();
             context.getTheme().resolveAttribute(com.android.internal.R.attr.textColorSecondary,
                     textColorSecondary, true);
-            textColor = context.getColor(textColorSecondary.resourceId);
+            textColor = textColorSecondary.data;
         }
 
         @Override
