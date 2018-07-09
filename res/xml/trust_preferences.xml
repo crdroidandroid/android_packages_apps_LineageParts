@@ -30,6 +30,7 @@
 
         <lineageos.preference.LineageGlobalSettingListPreference
             android:key="trust_restrict_usb"
+            android:icon="@drawable/ic_usb"
             android:title="@string/trust_restrict_usb_title"
             android:summary="@string/trust_restrict_usb_summary"
             android:entries="@array/trust_restrict_usb_entries"
@@ -42,6 +43,7 @@
 
         <ListPreference
             android:key="sms_security_check_limit"
+            android:icon="@drawable/ic_message_alert"
             android:defaultValue="30"
             android:entries="@array/sms_security_check_limit_entries"
             android:entryValues="@array/sms_security_check_limit_values"
@@ -59,11 +61,13 @@
 
         <SwitchPreferenceCompat
             android:key="trust_warning_selinux"
+            android:icon="@drawable/ic_alert"
             android:summary="@string/trust_warnings_selinux"
             android:defaultValue="true" />
 
         <SwitchPreferenceCompat
             android:key="trust_warning_keys"
+            android:icon="@drawable/ic_alert"
             android:summary="@string/trust_warnings_keys"
             android:defaultValue="true" />
     </PreferenceCategory>
