@@ -44,13 +44,15 @@
         android:title="@string/trust_category_tools">
 
         <org.lineageos.internal.lineageparts.LineagePartsPreference
-            android:key="privacy_guard_manager" />
+            android:key="privacy_guard_manager"
+            android:icon="@drawable/ic_privacy_guard" />
 
         <!--<org.lineageos.internal.lineageparts.LineagePartsPreference
             android:key="lineagestats" />-->
 
         <ListPreference
             android:key="sms_security_check_limit"
+            android:icon="@drawable/ic_message_alert"
             android:defaultValue="30"
             android:entries="@array/sms_security_check_limit_entries"
             android:entryValues="@array/sms_security_check_limit_values"
@@ -68,11 +70,13 @@
 
         <SwitchPreference
             android:key="trust_warning_selinux"
+            android:icon="@drawable/ic_alert"
             android:summary="@string/trust_warnings_selinux"
             android:defaultValue="true" />
 
         <SwitchPreference
             android:key="trust_warning_keys"
+            android:icon="@drawable/ic_alert"
             android:summary="@string/trust_warnings_keys"
             android:defaultValue="true" />
     </PreferenceCategory>
