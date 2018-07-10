@@ -458,8 +458,8 @@
 
     <!-- These should be updated accordingly to the sdk -->
     <string-array name="dark_overlay_values" translatable="false">
-        <item>org.lineageos.overlay.dark</item>
-        <item>org.lineageos.overlay.black</item>
+        <item>com.android.system.theme.dark</item>
+        <item>com.android.system.theme.black</item>
     </string-array>
 
     <!-- Sms limit -->
