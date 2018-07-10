@@ -25,17 +25,18 @@
         android:icon="@drawable/ic_style_auto"
         android:title="@string/style_global_title" />
 
-    <Preference
-        android:key="style_accent"
-        android:title="@string/style_accent_title" />
-
     <lineageos.preference.LineageSystemSettingListPreference
-        android:defaultValue="org.lineageos.overlay.dark"
+        android:defaultValue="com.android.system.theme.dark"
         android:entries="@array/dark_overlay_entries"
         android:entryValues="@array/dark_overlay_values"
         android:key="berry_dark_overlay"
+        android:icon="@drawable/ic_invert_colors"
         android:summary="%s"
         android:title="@string/style_dark_overlay_title" />
+
+    <Preference
+        android:key="style_accent"
+        android:title="@string/style_accent_title" />
 
     <Preference
         android:key="style_automagic"
