@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="lineageparts_title">Настройки LineageOS</string>
+  <string name="lineageparts_title">Настройки crDroid</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Загрузка\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -474,9 +474,9 @@
   <!-- Anonymous Statistics #Lineage -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
   <string name="anonymous_statistics_title">Отправка статистики</string>
-  <string name="anonymous_statistics_summary">Помогите сделать LineageOS лучше, разрешив отправку анонимной статистики</string>
+  <string name="anonymous_statistics_summary">Помогите сделать crDroid лучше, разрешив отправку анонимной статистики</string>
   <string name="anonymous_statistics_warning_title">Сведения</string>
-  <string name="anonymous_statistics_warning">Анонимные отчеты позволяют разработчикам LineageOS отслеживать работу ОС на различных устройствах. Отправляемая информация включает название устройства, версию прошивки и уникальный идентификатор, что никаким образом не затрагивает Вашу конфиденциальность. Данные отправляются при каждой загрузке устройства.\n\nЧтобы просмотреть пример, нажмите «Просмотр данных».</string>
+  <string name="anonymous_statistics_warning">Анонимные отчеты позволяют разработчикам crDroid отслеживать работу ОС на различных устройствах. Отправляемая информация включает название устройства, версию прошивки и уникальный идентификатор, что никаким образом не затрагивает Вашу конфиденциальность. Данные отправляются при каждой загрузке устройства.\n\nЧтобы просмотреть пример, нажмите «Просмотр данных».</string>
   <string name="enable_reporting_title">Разрешить отправку статистики</string>
   <string name="preview_data_title">Предварительный просмотр данных</string>
   <string name="view_stats_title">Просмотр статистики</string>
@@ -630,7 +630,7 @@
   <string name="trust_feature_security_patches_value_new">актуальны</string>
   <string name="trust_feature_security_patches_value_medium">несколько месяцев</string>
   <string name="trust_feature_security_patches_value_old">устаревший</string>
-  <string name="trust_feature_security_patches_explain">Пакеты безопасности выпускаются ежемесячно компанией Google и поставщиками SoC для устранения недостатков в системе, которые могут быть использованы вредоносными приложениями для обхода ограничений безопасности и могут нанести временный или постоянный ущерб вашему устройству.\nНесмотря на то, что пакеты безопасности платформы обновляются каждый месяц, производители устройств обновляют их намного реже.\nДля того, чтобы быть уверенным в безопасности вашего устройства, убедитесь, что ваша сборка LineageOS актуальна.</string>
+  <string name="trust_feature_security_patches_explain">Пакеты безопасности выпускаются ежемесячно компанией Google и поставщиками SoC для устранения недостатков в системе, которые могут быть использованы вредоносными приложениями для обхода ограничений безопасности и могут нанести временный или постоянный ущерб вашему устройству.\nНесмотря на то, что пакеты безопасности платформы обновляются каждый месяц, производители устройств обновляют их намного реже.\nДля того, чтобы быть уверенным в безопасности вашего устройства, убедитесь, что ваша сборка crDroid актуальна.</string>
   <string name="trust_feature_encryption">Шифрование</string>
   <string name="trust_feature_encryption_value_enabled">Включено</string>
   <string name="trust_feature_encryption_value_nolock">Необходима защита экрана блокировки</string>

@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="lineageparts_title">LineageOS Ayarları</string>
+  <string name="lineageparts_title">crDroid Ayarları</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Yükleniyor\u2026</string>
   <string name="dlg_ok">TAMAM</string>
@@ -473,11 +473,11 @@
                  <b>Son güncelleme:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #Lineage -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS istatistikleri</string>
-  <string name="anonymous_statistics_summary">Anonim istatistik raporlamayı tercih ederek LineageOS\'u daha iyi hale getirmeye yardımcı olun</string>
+  <string name="anonymous_statistics_title">crDroid istatistikleri</string>
+  <string name="anonymous_statistics_summary">Anonim istatistik raporlamayı tercih ederek crDroid\'u daha iyi hale getirmeye yardımcı olun</string>
   <string name="anonymous_statistics_warning_title">Hakkında</string>
-  <string name="anonymous_statistics_warning">LineageOS İstatistiklerine dahil olmak, cihazlar arasındaki benzersiz yüklemeleri izlemek için
-        LineageOS geliştiricilerine kişisel olmayan verilerin gönderilmesine izin verecektir. Gönderilen bilgiler, gizliliğinizi veya
+  <string name="anonymous_statistics_warning">crDroid İstatistiklerine dahil olmak, cihazlar arasındaki benzersiz yüklemeleri izlemek için
+        crDroid geliştiricilerine kişisel olmayan verilerin gönderilmesine izin verecektir. Gönderilen bilgiler, gizliliğinizi veya
         kişisel verilerinizi tehlikeye atmayan benzersiz bir tanımlayıcıyı içerir. Veriler her önyükleme sırasında gönderilir.\n\nGönderilen verilere bir örnek için Verileri Önizle üzerine dokunun.</string>
   <string name="enable_reporting_title">Raporlamayı etkinleştir</string>
   <string name="preview_data_title">Veriyi önizle</string>
@@ -633,7 +633,7 @@
   <string name="trust_feature_security_patches_value_new">güncel</string>
   <string name="trust_feature_security_patches_value_medium">bir kaç aylık</string>
   <string name="trust_feature_security_patches_value_old">eski</string>
-  <string name="trust_feature_security_patches_explain">Güvenlik açıklarını ve güvenlik kısıtlamalarını atlamak cihazınızda geçici veya kalıcı bir hasar meydana getirmek için kötü amaçlı uygulamalar tarafından kötüye kullanılabilecek sistemdeki kusurları gidermek amacıyla Google ve SoC satıcıları tarafından aylık olarak yayınlanır.\nYazılım yamaları her ay global olarak güncellendiğinde üretici yamaları zaman zaman OEM\'den güncellenir.\nCihazınızı güvende tutmak için LineageOS yapınızın daima güncel olduğundan emin olun.</string>
+  <string name="trust_feature_security_patches_explain">Güvenlik açıklarını ve güvenlik kısıtlamalarını atlamak cihazınızda geçici veya kalıcı bir hasar meydana getirmek için kötü amaçlı uygulamalar tarafından kötüye kullanılabilecek sistemdeki kusurları gidermek amacıyla Google ve SoC satıcıları tarafından aylık olarak yayınlanır.\nYazılım yamaları her ay global olarak güncellendiğinde üretici yamaları zaman zaman OEM\'den güncellenir.\nCihazınızı güvende tutmak için crDroid yapınızın daima güncel olduğundan emin olun.</string>
   <string name="trust_feature_encryption">Şifreleme</string>
   <string name="trust_feature_encryption_value_enabled">Etkin</string>
   <string name="trust_feature_encryption_value_nolock">Güvenli bir kilit ekranına ihtiyaç duyar</string>

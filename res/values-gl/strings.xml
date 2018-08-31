@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="lineageparts_title">Axustes de LineageOS</string>
+  <string name="lineageparts_title">Axustes de crDroid</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Cargando\u2026</string>
   <string name="dlg_ok">ACEPTAR</string>
@@ -471,10 +471,10 @@
                  <b>Última actualización:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #Lineage -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS estadisticas</string>
-  <string name="anonymous_statistics_summary">Axude a mellorar LineageOS enviando informes de estatísiticas anónimas</string>
+  <string name="anonymous_statistics_title">crDroid estadisticas</string>
+  <string name="anonymous_statistics_summary">Axude a mellorar crDroid enviando informes de estatísiticas anónimas</string>
   <string name="anonymous_statistics_warning_title">Sobre</string>
-  <string name="anonymous_statistics_warning">Optar polo envío de estatísticas LineageOS permitirá que se transmitan datos non personais aos desenvolvedores de LineageOS para rastrear intalacións únicas através dos dispositivos. Os datos transmitidos teñen un identificador único, que non compromete a súa privacidade ou datos persoais. Os datos serán enviados cada vez que se inicie.\n\nPara ver un exemplo dos datos van ser enviados, toque en Previsualizar datos.</string>
+  <string name="anonymous_statistics_warning">Optar polo envío de estatísticas crDroid permitirá que se transmitan datos non personais aos desenvolvedores de crDroid para rastrear intalacións únicas através dos dispositivos. Os datos transmitidos teñen un identificador único, que non compromete a súa privacidade ou datos persoais. Os datos serán enviados cada vez que se inicie.\n\nPara ver un exemplo dos datos van ser enviados, toque en Previsualizar datos.</string>
   <string name="enable_reporting_title">Activar envío de estatísticas</string>
   <string name="preview_data_title">Previsualizar datos</string>
   <string name="view_stats_title">Ver as estatísticas</string>
@@ -628,7 +628,7 @@
   <string name="trust_feature_security_patches_value_new">actualizado</string>
   <string name="trust_feature_security_patches_value_medium">con atraso dalgúns meses</string>
   <string name="trust_feature_security_patches_value_old">desactualizado</string>
-  <string name="trust_feature_security_patches_explain">Google e os proveedores de SoC publican mensualmente parches de seguridade para solucionar os defectos do sistema que poderían ser explotados por aplicacións maliciosas para eludir as restriccións de seguridade e causar danos temporales ou permanentes no seu dispositivo.\nSe ben os parches da plataforma actualizanse globalmente todoslos meses, os parches dos proveedores actualizanse de vez en cando.\nPara manter seu dispositivo seguro, asegúrese de que a sua compilación LineageOS esté sempre actualizado.</string>
+  <string name="trust_feature_security_patches_explain">Google e os proveedores de SoC publican mensualmente parches de seguridade para solucionar os defectos do sistema que poderían ser explotados por aplicacións maliciosas para eludir as restriccións de seguridade e causar danos temporales ou permanentes no seu dispositivo.\nSe ben os parches da plataforma actualizanse globalmente todoslos meses, os parches dos proveedores actualizanse de vez en cando.\nPara manter seu dispositivo seguro, asegúrese de que a sua compilación crDroid esté sempre actualizado.</string>
   <string name="trust_feature_encryption">Cifrado</string>
   <string name="trust_feature_encryption_value_enabled">Activado</string>
   <string name="trust_feature_encryption_value_nolock">Precisas dunha pantalla de bloqueo segura</string>

@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="lineageparts_title">LineageOS Asetukset</string>
+  <string name="lineageparts_title">crDroid Asetukset</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Ladataan\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -469,10 +469,10 @@
                  <b>Päivitetty:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #Lineage -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS-tilastot</string>
-  <string name="anonymous_statistics_summary">Auta tekemään LineageOSista parempi tarjoamalla anonyymejä tilastoraportteja</string>
+  <string name="anonymous_statistics_title">crDroid-tilastot</string>
+  <string name="anonymous_statistics_summary">Auta tekemään crDroidista parempi tarjoamalla anonyymejä tilastoraportteja</string>
   <string name="anonymous_statistics_warning_title">Tietoja</string>
-  <string name="anonymous_statistics_warning">LineageOS-tilastojen käyttöönotto mahdollistaa anonyymien tietojen lähettämisen LineageOSin kehittäjille, jotta laitteiden järjestelmäasennuksia voidaan seurata. Tiedot sisältävät yksilöllisen tunnisteen, joka ei vaaranna henkilökohtaisia tietojasi. Tietoja lähetetään jokaisella uudelleenkäynnistyskerralla.\n\nValitse Esikatsele tietoja nähdäksesi, millaisia tietoja laitteestasi lähetetään.</string>
+  <string name="anonymous_statistics_warning">crDroid-tilastojen käyttöönotto mahdollistaa anonyymien tietojen lähettämisen crDroidin kehittäjille, jotta laitteiden järjestelmäasennuksia voidaan seurata. Tiedot sisältävät yksilöllisen tunnisteen, joka ei vaaranna henkilökohtaisia tietojasi. Tietoja lähetetään jokaisella uudelleenkäynnistyskerralla.\n\nValitse Esikatsele tietoja nähdäksesi, millaisia tietoja laitteestasi lähetetään.</string>
   <string name="enable_reporting_title">Ota raportointi käyttöön</string>
   <string name="preview_data_title">Esikatsele tietoja</string>
   <string name="view_stats_title">Näytä tilastot</string>
