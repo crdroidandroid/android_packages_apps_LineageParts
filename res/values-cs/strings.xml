@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="lineageparts_title">Nastavení LineageOS</string>
+  <string name="lineageparts_title">Nastavení crDroid</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Načítání\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -471,10 +471,10 @@
 <b>Poslední aktualizace:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #Lineage -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">LineageOS statistika</string>
-  <string name="anonymous_statistics_summary">Pomozte nám zdokonalit LineageOS zasíláním anonymní statistiky</string>
+  <string name="anonymous_statistics_title">crDroid statistika</string>
+  <string name="anonymous_statistics_summary">Pomozte nám zdokonalit crDroid zasíláním anonymní statistiky</string>
   <string name="anonymous_statistics_warning_title">O této aplikaci</string>
-  <string name="anonymous_statistics_warning">Povolením zasílání statistik systému LineageOS umožní odesílat neosobní data vývojářům k zjišťování stavu instalace na různých zařízeních. Odesílaná data obsahují unikátní identifikátor zařízení, který nezpůsobí žádnou kompromitaci soukromí nebo osobních dat. Data jsou odesílána při každém restartu zařízení.\n\nDotykem na „Náhled dat“ se můžete podívat na příklad odesílaných dat.</string>
+  <string name="anonymous_statistics_warning">Povolením zasílání statistik systému crDroid umožní odesílat neosobní data vývojářům k zjišťování stavu instalace na různých zařízeních. Odesílaná data obsahují unikátní identifikátor zařízení, který nezpůsobí žádnou kompromitaci soukromí nebo osobních dat. Data jsou odesílána při každém restartu zařízení.\n\nDotykem na „Náhled dat“ se můžete podívat na příklad odesílaných dat.</string>
   <string name="enable_reporting_title">Povolit odesílání</string>
   <string name="preview_data_title">Náhled dat</string>
   <string name="view_stats_title">Zobrazit statistiky</string>
@@ -628,7 +628,7 @@
   <string name="trust_feature_security_patches_value_new">aktuální</string>
   <string name="trust_feature_security_patches_value_medium">staré několik měsíců</string>
   <string name="trust_feature_security_patches_value_old">zastaralé</string>
-  <string name="trust_feature_security_patches_explain">Bezpečnostní záplaty jsou vydávány měsíčně společností Google a dodavateli SoC na řešení nedostatků v systému, které by mohly být zneužity škodlivými aplikacemi na obejití bezpečnostních omezení a mohly by způsobit dočasné nebo trvalé poškození zařízení.\nZáplaty platformy jsou aktualizovány globálně každý měsíc. Záplaty OEM dodavatelů jsou aktualizovány velmi sporadicky.\nPokud chcete, aby vaše zařízení bylo v bezpečí, ujistěte se, že vaše sestava LineageOS je vždy aktuální.</string>
+  <string name="trust_feature_security_patches_explain">Bezpečnostní záplaty jsou vydávány měsíčně společností Google a dodavateli SoC na řešení nedostatků v systému, které by mohly být zneužity škodlivými aplikacemi na obejití bezpečnostních omezení a mohly by způsobit dočasné nebo trvalé poškození zařízení.\nZáplaty platformy jsou aktualizovány globálně každý měsíc. Záplaty OEM dodavatelů jsou aktualizovány velmi sporadicky.\nPokud chcete, aby vaše zařízení bylo v bezpečí, ujistěte se, že vaše sestava crDroid je vždy aktuální.</string>
   <string name="trust_feature_encryption">Šifrování</string>
   <string name="trust_feature_encryption_value_enabled">Povoleno</string>
   <string name="trust_feature_encryption_value_nolock">Je potřeba zabezpečená zamykací obrazovka</string>

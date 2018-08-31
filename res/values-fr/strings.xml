@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="lineageparts_title">Paramètres de LineageOS</string>
+  <string name="lineageparts_title">Paramètres de crDroid</string>
   <!-- Generic stuff used everywhere -->
   <string name="loading">Chargement\u2026</string>
   <string name="dlg_ok">OK</string>
@@ -471,10 +471,10 @@
                  <b>Dernière mise à jour :</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <!-- Anonymous Statistics #Lineage -->
   <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Statistiques LineageOS</string>
-  <string name="anonymous_statistics_summary">Contribuer à l\'amélioration de LineageOS en envoyant des rapports de statistiques anonymes</string>
+  <string name="anonymous_statistics_title">Statistiques crDroid</string>
+  <string name="anonymous_statistics_summary">Contribuer à l\'amélioration de crDroid en envoyant des rapports de statistiques anonymes</string>
   <string name="anonymous_statistics_warning_title">À propos</string>
-  <string name="anonymous_statistics_warning">Autoriser l\'envoi de statistiques LineageOS permet aux développeurs de LineageOS de collecter des données anonymes afin de comptabiliser le nombre d\'installations par type d\'appareil. Les informations transmises contiennent un identifiant unique et ne compromettent en aucune manière votre vie privée ou vos données personnelles. Les informations sont envoyées à chaque démarrage du système.\n\nPour visualiser un exemple de ces données, sélectionnez « Aperçu des données ».</string>
+  <string name="anonymous_statistics_warning">Autoriser l\'envoi de statistiques crDroid permet aux développeurs de crDroid de collecter des données anonymes afin de comptabiliser le nombre d\'installations par type d\'appareil. Les informations transmises contiennent un identifiant unique et ne compromettent en aucune manière votre vie privée ou vos données personnelles. Les informations sont envoyées à chaque démarrage du système.\n\nPour visualiser un exemple de ces données, sélectionnez « Aperçu des données ».</string>
   <string name="enable_reporting_title">Activer les rapports</string>
   <string name="preview_data_title">Aperçu des données</string>
   <string name="view_stats_title">Afficher les statistiques</string>
@@ -628,7 +628,7 @@
   <string name="trust_feature_security_patches_value_new">à jour</string>
   <string name="trust_feature_security_patches_value_medium">dépassés de quelques mois</string>
   <string name="trust_feature_security_patches_value_old">obsolètes</string>
-  <string name="trust_feature_security_patches_explain">Tous les mois, Google et les fournisseurs de SoC publient des correctifs de sécurité pour résoudre des failles au niveau du système. Ces dernières sont susceptibles d\'être exploitées par des applications malveillantes pour contourner des restrictions de sécurité et peuvent endommager votre appareil de façon temporaire ou définitive.\nLes correctifs de plate-forme sont publiés chaque mois au niveau mondial, tandis que ceux des fournisseurs le sont de façon épisodique.\nPour garantir la sécurité de votre appareil, veillez à ce que votre version de LineageOS soit toujours à jour.</string>
+  <string name="trust_feature_security_patches_explain">Tous les mois, Google et les fournisseurs de SoC publient des correctifs de sécurité pour résoudre des failles au niveau du système. Ces dernières sont susceptibles d\'être exploitées par des applications malveillantes pour contourner des restrictions de sécurité et peuvent endommager votre appareil de façon temporaire ou définitive.\nLes correctifs de plate-forme sont publiés chaque mois au niveau mondial, tandis que ceux des fournisseurs le sont de façon épisodique.\nPour garantir la sécurité de votre appareil, veillez à ce que votre version de crDroid soit toujours à jour.</string>
   <string name="trust_feature_encryption">Chiffrement</string>
   <string name="trust_feature_encryption_value_enabled">Activé</string>
   <string name="trust_feature_encryption_value_nolock">Écran de verrouillage sécurisé requis</string>
