@@ -43,9 +43,9 @@
         android:key="trust_category_tools"
         android:title="@string/trust_category_tools">
 
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
+        <!--<org.lineageos.internal.lineageparts.LineagePartsPreference
             android:key="privacy_guard_manager"
-            android:icon="@drawable/ic_privacy_guard" />
+            android:icon="@drawable/ic_privacy_guard" />-->
 
         <!--<org.lineageos.internal.lineageparts.LineagePartsPreference
             android:key="lineagestats" />-->
