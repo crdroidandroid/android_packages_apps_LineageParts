@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS の設定</string>
+    <string name="lineageparts_title">crDroid の設定</string>
     <!-- Generic stuff used everywhere -->
     <string name="loading">読み込み中...</string>
     <string name="dlg_ok">OK</string>
@@ -471,10 +471,10 @@
                  <b>最終更新:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
     <!-- Anonymous Statistics #Lineage -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">LineageOS の統計</string>
-    <string name="anonymous_statistics_summary">匿名の統計のレポートに同意してLineageOSの改善に協力する</string>
+    <string name="anonymous_statistics_title">crDroid の統計</string>
+    <string name="anonymous_statistics_summary">匿名の統計のレポートに同意してcrDroidの改善に協力する</string>
     <string name="anonymous_statistics_warning_title">情報</string>
-    <string name="anonymous_statistics_warning">LineageOSの統計に同意すると、端末間のユニークインストール回数を調べるためにLineageOSの開発者への非個人情報の送信を許可します。送信される情報にはユニークIDが含まれますが、プライバシーや個人データが危険にさらされることはありません。データはブート時に送信されます。\n\n送信されるデータの見本は[データをプレビュー]をタップして確認することができます。</string>
+    <string name="anonymous_statistics_warning">crDroidの統計に同意すると、端末間のユニークインストール回数を調べるためにcrDroidの開発者への非個人情報の送信を許可します。送信される情報にはユニークIDが含まれますが、プライバシーや個人データが危険にさらされることはありません。データはブート時に送信されます。\n\n送信されるデータの見本は[データをプレビュー]をタップして確認することができます。</string>
     <string name="enable_reporting_title">レポートを有効化</string>
     <string name="preview_data_title">データをプレビュー</string>
     <string name="view_stats_title">統計を表示</string>
@@ -631,7 +631,7 @@
     <string name="trust_feature_security_patches_value_medium">数カ月間の月例パッチが未適用</string>
     <!-- Lowercase on purpose, appears in trust_feature_security_patches_value_base -->
     <string name="trust_feature_security_patches_value_old">最新ではありません</string>
-    <string name="trust_feature_security_patches_explain">セキュリティパッチは、悪意のあるアプリが悪用してセキュリティ制限を回避し、端末に永続的な損害を与える可能性のある欠陥に対処するために Google が毎月 SoC ベンダーと協力してリリースしています。 Google が提供するパッチは、サポートされている全ての端末で毎月適用されますが、独自のコードへのパッチは端末の製造元のみが適用できます。機器を安全に保つためには、LineageOS ビルドが常に最新であること、および（該当する場合）ベンダーイメージが LineageOS が推奨する最新のものに更新されていることを確認してください。</string>
+    <string name="trust_feature_security_patches_explain">セキュリティパッチは、悪意のあるアプリが悪用してセキュリティ制限を回避し、端末に永続的な損害を与える可能性のある欠陥に対処するために Google が毎月 SoC ベンダーと協力してリリースしています。 Google が提供するパッチは、サポートされている全ての端末で毎月適用されますが、独自のコードへのパッチは端末の製造元のみが適用できます。機器を安全に保つためには、crDroid ビルドが常に最新であること、および（該当する場合）ベンダーイメージが crDroid が推奨する最新のものに更新されていることを確認してください。</string>
     <string name="trust_feature_encryption">暗号化</string>
     <string name="trust_feature_encryption_value_enabled">有効</string>
     <string name="trust_feature_encryption_value_nolock">保護されたロック画面が必要です</string>

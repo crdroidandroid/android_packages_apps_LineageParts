@@ -328,10 +328,10 @@
                  <b>Anovamientu caberu:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
     <!-- Anonymous Statistics #Lineage -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">Estadístiques de LineageOS</string>
-    <string name="anonymous_statistics_summary">Ayuda a ameyorar LineageOS dando laude al unviu anónimu d\'estadístiques</string>
+    <string name="anonymous_statistics_title">Estadístiques de crDroid</string>
+    <string name="anonymous_statistics_summary">Ayuda a ameyorar crDroid dando laude al unviu anónimu d\'estadístiques</string>
     <string name="anonymous_statistics_warning_title">Tocante a</string>
-    <string name="anonymous_statistics_warning">Dar laude a les estadístiques de LineageOS permitirá l\'unviu de datos non personales a
+    <string name="anonymous_statistics_warning">Dar laude a les estadístiques de crDroid permitirá l\'unviu de datos non personales a
         los desendolcadores pa facer un siguimientu d\'instalaciones úniques nos preseos. La información unviada inclúi un identificador únicu,
         que nun compromete la to privacidá o datos personales. Los datos únviense en cada arranque.\n\nPa un exemplu de los datos que s\'unvien, calca en Previsualizar datos.</string>
     <string name="preview_data_title">Previsualizar datos</string>
