@@ -63,9 +63,6 @@ import androidx.fragment.app.Fragment;
 
 import org.lineageos.lineageparts.PartsActivity;
 import org.lineageos.lineageparts.R;
-import org.lineageos.lineageparts.search.BaseSearchIndexProvider;
-import org.lineageos.lineageparts.search.SearchIndexableRaw;
-import org.lineageos.lineageparts.search.Searchable;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -78,7 +75,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class ContributorsCloudFragment extends Fragment implements SearchView.OnQueryTextListener,
-        SearchView.OnCloseListener, MenuItem.OnActionExpandListener, Searchable {
+        SearchView.OnCloseListener, MenuItem.OnActionExpandListener {
 
     private static final String TAG = "ContributorsCloud";
 
@@ -799,43 +796,4 @@ public class ContributorsCloudFragment extends Fragment implements SearchView.On
             }
         }
     }
-
-    public static final Searchable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
-
-                @Override
-                public List<SearchIndexableRaw> getRawDataToIndex(Context context) {
-
-                    // Index the top 100 contributors, for fun :)
-                    File dbPath = context.getDatabasePath(DB_NAME);
-                    SQLiteDatabase db;
-                    try {
-                        db = SQLiteDatabase.openDatabase(dbPath.getAbsolutePath(),
-                                null, SQLiteDatabase.OPEN_READONLY);
-                        if (db == null) {
-                            Log.e(TAG, "Cannot open cloud database: " + DB_NAME + ". db == null");
-                            return null;
-                        }
-                    } catch (Exception e) {
-                        Log.e(TAG, e.getMessage(), e);
-                        return null;
-                    }
-
-                    List<SearchIndexableRaw> result = new ArrayList<>();
-                    try (Cursor c = db.rawQuery(
-                            "select id, username from metadata order by commits desc limit 100;",
-                            null)) {
-                        while (c.moveToNext()) {
-                            SearchIndexableRaw raw = new SearchIndexableRaw(context);
-                            raw.key = KEY_PREFIX + c.getString(0);
-                            raw.rank = 10;
-                            raw.title = c.getString(1);
-                            result.add(raw);
-                        }
-                    }
-                    db.close();
-
-                    return result;
-                }
-    };
 }
