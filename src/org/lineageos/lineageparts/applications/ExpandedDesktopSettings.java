@@ -490,8 +490,6 @@ public class ExpandedDesktopSettings extends SettingsPreferenceFragment
 
         private final LayoutInflater inflater;
         private boolean hasNavigationBar = true;
-        private final TypedValue textColorSecondary;
-        private final int textColor;
         private final int[] items = {
                 R.string.expanded_desktop_style_hide_nothing,
                 R.string.expanded_desktop_style_hide_status,
@@ -507,11 +505,6 @@ public class ExpandedDesktopSettings extends SettingsPreferenceFragment
             } catch (RemoteException e) {
                 // Do nothing
             }
-
-            textColorSecondary = new TypedValue();
-            context.getTheme().resolveAttribute(com.android.internal.R.attr.textColorSecondary,
-                    textColorSecondary, true);
-            textColor = textColorSecondary.data;
         }
 
         @Override
@@ -540,8 +533,6 @@ public class ExpandedDesktopSettings extends SettingsPreferenceFragment
             }
 
             view.setText(items[position]);
-            view.setTextColor(textColor);
-            view.setTextSize(14f);
 
             return view;
         }
