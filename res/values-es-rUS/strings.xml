@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Ajustes de LineageOS</string>
+    <string name="lineageparts_title">Ajustes de crDroid</string>
     <string name="loading">Cargando\u2026</string>
     <string name="dlg_ok">Aceptar</string>
     <string name="cancel">Cancelar</string>
@@ -417,10 +417,10 @@
     <string name="contributions_info_msg">&lt;b&gt;Colaboradores totales:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Contribuciones totales:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Última actualización:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">Estadísticas de LineageOS</string>
-    <string name="anonymous_statistics_summary">Ayuda a mejorar LineageOS mediante el envío anónimo de estadísticas</string>
+    <string name="anonymous_statistics_title">Estadísticas de crDroid</string>
+    <string name="anonymous_statistics_summary">Ayuda a mejorar crDroid mediante el envío anónimo de estadísticas</string>
     <string name="anonymous_statistics_warning_title">Acerca de</string>
-    <string name="anonymous_statistics_warning">Al permitir la recopilación y el envío de estadísticas de LineageOS, autorizas el envío de información de carácter no personal a los desarrolladores de LineageOS para hacer un seguimiento de las instalaciones que realices en los dispositivos. La información enviada incluye un identificador único que no compromete tu privacidad ni tu información personal. Esta información es enviada durante el arranque.\n\nPara ver un ejemplo de la información enviada, pulsa en Previsualizar datos.</string>
+    <string name="anonymous_statistics_warning">Al permitir la recopilación y el envío de estadísticas de crDroid, autorizas el envío de información de carácter no personal a los desarrolladores de crDroid para hacer un seguimiento de las instalaciones que realices en los dispositivos. La información enviada incluye un identificador único que no compromete tu privacidad ni tu información personal. Esta información es enviada durante el arranque.\n\nPara ver un ejemplo de la información enviada, pulsa en Previsualizar datos.</string>
     <string name="enable_reporting_title">Activar envío de estadísticas</string>
     <string name="preview_data_title">Previsualizar datos</string>
     <string name="view_stats_title">Ver estadísticas</string>
@@ -562,7 +562,7 @@
     <string name="trust_feature_security_patches_value_new">actualizado</string>
     <string name="trust_feature_security_patches_value_medium">hace algunos meses</string>
     <string name="trust_feature_security_patches_value_old">desactualizado</string>
-    <string name="trust_feature_security_patches_explain">Google publica mensualmente parches de seguridad en colaboración con los proveedores de SoC para solucionar los fallos que podrían ser explotados por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños permanentes al dispositivo. Los parches puestos a disposición por Google se aplican todos los meses en todos los dispositivos compatibles, pero los parches para el código propietario sólo pueden ser aplicados por el fabricante del dispositivo. Para mantener el dispositivo seguro, asegúrese de que su compilación LineageOS esté siempre actualizada, y (si corresponde) asegúrese de que su imagen de vendedor esté actualizada a la última recomendada por LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Google publica mensualmente parches de seguridad en colaboración con los proveedores de SoC para solucionar los fallos que podrían ser explotados por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños permanentes al dispositivo. Los parches puestos a disposición por Google se aplican todos los meses en todos los dispositivos compatibles, pero los parches para el código propietario sólo pueden ser aplicados por el fabricante del dispositivo. Para mantener el dispositivo seguro, asegúrese de que su compilación crDroid esté siempre actualizada, y (si corresponde) asegúrese de que su imagen de vendedor esté actualizada a la última recomendada por crDroid.</string>
     <string name="trust_feature_encryption">Cifrado</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>
     <string name="trust_feature_encryption_value_nolock">Necesita una pantalla de bloqueo segura</string>
