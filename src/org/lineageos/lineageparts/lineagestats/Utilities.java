@@ -68,7 +68,7 @@ public class Utilities {
     }
 
     public static String getModVersion() {
-        return SystemProperties.get("ro.lineage.version", Build.DISPLAY);
+        return SystemProperties.get("ro.modversion", Build.DISPLAY);
     }
 
     public static String digest(String input) {
