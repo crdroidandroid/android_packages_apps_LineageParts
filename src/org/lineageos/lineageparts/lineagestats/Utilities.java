@@ -85,9 +85,8 @@ public class Utilities {
      * @return Whether or not stats collection is enabled.
      */
     public static boolean isStatsCollectionEnabled(Context context) {
-        LineageSettings.Secure.putInt(context.getContentResolver(),
-                LineageSettings.Secure.STATS_COLLECTION, 0);
-        return false;
+        return LineageSettings.Secure.getInt(context.getContentResolver(),
+                LineageSettings.Secure.STATS_COLLECTION, 1) != 0;
     }
 
     /**
@@ -96,7 +95,8 @@ public class Utilities {
      * @param enabled Boolean that sets collection being enabled.
      */
     public static void setStatsCollectionEnabled(Context context, boolean enabled) {
+        int enable = (enabled) ? 1 : 0;
         LineageSettings.Secure.putInt(context.getContentResolver(),
-                LineageSettings.Secure.STATS_COLLECTION, 0);
+                LineageSettings.Secure.STATS_COLLECTION, enable);
     }
 }
