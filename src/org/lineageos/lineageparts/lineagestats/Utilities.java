@@ -71,6 +71,19 @@ public class Utilities {
         return SystemProperties.get("ro.modversion", Build.DISPLAY);
     }
 
+    public static String getBuildDate() {
+        return SystemProperties.get("ro.build.date", Build.DATE);
+    }
+
+    public static String getAndroidVersion() {
+        return SystemProperties.get("ro.crdroid.version", Build.VERSION.RELEASE);
+    }
+
+    public static String getTag() {
+        String tag = "Official"; // TODO
+        return tag;
+    }
+
     public static String digest(String input) {
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-256");
