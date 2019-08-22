@@ -16,21 +16,31 @@
 
 package org.lineageos.lineageparts.lineagestats;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.database.ContentObserver;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.UserHandle;
+
+import lineageos.providers.LineageSettings;
 
 import org.lineageos.lineageparts.R;
 import org.lineageos.lineageparts.SettingsPreferenceFragment;
 
 public class AnonymousStats extends SettingsPreferenceFragment {
 
-    private static final String PREF_FILE_NAME = "LineageStats";
+    private static final String PREF_FILE_NAME = "crDroidStats";
     /* package */ static final String ANONYMOUS_OPT_IN = "pref_anonymous_opt_in";
     /* package */ static final String ANONYMOUS_LAST_CHECKED = "pref_anonymous_checked_in";
 
     /* package */ static final String KEY_LAST_JOB_ID = "last_job_id";
     /* package */ static final int QUEUE_MAX_THRESHOLD = 1000;
+
+    private Context mContext;
 
     public static SharedPreferences getPreferences(Context context) {
         return context.getSharedPreferences(PREF_FILE_NAME, 0);
@@ -40,6 +50,35 @@ public class AnonymousStats extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.anonymous_stats);
+
+        mContext = getActivity().getApplicationContext();
+
+        SettingsObserver observer = new SettingsObserver(new Handler(Looper.getMainLooper()));
+        observer.observe();
+    }
+
+    class SettingsObserver extends ContentObserver {
+        SettingsObserver(Handler handler) {
+            super(handler);
+        }
+
+        void observe() {
+            ContentResolver resolver = mContext.getContentResolver();
+
+            resolver.registerContentObserver(LineageSettings.Secure.getUriFor(
+                    LineageSettings.Secure.STATS_COLLECTION), true, this,
+                    UserHandle.USER_ALL);
+        }
+
+        @Override
+        public void onChange(boolean selfChange, Uri uri) {
+            if (uri.equals(LineageSettings.Secure.getUriFor(
+                                   LineageSettings.Secure.STATS_COLLECTION))) {
+                boolean enable = LineageSettings.Secure.getInt(mContext.getContentResolver(),
+                    LineageSettings.Secure.STATS_COLLECTION, 1) == 1;
+                if (enable) ReportingServiceManager.launchService(mContext, true); 
+            }
+        }
     }
 
     public static void updateLastSynced(Context context) {
