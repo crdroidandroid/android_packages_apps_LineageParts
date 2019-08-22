@@ -20,7 +20,7 @@ public class ReportingServiceManager extends BroadcastReceiver {
     private static final long MILLIS_PER_DAY = 24L * MILLIS_PER_HOUR;
     private static final long UPDATE_INTERVAL = 1L * MILLIS_PER_DAY;
 
-    private static final String TAG = ReportingServiceManager.class.getSimpleName();
+    private static final String TAG = "crDroidStats";
 
     public static final String ACTION_LAUNCH_SERVICE =
             "org.lineageos.lineageparts.action.TRIGGER_REPORT_METRICS";
