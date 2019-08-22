@@ -34,15 +34,18 @@ import java.util.concurrent.Executors;
 
 public class StatsUploadJobService extends JobService {
 
-    private static final String TAG = StatsUploadJobService.class.getSimpleName();
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final String TAG = "crDroidStats";
+    private static final boolean DEBUG = true;
 
     public static final String KEY_JOB_TYPE = "job_type";
-    public static final int JOB_TYPE_LINEAGEORG = 1;
+    public static final int JOB_TYPE_CRDROID = 1;
 
     public static final String KEY_UNIQUE_ID = "uniqueId";
     public static final String KEY_DEVICE_NAME = "deviceName";
-    public static final String KEY_VERSION = "version";
+    public static final String KEY_CR_VERSION = "crVersion";
+    public static final String KEY_BUILD_DATE = "buildDate";
+    public static final String KEY_ANDROID_VERSION = "androidVersion";
+    public static final String KEY_TAG = "tag";
     public static final String KEY_COUNTRY = "country";
     public static final String KEY_CARRIER = "carrier";
     public static final String KEY_CARRIER_ID = "carrierId";
@@ -100,7 +103,10 @@ public class StatsUploadJobService extends JobService {
 
                 String deviceId = extras.getString(KEY_UNIQUE_ID);
                 String deviceName = extras.getString(KEY_DEVICE_NAME);
-                String deviceVersion = extras.getString(KEY_VERSION);
+                String deviceCrVersion = extras.getString(KEY_CR_VERSION);
+                String deviceBuildDate = extras.getString(KEY_BUILD_DATE);
+                String deviceAndroidVersion = extras.getString(KEY_ANDROID_VERSION);
+                String deviceTag = extras.getString(KEY_TAG);
                 String deviceCountry = extras.getString(KEY_COUNTRY);
                 String deviceCarrier = extras.getString(KEY_CARRIER);
                 String deviceCarrierId = extras.getString(KEY_CARRIER_ID);
@@ -109,12 +115,13 @@ public class StatsUploadJobService extends JobService {
                 int jobType = extras.getInt(KEY_JOB_TYPE, -1);
                 if (!mCancelled) {
                     switch (jobType) {
-                        case JOB_TYPE_LINEAGEORG:
+                        case JOB_TYPE_CRDROID:
                             try {
                                 JSONObject json = buildStatsRequest(deviceId, deviceName,
-                                        deviceVersion, deviceCountry, deviceCarrier,
+                                        deviceCrVersion, deviceBuildDate, deviceAndroidVersion,
+                                        deviceTag, deviceCountry, deviceCarrier,
                                         deviceCarrierId);
-                                success = uploadToLineage(json);
+                                success = uploadToCrdroid(json);
                             } catch (IOException | JSONException e) {
                                 Log.e(TAG, "Could not upload stats checkin to community server", e);
                             }
@@ -140,21 +147,25 @@ public class StatsUploadJobService extends JobService {
         }
     }
 
-    private JSONObject buildStatsRequest(String deviceId, String deviceName, String deviceVersion,
+    private JSONObject buildStatsRequest(String deviceId, String deviceName, String deviceCrVersion,
+                                         String deviceBuildDate, String deviceAndroidVersion, String deviceTag,
                                          String deviceCountry, String deviceCarrier,
                                          String deviceCarrierId) throws JSONException {
         JSONObject request = new JSONObject();
         request.put("device_hash", deviceId);
         request.put("device_name", deviceName);
-        request.put("device_version", deviceVersion);
+        request.put("device_crversion", deviceCrVersion);
+        request.put("device_builddate", deviceBuildDate);
+        request.put("device_androidversion", deviceAndroidVersion);
+        request.put("device_tag", deviceTag);
         request.put("device_country", deviceCountry);
         request.put("device_carrier", deviceCarrier);
         request.put("device_carrier_id", deviceCarrierId);
         return request;
     }
 
-    private boolean uploadToLineage(JSONObject json) throws IOException {
-        final Uri uri = Uri.parse(getString(R.string.stats_lineage_url));
+    private boolean uploadToCrdroid(JSONObject json) throws IOException {
+        final Uri uri = Uri.parse(getString(R.string.stats_crdroid_url));
         URL url = new URL(uri.toString());
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
         try {
@@ -164,11 +175,12 @@ public class StatsUploadJobService extends JobService {
             urlConnection.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
 
             OutputStream os = urlConnection.getOutputStream();
+            if (DEBUG) Log.d(TAG, "Sending stats=" + json.toString());
             os.write(json.toString().getBytes(StandardCharsets.UTF_8));
             os.close();
 
             final int responseCode = urlConnection.getResponseCode();
-            if (DEBUG) Log.d(TAG, "lineage server response code=" + responseCode);
+            if (DEBUG) Log.d(TAG, "crdroid server response code=" + responseCode);
             final boolean success = responseCode == HttpURLConnection.HTTP_OK;
             if (!success) {
                 Log.w(TAG, "failed sending, server returned: " + getResponse(urlConnection));
