@@ -78,8 +78,11 @@ public class Utilities {
         return SystemProperties.get("ro.crdroid.version", Build.VERSION.RELEASE);
     }
 
-    public static String getTag() {
-        String tag = "Official"; // TODO
+    public static String getTag(Context context) {
+        String maintainer =  Settings.System.getString(context.getContentResolver(), Settings.System.OTA_MAINTAINER);
+        String tag = "Official";
+        if (maintainer == null || maintainer.isEmpty())
+            tag = "Unofficial";
         return tag;
     }
 

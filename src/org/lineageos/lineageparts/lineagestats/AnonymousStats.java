@@ -25,6 +25,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.UserHandle;
+import android.provider.Settings;
 
 import lineageos.providers.LineageSettings;
 
@@ -68,12 +69,17 @@ public class AnonymousStats extends SettingsPreferenceFragment {
             resolver.registerContentObserver(LineageSettings.Secure.getUriFor(
                     LineageSettings.Secure.STATS_COLLECTION), true, this,
                     UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.OTA_MAINTAINER), true, this,
+                    UserHandle.USER_ALL);
         }
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
             if (uri.equals(LineageSettings.Secure.getUriFor(
-                                   LineageSettings.Secure.STATS_COLLECTION))) {
+                                   LineageSettings.Secure.STATS_COLLECTION)) ||
+                                   uri.equals(Settings.System.getUriFor(
+                                   Settings.System.OTA_MAINTAINER))) {
                 boolean enable = LineageSettings.Secure.getInt(mContext.getContentResolver(),
                     LineageSettings.Secure.STATS_COLLECTION, 1) == 1;
                 if (enable) ReportingServiceManager.launchService(mContext, true); 

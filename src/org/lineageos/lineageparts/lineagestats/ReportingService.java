@@ -43,7 +43,7 @@ public class ReportingService extends IntentService {
         String deviceCrVersion = Utilities.getModVersion();
         String deviceBuildDate = Utilities.getBuildDate();
         String deviceAndroidVersion = Utilities.getAndroidVersion();
-        String deviceTag = Utilities.getTag();
+        String deviceTag = Utilities.getTag(getApplicationContext());
         String deviceCountry = Utilities.getCountryCode(getApplicationContext());
         String deviceCarrier = Utilities.getCarrier(getApplicationContext());
         String deviceCarrierId = Utilities.getCarrierId(getApplicationContext());
