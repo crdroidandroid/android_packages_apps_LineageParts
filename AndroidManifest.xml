@@ -135,7 +135,7 @@
                 android:resource="@string/live_display_summary" />
         </activity-alias>
 
-        <!-- Button settings (System category) -->
+        <!-- Button settings (System category)
         <activity-alias
             android:name=".input.ButtonSettings"
             android:exported="true"
@@ -167,7 +167,7 @@
                 android:resource="@string/summary_empty" />
         </activity-alias>
 
-        <activity android:name=".gestures.KeyHandler" />
+        <activity android:name=".gestures.KeyHandler" /> -->
 
         <!-- Profiles settings (System category) -->
         <activity-alias
@@ -212,7 +212,7 @@
             </intent-filter>
         </activity-alias>
 
-        <!-- Status bar settings (System category) -->
+        <!-- Status bar settings (System category)
         <activity-alias
             android:name=".statusbar.StatusBarSettings"
             android:exported="true"
@@ -242,7 +242,7 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/summary_empty" />
-        </activity-alias>
+        </activity-alias> -->
 
         <!-- Touchscreen gesture settings (Gestures category) -->
         <activity-alias
@@ -296,7 +296,7 @@
                 android:resource="@string/trust_summary" />
         </activity-alias>
 
-        <!-- Contributors Cloud (MyDeviceInfo category) -->
+        <!-- Contributors Cloud (MyDeviceInfo category)
         <activity-alias
             android:name=".contributors.ContributorsCloudFragment"
             android:exported="true"
@@ -323,7 +323,7 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/summary_empty" />
-        </activity-alias>
+        </activity-alias> -->
 
         <!-- Anonymous Statistics -->
         <receiver
