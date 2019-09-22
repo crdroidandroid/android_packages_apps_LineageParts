@@ -29,15 +29,15 @@
 <parts-catalog xmlns:android="http://schemas.android.com/apk/res/android"
                xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform">
 
-    <part android:key="battery_lights"
+    <!--<part android:key="battery_lights"
           android:title="@string/battery_light_title"
           android:fragment="org.lineageos.lineageparts.notificationlight.BatteryLightSettings"
-          lineage:xmlRes="@xml/battery_light_settings" />
+          lineage:xmlRes="@xml/battery_light_settings" />-->
 
-    <part android:key="button_settings"
+    <!--<part android:key="button_settings"
           android:title="@string/button_pref_title"
           android:fragment="org.lineageos.lineageparts.input.ButtonSettings"
-          lineage:xmlRes="@xml/button_settings" />
+          lineage:xmlRes="@xml/button_settings" />-->
 
     <!--<part android:key="contributors"
           android:title="@string/contributors_cloud_fragment_title"
@@ -65,10 +65,10 @@
           android:fragment="org.lineageos.lineageparts.hardware.DisplayRotation"
           lineage:xmlRes="@xml/display_rotation" />
 
-    <part android:key="status_bar_settings"
+    <!--<part android:key="status_bar_settings"
           android:title="@string/status_bar_title"
           android:fragment="org.lineageos.lineageparts.statusbar.StatusBarSettings"
-          lineage:xmlRes="@xml/status_bar_settings" />
+          lineage:xmlRes="@xml/status_bar_settings" />-->
 
     <part android:key="lineagestats"
           android:title="@string/anonymous_statistics_title"
