@@ -100,7 +100,7 @@
             </intent-filter>
         </provider>
 
-        <!-- Button settings (System category) -->
+        <!-- Button settings (System category)
         <activity-alias
             android:name=".input.ButtonSettings"
             android:label="@string/button_pref_title"
@@ -127,7 +127,7 @@
                 android:resource="@string/summary_empty" />
         </activity-alias>
 
-        <activity android:name=".gestures.KeyHandler" />
+        <activity android:name=".gestures.KeyHandler" /> -->
 
         <!-- Profiles settings (System category) -->
         <activity-alias
@@ -156,7 +156,7 @@
                 android:resource="@string/summary_empty" />
         </activity-alias>
 
-        <!-- Status bar settings (System category) -->
+        <!-- Status bar settings (System category)
         <activity-alias
             android:name=".statusbar.StatusBarSettings"
             android:label="@string/status_bar_title"
@@ -181,7 +181,7 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/summary_empty" />
-        </activity-alias>
+        </activity-alias> -->
 
         <!-- Trust interface (Privacy category) -->
         <activity-alias
@@ -204,7 +204,7 @@
                 android:resource="@string/summary_empty" />
         </activity-alias>
 
-        <!-- Contributors Cloud (MyDeviceInfo category) -->
+        <!-- Contributors Cloud (MyDeviceInfo category)
         <activity-alias
             android:name=".contributors.ContributorsCloudFragment"
             android:label="@string/contributors_cloud_fragment_title"
@@ -223,7 +223,7 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/summary_empty" />
-        </activity-alias>
+        </activity-alias> -->
 
         <!-- Anonymous Statistics -->
         <receiver android:name=".lineagestats.ReportingServiceManager"
