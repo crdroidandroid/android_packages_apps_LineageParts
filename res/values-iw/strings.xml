@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">הגדרות LineageOS</string>
+    <string name="lineageparts_title">הגדרות crDroid</string>
     <string name="loading">טוען\u2026</string>
     <string name="dlg_ok">אישור</string>
     <string name="cancel">ביטול</string>
@@ -416,10 +416,10 @@
     <string name="contributions_info_msg">&lt;b&gt;סה"כ תורמים:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;סה"כ חלקי קוד:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;עדכון אחרון:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">סטטיסטיקות LineageOS</string>
-    <string name="anonymous_statistics_summary">עזור לשפר את LineageOS על ידי שליחת דיווחי סטטיסטיקות אנונימית</string>
+    <string name="anonymous_statistics_title">סטטיסטיקות crDroid</string>
+    <string name="anonymous_statistics_summary">עזור לשפר את crDroid על ידי שליחת דיווחי סטטיסטיקות אנונימית</string>
     <string name="anonymous_statistics_warning_title">אודות</string>
-    <string name="anonymous_statistics_warning">הצטרפות לסטטיסטיקות LineageOS תאפשר שליחת מידע לא אישי למפתחי LineageOS על מנת לאתר את מספר ההתקנות לכל סוג מכשיר. המידע הנשלח כולל מזהה ייחודי, אשר אינו פוגע בפרטיותך או במידע שלך. המידע נשלח עם כל אתחול.\n\nכדי לצפות בדוגמה של מידע שנשלח, הקש על הצג דוגמה.</string>
+    <string name="anonymous_statistics_warning">הצטרפות לסטטיסטיקות crDroid תאפשר שליחת מידע לא אישי למפתחי crDroid על מנת לאתר את מספר ההתקנות לכל סוג מכשיר. המידע הנשלח כולל מזהה ייחודי, אשר אינו פוגע בפרטיותך או במידע שלך. המידע נשלח עם כל אתחול.\n\nכדי לצפות בדוגמה של מידע שנשלח, הקש על הצג דוגמה.</string>
     <string name="enable_reporting_title">אפשר דיווח</string>
     <string name="preview_data_title">הצג דוגמה</string>
     <string name="view_stats_title">הצג סטטיסטיקה</string>

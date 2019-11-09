@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Подешавања LineageOS-а</string>
+    <string name="lineageparts_title">Подешавања crDroid-а</string>
     <string name="loading">Учитавам\u2026</string>
     <string name="dlg_ok">У реду</string>
     <string name="cancel">Откажи</string>
@@ -413,9 +413,9 @@
                  &lt;b&gt;Укупно доприноса:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Последња измена:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;;</string>
     <string name="anonymous_statistics_title">Слање статистике</string>
-    <string name="anonymous_statistics_summary">Помозите нам да побољшамо LineageOS тако што ћете дозволити слање анонимне статистике.</string>
+    <string name="anonymous_statistics_summary">Помозите нам да побољшамо crDroid тако што ћете дозволити слање анонимне статистике.</string>
     <string name="anonymous_statistics_warning_title">Информације</string>
-    <string name="anonymous_statistics_warning">Анонимни подаци омогућавају програмерима LineageOS-а да прате рад ОС на различитим уређајима. Јединствени идентификатор, који не угрожава вашу приватност, шаље се по сваком подизању система.\n\nДа бисте видели пример, додирните „Прегледај податке“.</string>
+    <string name="anonymous_statistics_warning">Анонимни подаци омогућавају програмерима crDroid-а да прате рад ОС на различитим уређајима. Јединствени идентификатор, који не угрожава вашу приватност, шаље се по сваком подизању система.\n\nДа бисте видели пример, додирните „Прегледај податке“.</string>
     <string name="enable_reporting_title">Омогући</string>
     <string name="preview_data_title">Прегледај податке</string>
     <string name="view_stats_title">Прикажи статистику</string>

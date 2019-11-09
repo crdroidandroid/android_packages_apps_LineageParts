@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS-instellingen</string>
+    <string name="lineageparts_title">crDroid-instellingen</string>
     <string name="loading">Laden\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Annuleren</string>
@@ -410,10 +410,10 @@
     <string name="contributions_info_msg">&lt;b&gt;Aantal bijdragers:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Aantal commits:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Laatste update:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">LineageOS-statistieken</string>
-    <string name="anonymous_statistics_summary">Help LineageOS te verbeteren door anonieme statistieken te verzenden</string>
+    <string name="anonymous_statistics_title">crDroid-statistieken</string>
+    <string name="anonymous_statistics_summary">Help crDroid te verbeteren door anonieme statistieken te verzenden</string>
     <string name="anonymous_statistics_warning_title">Over</string>
-    <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van LineageOS verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
+    <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van crDroid verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
     <string name="enable_reporting_title">Statistieken verzenden</string>
     <string name="preview_data_title">Voorbeeld van gegevens</string>
     <string name="view_stats_title">Statistieken tonen</string>

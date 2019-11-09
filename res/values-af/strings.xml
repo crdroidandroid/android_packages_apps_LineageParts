@@ -386,10 +386,10 @@
     <string name="contributions_info_msg">&lt;b&gt;Totale bydraers:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Totale commits:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Laaste opgedateer:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">LineageOS statistieke</string>
-    <string name="anonymous_statistics_summary">Help om LineageOS beter maak deur anonieme statistieke verslaggewing aan te skakel</string>
+    <string name="anonymous_statistics_title">crDroid statistieke</string>
+    <string name="anonymous_statistics_summary">Help om crDroid beter maak deur anonieme statistieke verslaggewing aan te skakel</string>
     <string name="anonymous_statistics_warning_title">Meer oor</string>
-    <string name="anonymous_statistics_warning">Deur LineageOS statistieke toe te laat sal nie-persoonlike data ingestuur word na die ontwikkelaars van LineageOS. Die inligting sluit in \'n unieke identifikasie nommer wat nie jou privaatheid of persoonlike data in gevaar stel nie. Die data word ingestuur tydens elke \'boot\'.\n\nVir \'n voorbeeld van die data wat ingestuur word, tik op Voorskou Data.</string>
+    <string name="anonymous_statistics_warning">Deur crDroid statistieke toe te laat sal nie-persoonlike data ingestuur word na die ontwikkelaars van crDroid. Die inligting sluit in \'n unieke identifikasie nommer wat nie jou privaatheid of persoonlike data in gevaar stel nie. Die data word ingestuur tydens elke \'boot\'.\n\nVir \'n voorbeeld van die data wat ingestuur word, tik op Voorskou Data.</string>
     <string name="enable_reporting_title">Aktiveer verslaggewing</string>
     <string name="preview_data_title">Voorbeeld van gegewens</string>
     <string name="view_stats_title">Bekyk statistiek</string>

@@ -17,7 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Ustawienia LineageOS</string>
+    <string name="lineageparts_title">Ustawienia crDroid</string>
     <string name="loading">Ładowanie\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Anuluj</string>
@@ -420,11 +420,11 @@
     <string name="contributions_info_msg">&lt;b&gt;Wszyscy współtwórcy:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Wszystkie poprawki:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
                  &lt;b&gt;Ostatnia aktualizacja:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
-    <string name="anonymous_statistics_title">Statystyki LineageOS</string>
-    <string name="anonymous_statistics_summary">Pomóż ulepszyć LineageOS, pozwalając na wysyłanie anonimowych statystyk</string>
+    <string name="anonymous_statistics_title">Statystyki crDroid</string>
+    <string name="anonymous_statistics_summary">Pomóż ulepszyć crDroid, pozwalając na wysyłanie anonimowych statystyk</string>
     <string name="anonymous_statistics_warning_title">O programie</string>
-    <string name="anonymous_statistics_warning">Wyrażenie zgody na udział w Statystykach LineageOS zezwoli na przesył anonimowych danych do
-        developerów LineageOS, aby śledzić ilość unikalnych instalacji na urządzeniach . Informacje zawierają unikalny identyfikator,
+    <string name="anonymous_statistics_warning">Wyrażenie zgody na udział w Statystykach crDroid zezwoli na przesył anonimowych danych do
+        developerów crDroid, aby śledzić ilość unikalnych instalacji na urządzeniach . Informacje zawierają unikalny identyfikator,
        który nie narusza twojej prywatności lub prywatnych danych. Dane są wysyłane przy każdym uruchomieniu.\n\nAby zobaczyć przykład przesyłanych danych naciśnij Podgląd Danych.</string>
     <string name="enable_reporting_title">Włącz raportowanie</string>
     <string name="preview_data_title">Podgląd danych</string>
@@ -567,7 +567,7 @@
     <string name="trust_feature_security_patches_value_new">aktualne</string>
     <string name="trust_feature_security_patches_value_medium">kilkumiesięczne</string>
     <string name="trust_feature_security_patches_value_old">nieaktualne</string>
-    <string name="trust_feature_security_patches_explain">Aktualizacje zabezpieczeń są wydawane co miesiąc przez Google w kooperacji z dostawcami SoC w celu łatania luk w systemie, które mogą zostać wykorzystane przez złośliwe oprogramowanie w celu obejścia zabezpieczeń oraz wyrządzenia trwałych szkód w twoim urządzeniu. Łatki udostępniane przez Google są aplikowane w każdym miesiącu na wszystkich wspieranych urządzeniach, ale poprawki dla kodu własnościowego mogą być aplikowane tylko przez producenta twojego telefonu. By utrzymać twój telefon bezpiecznym, zawsze używaj najnowsze wersji LineageOS i (jeżeli dotyczy) twój obraz vendor jest zaktualizowany do najnowszej wersji zalecanej przez LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Aktualizacje zabezpieczeń są wydawane co miesiąc przez Google w kooperacji z dostawcami SoC w celu łatania luk w systemie, które mogą zostać wykorzystane przez złośliwe oprogramowanie w celu obejścia zabezpieczeń oraz wyrządzenia trwałych szkód w twoim urządzeniu. Łatki udostępniane przez Google są aplikowane w każdym miesiącu na wszystkich wspieranych urządzeniach, ale poprawki dla kodu własnościowego mogą być aplikowane tylko przez producenta twojego telefonu. By utrzymać twój telefon bezpiecznym, zawsze używaj najnowsze wersji crDroid i (jeżeli dotyczy) twój obraz vendor jest zaktualizowany do najnowszej wersji zalecanej przez crDroid.</string>
     <string name="trust_feature_encryption">Szyfrowanie</string>
     <string name="trust_feature_encryption_value_enabled">Włączone</string>
     <string name="trust_feature_encryption_value_nolock">Wymaga zabezpieczenego ekranu blokady</string>
