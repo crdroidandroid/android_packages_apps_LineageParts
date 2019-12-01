@@ -50,10 +50,10 @@
           android:fragment="org.lineageos.lineageparts.livedisplay.LiveDisplaySettings"
           lineage:xmlRes="@xml/livedisplay" />
 
-    <part android:key="notification_lights"
+    <!--<part android:key="notification_lights"
           android:title="@string/notification_light_title"
           android:fragment="org.lineageos.lineageparts.notificationlight.NotificationLightSettings"
-          lineage:xmlRes="@xml/notification_light_settings" />
+          lineage:xmlRes="@xml/notification_light_settings" />-->
 
     <part android:key="profiles_settings"
           android:title="@string/profiles_settings_title"
