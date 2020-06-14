@@ -166,7 +166,7 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
         if (requestCode == REQUEST_CODE_CHARGING_NOTIFICATIONS_RINGTONE
                 && resultCode == Activity.RESULT_OK) {
             Uri uri = data.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
-            updateChargingRingtone(uri != null ? uri.toString() : null);
+            updateChargingRingtone(uri != null ? uri.toString() : RINGTONE_SILENT_URI_STRING);
         }
     }
 }
