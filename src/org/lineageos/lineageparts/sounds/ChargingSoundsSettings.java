@@ -202,11 +202,11 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
         if (requestCode == REQUEST_CODE_WIRED_CHARGING_SOUND
                 && resultCode == Activity.RESULT_OK) {
             Uri uri = data.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
-            updateChargingSounds(uri != null ? uri.toString() : null, false /* wireless */);
+            updateChargingSounds(uri != null ? uri.toString() : RINGTONE_SILENT_URI_STRING, false /* wireless */);
         } else if (requestCode == REQUEST_CODE_WIRELESS_CHARGING_SOUND
                 && resultCode == Activity.RESULT_OK) {
             Uri uri = data.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
-            updateChargingSounds(uri != null ? uri.toString() : null, true /* wireless */);
+            updateChargingSounds(uri != null ? uri.toString() : RINGTONE_SILENT_URI_STRING, true /* wireless */);
         }
     }
 }
