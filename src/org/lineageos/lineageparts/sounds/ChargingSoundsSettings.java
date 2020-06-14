@@ -219,7 +219,7 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
                 return;
             }
 
-            updateChargingSounds(uri != null ? uri.toString() : null,
+            updateChargingSounds(uri != null ? uri.toString() : RINGTONE_SILENT_URI_STRING,
                     requestCode == REQUEST_CODE_WIRELESS_CHARGING_SOUND);
         }
     }
