@@ -35,7 +35,6 @@ android_app {
 
     static_libs: [
         "androidx.appcompat_appcompat",
-        "androidx.dynamicanimation_dynamicanimation",
         "androidx.legacy_legacy-support-v13",
         "androidx.palette_palette",
         "androidx.preference_preference",
