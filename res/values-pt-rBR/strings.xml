@@ -16,7 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Configurações do LineageOS</string>
+    <string name="lineageparts_title">Configurações do crDroid</string>
     <string name="loading">Carregando\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Cancelar</string>
@@ -386,10 +386,10 @@
     <string name="contributors_cloud_failed_message">Não foi possível carregar os dados de colaboradores</string>
     <string name="contributor_info_menu">Informação do colaborador</string>
     <string name="contributions_info_menu">Informação de colaborações</string>
-    <string name="anonymous_statistics_title">Estatísticas LineageOS</string>
-    <string name="anonymous_statistics_summary">Ajude a melhorar o LineageOS optando por enviar estatísticas anônimas</string>
+    <string name="anonymous_statistics_title">Estatísticas crDroid</string>
+    <string name="anonymous_statistics_summary">Ajude a melhorar o crDroid optando por enviar estatísticas anônimas</string>
     <string name="anonymous_statistics_warning_title">Sobre</string>
-    <string name="anonymous_statistics_warning">Optar por enviar estatísticas anônimas ao LineageOS permitirá que dados não pessoais sejam enviados aos desenvolvedores do LineageOS para rastrear instalações únicas em dispositivos. As informações enviadas incluem um identificador único que não compromete sua privacidade ou dados pessoais. Os dados são enviados durante cada inicialização.\n\nPara ver um exemplo dos dados enviados, toque em \'Pré-visualizar dados\'.</string>
+    <string name="anonymous_statistics_warning">Optar por enviar estatísticas anônimas ao crDroid permitirá que dados não pessoais sejam enviados aos desenvolvedores do crDroid para rastrear instalações únicas em dispositivos. As informações enviadas incluem um identificador único que não compromete sua privacidade ou dados pessoais. Os dados são enviados durante cada inicialização.\n\nPara ver um exemplo dos dados enviados, toque em \'Pré-visualizar dados\'.</string>
     <string name="enable_reporting_title">Ativar relatório</string>
     <string name="preview_data_title">Pré-visualizar dados</string>
     <string name="view_stats_title">Ver estatísticas</string>
@@ -483,7 +483,7 @@
     <string name="trust_feature_security_patches_value_base">Plataforma: %1$s\nFabricante: %2$s</string>
     <string name="trust_feature_security_patches_value_new">Atualizado</string>
     <string name="trust_feature_security_patches_value_old">desatualizado</string>
-    <string name="trust_feature_security_patches_explain">As atualizações de segurança são lançadas mensalmente pela Google em cooperação com os fabricantes de SoC para corrigir falhas que possam ser exploradas por aplicativos maliciosos que visam burlar as restrições de segurança e causar danos permanentes em seu dispositivo. As atualizações disponibilizadas pela Google são aplicadas mensalmente em todos os dispositivos suportados, mas as atualizações para o código proprietário só podem ser aplicadas pelo fabricante do seu dispositivo. Para manter o seu dispositivo seguro, certifique-se de que a sua versão do LineageOS esteja sempre atualizada e, se aplicável, assegure-se de que a imagem do seu fornecedor esteja atualizada para a versão recomendada pelo LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">As atualizações de segurança são lançadas mensalmente pela Google em cooperação com os fabricantes de SoC para corrigir falhas que possam ser exploradas por aplicativos maliciosos que visam burlar as restrições de segurança e causar danos permanentes em seu dispositivo. As atualizações disponibilizadas pela Google são aplicadas mensalmente em todos os dispositivos suportados, mas as atualizações para o código proprietário só podem ser aplicadas pelo fabricante do seu dispositivo. Para manter o seu dispositivo seguro, certifique-se de que a sua versão do crDroid esteja sempre atualizada e, se aplicável, assegure-se de que a imagem do seu fornecedor esteja atualizada para a versão recomendada pelo crDroid.</string>
     <string name="trust_feature_encryption">Criptografia</string>
     <string name="trust_feature_encryption_value_enabled">Ligada</string>
     <string name="trust_feature_encryption_value_nolock">Requer uma tela de bloqueio segura</string>

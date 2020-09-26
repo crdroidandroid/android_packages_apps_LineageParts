@@ -16,7 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Ustawienia LineageOS</string>
+    <string name="lineageparts_title">Ustawienia crDroid</string>
     <string name="loading">Ładowanie\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Anuluj</string>
@@ -381,11 +381,11 @@
     <string name="contributors_cloud_failed_message">Nie można wczytać danych o twórcach</string>
     <string name="contributor_info_menu">Informacje o twórcach</string>
     <string name="contributions_info_menu">Informacje o twórcach</string>
-    <string name="anonymous_statistics_title">Statystyki LineageOS</string>
-    <string name="anonymous_statistics_summary">Pomóż ulepszyć LineageOS, pozwalając na wysyłanie anonimowych statystyk</string>
+    <string name="anonymous_statistics_title">Statystyki crDroid</string>
+    <string name="anonymous_statistics_summary">Pomóż ulepszyć crDroid, pozwalając na wysyłanie anonimowych statystyk</string>
     <string name="anonymous_statistics_warning_title">O programie</string>
-    <string name="anonymous_statistics_warning">Wyrażenie zgody na udział w Statystykach LineageOS zezwoli na przesył anonimowych danych do
-        developerów LineageOS, aby śledzić ilość unikalnych instalacji na urządzeniach . Informacje zawierają unikalny identyfikator,
+    <string name="anonymous_statistics_warning">Wyrażenie zgody na udział w Statystykach crDroid zezwoli na przesył anonimowych danych do
+        developerów crDroid, aby śledzić ilość unikalnych instalacji na urządzeniach . Informacje zawierają unikalny identyfikator,
        który nie narusza twojej prywatności lub prywatnych danych. Dane są wysyłane przy każdym uruchomieniu.\n\nAby zobaczyć przykład przesyłanych danych naciśnij Podgląd Danych.</string>
     <string name="enable_reporting_title">Włącz raportowanie</string>
     <string name="preview_data_title">Podgląd danych</string>
@@ -477,7 +477,7 @@
     <string name="trust_feature_selinux_explain">SELinux narzuca, które procesy mają dostęp do poszczególnych plików na Twoim urządzeniu.\nZapobiega to dostępowi aplikacjom i usługom do plików, które nie powinny być obsługiwane. Dzięki temu złośliwy proces ma ograniczony dostęp, zapewniając utrzymanie bezpieczeństwa.</string>
     <string name="trust_feature_security_patches">Poprawki zabezpieczeń Androida</string>
     <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nDostawca: %2$s</string>
-    <string name="trust_feature_security_patches_explain">Aktualizacje zabezpieczeń są wydawane co miesiąc przez Google w kooperacji z dostawcami SoC w celu łatania luk w systemie, które mogą zostać wykorzystane przez złośliwe oprogramowanie w celu obejścia zabezpieczeń oraz wyrządzenia trwałych szkód w twoim urządzeniu. Łatki udostępniane przez Google są aplikowane w każdym miesiącu na wszystkich wspieranych urządzeniach, ale poprawki dla kodu własnościowego mogą być aplikowane tylko przez producenta twojego telefonu. By utrzymać twój telefon bezpiecznym, zawsze używaj najnowsze wersji LineageOS i (jeżeli dotyczy) twój obraz vendor jest zaktualizowany do najnowszej wersji zalecanej przez LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Aktualizacje zabezpieczeń są wydawane co miesiąc przez Google w kooperacji z dostawcami SoC w celu łatania luk w systemie, które mogą zostać wykorzystane przez złośliwe oprogramowanie w celu obejścia zabezpieczeń oraz wyrządzenia trwałych szkód w twoim urządzeniu. Łatki udostępniane przez Google są aplikowane w każdym miesiącu na wszystkich wspieranych urządzeniach, ale poprawki dla kodu własnościowego mogą być aplikowane tylko przez producenta twojego telefonu. By utrzymać twój telefon bezpiecznym, zawsze używaj najnowsze wersji crDroid i (jeżeli dotyczy) twój obraz vendor jest zaktualizowany do najnowszej wersji zalecanej przez crDroid.</string>
     <string name="trust_feature_encryption">Szyfrowanie</string>
     <string name="trust_feature_encryption_value_enabled">Włączone</string>
     <string name="trust_feature_encryption_value_nolock">Wymaga zabezpieczonego ekranu blokady</string>

@@ -223,7 +223,7 @@
     <string name="network_traffic_autohide">Göm automatiskt</string>
     <string name="network_traffic_units_kilobits">Kilobits per sekund (kb/s)</string>
     <string name="protected_apps_manager_title">Skyddade appar</string>
-    <string name="anonymous_statistics_title">LineageOS statistik</string>
+    <string name="anonymous_statistics_title">crDroid statistik</string>
     <string name="anonymous_statistics_warning_title">Om</string>
     <string name="preview_data_title">Förhandsgranska data</string>
     <string name="view_stats_title">Visa statistik</string>

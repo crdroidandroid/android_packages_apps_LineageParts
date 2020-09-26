@@ -16,7 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Axustes de LineageOS</string>
+    <string name="lineageparts_title">Axustes de crDroid</string>
     <string name="loading">Cargando\u2026</string>
     <string name="dlg_ok">D\'acuerdu</string>
     <string name="cancel">Encaboxar</string>
@@ -383,10 +383,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Collaboradores totales:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Unvios totales:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Últimu anovamientu:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Estadístiques de LineageOS</string>
-    <string name="anonymous_statistics_summary">Ayuda a ameyorar LineageOS dando laude al unviu anónimu d\'estadístiques</string>
+    <string name="anonymous_statistics_title">Estadístiques de crDroid</string>
+    <string name="anonymous_statistics_summary">Ayuda a ameyorar crDroid dando laude al unviu anónimu d\'estadístiques</string>
     <string name="anonymous_statistics_warning_title">Tocante a</string>
-    <string name="anonymous_statistics_warning">Dar laude a les estadístiques de LineageOS permitirá l\'unviu de datos non personales a
+    <string name="anonymous_statistics_warning">Dar laude a les estadístiques de crDroid permitirá l\'unviu de datos non personales a
         los desendolcadores pa facer un siguimientu d\'instalaciones úniques nos preseos. La información unviada inclúi un identificador únicu,
         que nun compromete la to privacidá o datos personales. Los datos únviense en cada arranque.\n\nPa un exemplu de los datos que s\'unvien, calca en Previsualizar datos.</string>
     <string name="enable_reporting_title">Habilitar unviu d\'estadístiques</string>
@@ -481,7 +481,7 @@
     <string name="trust_feature_security_patches_value_new">Anovaos</string>
     <string name="trust_feature_security_patches_value_medium">Ensin anovar hai unos meses</string>
     <string name="trust_feature_security_patches_value_old">Ensin anovar</string>
-    <string name="trust_feature_security_patches_explain">Los parches de seguranza llibéralos mensualmente Google cola cooperación de los fabricantes de SoC pa iguar fallos que puen aprovechase por aplicaciones malicioses pa saltar les restricciones de seguranza y causar daños permanentes al to dispositivu. Los parches disponibles dende Google aplíquense mensualmente en tolos dispositivos compatibles, pero los del códigu propietariu nun pueden aplicase más que pol fabricante del to dispositivu. Pa caltener el dispositivu seguru, asegúrate de que la compilación de LineageOS ta siempre anovada y (si ye posible) asegúrate que la imaxe del fornidor seya la más actual de LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Los parches de seguranza llibéralos mensualmente Google cola cooperación de los fabricantes de SoC pa iguar fallos que puen aprovechase por aplicaciones malicioses pa saltar les restricciones de seguranza y causar daños permanentes al to dispositivu. Los parches disponibles dende Google aplíquense mensualmente en tolos dispositivos compatibles, pero los del códigu propietariu nun pueden aplicase más que pol fabricante del to dispositivu. Pa caltener el dispositivu seguru, asegúrate de que la compilación de crDroid ta siempre anovada y (si ye posible) asegúrate que la imaxe del fornidor seya la más actual de crDroid.</string>
     <string name="trust_feature_encryption">Cifráu</string>
     <string name="trust_feature_encryption_value_enabled">Activóse</string>
     <string name="trust_feature_encryption_value_nolock">Necesita una pantalla de bloquéu seguru</string>
