@@ -26,14 +26,20 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.ArraySet;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreferenceCompat;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import com.android.internal.util.ArrayUtils;
+import com.android.settingslib.widget.LayoutPreference;
 
 import lineageos.hardware.DisplayMode;
 import lineageos.hardware.LineageHardwareManager;
@@ -49,6 +55,8 @@ import org.lineageos.lineageparts.search.SearchIndexableRaw;
 import org.lineageos.lineageparts.search.Searchable;
 import org.lineageos.lineageparts.utils.ResourceUtils;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
@@ -71,6 +79,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
     private static final String KEY_LIVE_DISPLAY_COLOR_ENHANCE = "display_color_enhance";
     private static final String KEY_LIVE_DISPLAY_TEMPERATURE = "live_display_color_temperature";
 
+    private static final String KEY_COLOR_MODE_PREVIEW = "color_mode_preview";
     private static final String KEY_DISPLAY_COLOR = "color_calibration";
     private static final String KEY_PICTURE_ADJUSTMENT = "picture_adjustment";
 
@@ -88,6 +97,12 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
             LineageSettings.System.getUriFor(LineageSettings.System.DISPLAY_TEMPERATURE_NIGHT);
     private final Uri DISPLAY_TEMPERATURE_MODE_URI =
             LineageSettings.System.getUriFor(LineageSettings.System.DISPLAY_TEMPERATURE_MODE);
+
+    static final String PAGE_VIEWER_SELECTION_INDEX = "page_viewer_selection_index";
+
+    private static final int DOT_INDICATOR_SIZE = 12;
+    private static final int DOT_INDICATOR_LEFT_PADDING = 6;
+    private static final int DOT_INDICATOR_RIGHT_PADDING = 6;
 
     private ListPreference mLiveDisplay;
 
@@ -108,6 +123,15 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
 
     private LineageHardwareManager mHardware;
 
+    private View mViewArrowPrevious;
+    private View mViewArrowNext;
+    private ViewPager mViewPager;
+
+    private ArrayList<View> mPageList;
+
+    private ImageView[] mDotIndicators;
+    private View[] mViewPagerImages;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -120,6 +144,8 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
         LiveDisplayConfig config = mLiveDisplayManager.getConfig();
 
         addPreferencesFromResource(R.xml.livedisplay);
+
+        addViewPager();
 
         PreferenceScreen liveDisplayPrefs = findPreference(KEY_SCREEN_LIVE_DISPLAY);
 
@@ -241,6 +267,12 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
                 !mHardware.isSupported(LineageHardwareManager.FEATURE_ANTI_FLICKER)) {
             liveDisplayPrefs.removePreference(antiFlicker);
         }
+
+        if (savedInstanceState != null) {
+            final int selectedPosition = savedInstanceState.getInt(PAGE_VIEWER_SELECTION_INDEX);
+            mViewPager.setCurrentItem(selectedPosition);
+            updateIndicator(selectedPosition);
+        }
     }
 
     @Override
@@ -258,6 +290,150 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
     public void onPause() {
         super.onPause();
         SettingsHelper.get(getActivity()).stopWatching(this);
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
+        outState.putInt(PAGE_VIEWER_SELECTION_INDEX, mViewPager.getCurrentItem());
+    }
+
+    public ArrayList<Integer> getViewPagerResource() {
+        return new ArrayList<Integer>(
+                Arrays.asList(
+                        R.layout.color_mode_view1,
+                        R.layout.color_mode_view2,
+                        R.layout.color_mode_view3));
+    }
+
+    void addViewPager() {
+        LayoutPreference preview = findPreference(KEY_COLOR_MODE_PREVIEW);
+        final ArrayList<Integer> tmpviewPagerList = getViewPagerResource();
+        mViewPager = preview.findViewById(R.id.viewpager);
+
+        mViewPagerImages = new View[3];
+        for (int idx = 0; idx < tmpviewPagerList.size(); idx++) {
+            mViewPagerImages[idx] =
+                    getLayoutInflater().inflate(tmpviewPagerList.get(idx), null /* root */);
+        }
+
+        mPageList = new ArrayList<View>();
+        mPageList.add(mViewPagerImages[0]);
+        mPageList.add(mViewPagerImages[1]);
+        mPageList.add(mViewPagerImages[2]);
+
+        mViewPager.setAdapter(new ColorPagerAdapter(mPageList));
+
+        mViewArrowPrevious = preview.findViewById(R.id.arrow_previous);
+        mViewArrowPrevious.setOnClickListener(v -> {
+            final int previousPos = mViewPager.getCurrentItem() - 1;
+            mViewPager.setCurrentItem(previousPos, true);
+        });
+
+        mViewArrowNext = preview.findViewById(R.id.arrow_next);
+        mViewArrowNext.setOnClickListener(v -> {
+            final int nextPos = mViewPager.getCurrentItem() + 1;
+            mViewPager.setCurrentItem(nextPos, true);
+        });
+
+        mViewPager.addOnPageChangeListener(createPageListener());
+
+        final ViewGroup viewGroup = (ViewGroup) preview.findViewById(R.id.viewGroup);
+        mDotIndicators = new ImageView[mPageList.size()];
+        for (int i = 0; i < mPageList.size(); i++) {
+            final ImageView imageView = new ImageView(getContext());
+            final ViewGroup.MarginLayoutParams lp =
+                    new ViewGroup.MarginLayoutParams(DOT_INDICATOR_SIZE, DOT_INDICATOR_SIZE);
+            lp.setMargins(DOT_INDICATOR_LEFT_PADDING, 0, DOT_INDICATOR_RIGHT_PADDING, 0);
+            imageView.setLayoutParams(lp);
+            mDotIndicators[i] = imageView;
+
+            viewGroup.addView(mDotIndicators[i]);
+        }
+
+        updateIndicator(mViewPager.getCurrentItem());
+    }
+
+    private ViewPager.OnPageChangeListener createPageListener() {
+        return new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(
+                    int position, float positionOffset, int positionOffsetPixels) {
+                if (positionOffset != 0) {
+                    for (int idx = 0; idx < mPageList.size(); idx++) {
+                        mViewPagerImages[idx].setVisibility(View.VISIBLE);
+                    }
+                } else {
+                    mViewPagerImages[position].setContentDescription(
+                            getContext().getString(R.string.colors_viewpager_content_description));
+                    updateIndicator(position);
+                }
+            }
+
+            @Override
+            public void onPageSelected(int position) {}
+
+            @Override
+            public void onPageScrollStateChanged(int state) {}
+        };
+    }
+
+    private void updateIndicator(int position) {
+        for (int i = 0; i < mPageList.size(); i++) {
+            if (position == i) {
+                mDotIndicators[i].setBackgroundResource(
+                        R.drawable.ic_color_page_indicator_focused);
+
+                mViewPagerImages[i].setVisibility(View.VISIBLE);
+            } else {
+                mDotIndicators[i].setBackgroundResource(
+                        R.drawable.ic_color_page_indicator_unfocused);
+
+                mViewPagerImages[i].setVisibility(View.INVISIBLE);
+            }
+        }
+
+        if (position == 0) {
+            mViewArrowPrevious.setVisibility(View.INVISIBLE);
+            mViewArrowNext.setVisibility(View.VISIBLE);
+        } else if (position == (mPageList.size() - 1)) {
+            mViewArrowPrevious.setVisibility(View.VISIBLE);
+            mViewArrowNext.setVisibility(View.INVISIBLE);
+        } else {
+            mViewArrowPrevious.setVisibility(View.VISIBLE);
+            mViewArrowNext.setVisibility(View.VISIBLE);
+        }
+    }
+
+    static class ColorPagerAdapter extends PagerAdapter {
+        private final ArrayList<View> mPageViewList;
+
+        ColorPagerAdapter(ArrayList<View> pageViewList) {
+            mPageViewList = pageViewList;
+        }
+
+        @Override
+        public void destroyItem(ViewGroup container, int position, Object object) {
+            if (mPageViewList.get(position) != null) {
+                container.removeView(mPageViewList.get(position));
+            }
+        }
+
+        @Override
+        public Object instantiateItem(ViewGroup container, int position) {
+            container.addView(mPageViewList.get(position));
+            return mPageViewList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mPageViewList.size();
+        }
+
+        @Override
+        public boolean isViewFromObject(View view, Object object) {
+            return object == view;
+        }
     }
 
     private boolean updateDisplayModes() {
