@@ -113,6 +113,8 @@
     <string name="live_display_color_profile_srgb_summary">Кольори з точністю до колірного простору sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Кольори з точністю до колірного простору DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим читання</string>
+    <string name="live_display_reading_mode_summary">Режим відтінків сірого для довготривалого читання</string>
     <string name="color_calibration_title">Калібрування кольору</string>
     <string name="color_calibration_summary">Калібрування кольору на екрані</string>
     <string name="color_red_title">Червоний</string>
