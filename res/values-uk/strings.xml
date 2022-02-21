@@ -2,13 +2,10 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	              2017-2022 The LineageOS Project
-
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
 	You may obtain a copy of the License at
-
 	http://www.apache.org/licenses/LICENSE-2.0
-
 	Unless required by applicable law or agreed to in writing, software
 	distributed under the License is distributed on an "AS IS" BASIS,
 	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -16,6 +13,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageparts_title">Налаштування crDroid</string>
     <string name="loading">Завантаження\u2026</string>
     <string name="dlg_ok">ОК</string>
     <string name="cancel">Скаcувати</string>
@@ -36,6 +34,7 @@
     <string name="disabled">Вимкнено</string>
     <string name="enabled">Увімкнено</string>
     <string name="privacy_settings_title">Конфіденційність</string>
+    <string name="channel_light_settings_name">Попередній перегляд налаштувань яскравості</string>
     <string name="edit_light_settings">Змінити налаштування світлового індикатора</string>
     <string name="pulse_speed_title">Тривалість та швидкість мигання</string>
     <string name="default_time">Звичайний</string>
@@ -54,13 +53,19 @@
     <string name="pulse_speed_normal">Нормальний</string>
     <string name="pulse_speed_slow">Повільно</string>
     <string name="pulse_speed_very_slow">Дуже повільно</string>
+    <string name="light_brightness_title">Рівень яскравості</string>
+    <string name="light_brightness_normal">Стандартний</string>
+    <string name="light_brightness_zen">Не турбувати</string>
     <string name="battery_light_title">Індикація батареї</string>
+    <string name="battery_light_enable_title">Увімкнути індикатор батареї</string>
     <string name="battery_low_pulse_title">Блимати при розрядженій батареї</string>
+    <string name="battery_light_full_charge_disabled_title">Вимкнути при повному заряді</string>
     <string name="battery_light_list_title">Кольори</string>
     <string name="battery_light_low_color_title">Батарея розряджена</string>
     <string name="battery_light_medium_color_title">Заряджається</string>
     <string name="battery_light_full_color_title">Повністю заряджена</string>
     <string name="notification_light_title">Індикатор сповіщень</string>
+    <string name="notification_light_enable_title">Увімкнути індикатор сповіщень</string>
     <string name="notification_light_general_title">Загальні</string>
     <string name="notification_light_advanced_title">Розширені</string>
     <string name="notification_light_applist_title">Додатки</string>
@@ -86,6 +91,8 @@
     <string name="live_display_night">Ніч</string>
     <string name="live_display_outdoor_mode_title">Автоматичний режим «На вулиці»</string>
     <string name="live_display_outdoor_mode_summary">Збільшувати яскравість та насиченість автоматично при яскравому світлі</string>
+<string name="live_display_anti_flicker_title">Запобігання мерехтіння</string>
+    <string name="live_display_anti_flicker_summary">Усуває сильне мерехтіння та знижує навантаження на очі в умовах низького освітлення. Це може знизити точність кольору і вплинути на відображення деяких елементів.</string>
     <string name="live_display_low_power_title">Зменшення споживання енергії</string>
     <string name="live_display_low_power_summary">Налаштування екрану для найнижчого енергоспоживання без погіршення зображення</string>
     <string name="live_display_enhance_color_title">Покращити кольори</string>
@@ -148,6 +155,7 @@
     <string name="hardware_keys_action_sleep">Вимкнути екран</string>
     <string name="hardware_keys_action_last_app">Останній додаток</string>
     <string name="hardware_keys_action_split_screen">Розділення екрана</string>
+    <string name="hardware_keys_action_kill_app">Закрити активну програму</string>
     <string name="camera_sleep_on_release_title">Швидкий перегляд</string>
     <string name="camera_sleep_on_release_summary">Тримати екран увімкненим тільки при утриманні кнопки</string>
     <string name="camera_launch_title">Запустити камеру</string>
@@ -162,13 +170,20 @@
     <string name="power_end_call_summary">Завершення поточного виклику натисненням кнопки живлення</string>
     <string name="swap_volume_buttons_title">Переорієнтувати</string>
     <string name="swap_volume_buttons_summary">Поміняти кнопки регулювання гучності, коли екран повернений</string>
+    <string name="volume_panel_on_left_title">Панель гучності зліва</string>
+    <string name="volume_panel_on_left_summary">Відображати панель гучності з лівого боку екрана</string>
     <string name="button_wake_title">Розбудити пристрій</string>
     <string name="volume_answer_call_title">Відповісти на виклик</string>
     <string name="volume_answer_call_summary">Відповідати на вхідний виклик натисненням кнопок гучності</string>
     <string name="home_answer_call_title">Відповісти на виклик</string>
     <string name="home_answer_call_summary">Відповідати на вхідний виклик натисненням кнопки \"Додому\"</string>
+    <string name="extras_title">Додатково</string>
+    <string name="additional_buttons_title">Додаткові кнопки</string>
+    <string name="click_partial_screenshot_title">Скріншот частини екрана</string>
+    <string name="click_partial_screenshot_summary">Натисніть кнопку зменшення гучності та кнопку живлення, щоб зробити скріншот частини екрана</string>
     <string name="button_backlight_title">Підсвічування</string>
     <string name="button_backlight_enabled">Підсвічування кнопок</string>
+    <string name="button_backlight_only_when_pressed_title">Підсвічування кнопок лише при натисканні</string>
     <string name="keyboard_backlight_enabled">Підсвічування клавіатури</string>
     <string name="button_backlight_seekbar_title">Яскравість кнопок</string>
     <string name="keyboard_backlight_seekbar_title">Яскравість клавіатури</string>
@@ -179,17 +194,28 @@
     <string name="backlight_summary_enabled">Увімкнено</string>
     <string name="disable_navkeys_title">Увімкнути екранну панель навігації</string>
     <string name="disable_navkeys_summary">Увімкнути екранну панель навігації і вимкнути апаратні кнопки</string>
+    <string name="swap_capacitive_keys_title">Swap capacitive keys</string>
+    <string name="swap_capacitive_keys_summary">Swap Recent and Back buttons</string>
     <string name="navigation_bar_category">Панель навігації</string>
+    <string name="navigation_bar_invert_layout_title">Інвертувати порядок кнопок</string>
+    <string name="navigation_bar_invert_layout_summary">Інвертувати розташування навігаційної панелі та інших елементів, таких як кнопка перемикання методу введення</string>
     <string name="navigation_bar_left_summary">Показувати панель навігації зліва в альбомній орієнтації</string>
     <string name="navigation_bar_arrow_keys_title">Показувати стрілки під час введення тексту</string>
     <string name="navigation_bar_arrow_keys_summary">Показувати кнопки переміщення курсору вліво або вправо при введенні. Кнопка вибору методу введення не буде відображатися.</string>
+    <string name="navigation_bar_back_long_press_title">Дія при тривалому натисканні кнопки назад</string>
     <string name="navigation_bar_home_long_press_title">Дія при довгому натисканні кнопки \"Додому\"</string>
     <string name="navigation_bar_home_double_tap_title">Дія при подвійному натисканні на кнопку \"Додому\"</string>
+    <string name="navigation_bar_app_switch_long_press_title">Тривале натискання кнопки \'Недавні\'</string>
+    <string name="navigation_bar_edge_long_swipe_title">Дія тривалого свайпу</string>
     <string name="power_menu_title">Меню кнопки живлення</string>
     <string name="power_menu_screenshot_title">Скріншот</string>
+    <string name="power_menu_screenshot_summary">Утримуйте, щоб виділити область для скріншота</string>
     <string name="power_menu_airplane_title">Режим польоту</string>
     <string name="power_menu_users_title">Перемикання користувачів</string>
     <string name="power_menu_bug_report_title">Звіт про помилку</string>
+    <string name="power_menu_bug_report_devoptions_unavailable">Звіти про помилки вимкнуто, оскільки не ввімкнено налаштування для розробників</string>
+    <string name="power_menu_bug_report_unavailable_for_user">Звіти про помилки відключені для неосновних користувачів.</string>
+    <string name="power_menu_emergency_title">Екстренна ситуація</string>
     <string name="camera_double_tap_power_gesture_title">Двічі натисніть кнопку живлення для запуску камери</string>
     <string name="camera_double_tap_power_gesture_desc">Швидко запустити камеру, не розблоковуючи екран</string>
     <string name="torch_long_press_power_gesture_title">Тривале натискання для увімкнення ліхтарика</string>
@@ -222,6 +248,8 @@
     <string name="no_triggers_configured_nfc">Натисніть, щоб додати NFC-мітку до цього профілю.</string>
     <string name="profile_setup_actions_description">Тепер можна налаштувати, що має відбуватися при активації профілю</string>
     <string name="profiles_settings_title">Системні профілі</string>
+    <string name="profiles_settings_enable_title">Увімкнути профілі</string>
+    <string name="profiles_create_new">Створити новий профіль</string>
     <string name="profile_settings_title">Профіль</string>
     <string name="profile_empty_list_profiles_off">Для того, щоб налаштувати та використовувати системні профілі, увімкніть «Профілі».</string>
     <string name="profile_settings_summary_off">Профілі вимкнено</string>
@@ -288,6 +316,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Портативна Wi\u2011Fi точка</string>
     <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleLocation">Розташування</string>
     <string name="toggleData">Передача даних</string>
     <string name="toggleSync">Автосинхронізація даних</string>
     <string name="toggleNfc">NFC</string>
@@ -315,6 +344,8 @@
     <string name="status_bar_system_icons_title">Системні значки</string>
     <string name="status_bar_system_icons_summary">Керування відображенням значків в рядку стану</string>
     <string name="status_bar_clock_title">Годинник</string>
+    <string name="status_bar_clock_show_seconds_title">Показувати секунди</string>
+    <string name="status_bar_clock_show_seconds_summary">Показувати години, хвилини та секунди</string>
     <string name="status_bar_clock_position_title">Позиція годинника</string>
     <string name="status_bar_clock_position_right">Справа</string>
     <string name="status_bar_clock_position_left">Зліва</string>
@@ -338,15 +369,41 @@
     <string name="status_bar_brightness_slider_summary">Регулювання яскравості з швидких налаштувань</string>
     <string name="status_bar_brightness_slider_auto_title">Авто налаштування яскравості</string>
     <string name="status_bar_brightness_slider_auto_summary">Показати перемикач адаптивної яскравості поряд з повзунком</string>
+    <string name="status_bar_brightness_slider_show_never">Ніколи не показувати</string>
+    <string name="status_bar_brightness_slider_show_expanded">Показати, коли розгорнуто</string>
+    <string name="status_bar_brightness_slider_show_always">Показувати завжди</string>
     <string name="status_bar_toggle_brightness">Керування яскравістю</string>
     <string name="status_bar_toggle_brightness_summary">Регулювати яскравість екрану рухом пальця по рядку стану</string>
+    <string name="network_traffic_settings_title">Індикатор мережевого трафіку</string>
+    <string name="network_traffic_settings_summary">Відображати поточну швидкість з'єднання у рядку стану</string>
+    <string name="network_traffic_mode_title">Режим відображення</string>
+    <string name="network_traffic_mode_disable">Вимкнено</string>
+    <string name="network_traffic_mode_up">Тільки вихідний трафік</string>
+    <string name="network_traffic_mode_down">Тільки вхідний трафік</string>
+    <string name="network_traffic_mode_all">Вихідний та вхідний трафік</string>
+    <string name="network_traffic_autohide">Автоприховування</string>
+    <string name="network_traffic_autohide_summary">Приховувати індикатор трафіку, коли активності немає</string>
+    <string name="network_traffic_units_title">Одиниці виміру трафіку</string>
+    <string name="network_traffic_units_kilobits">Кілобіт за секунду (кбіт/с)</string>
+    <string name="network_traffic_units_megabits">Мегабіт за секунду (Мбіт/с)</string>
+    <string name="network_traffic_units_kilobytes">Кілобайт за секунду (кБ/с)</string>
+    <string name="network_traffic_units_megabytes">Мегабайт за секунду (МБ/с)</string>
+    <string name="network_traffic_show_units">Показати одиниці</string>
+    <string name="network_traffic_show_units_summary">Відображати швидкість передачі даних у рядку стану</string>
+    <string name="network_traffic_disabled_clock">Індикацію мережевого трафіку вимкнено через позицію годинника</string>
     <string name="protected_apps_manager_title">Захищені додатки</string>
     <string name="protected_apps_manager_summary">Керування додатками, для запуску яких потрібно ввести пароль</string>
     <string name="contributors_cloud_fragment_title">Учасники проекту</string>
     <string name="contributors_cloud_loading_message">Завантаження даних учасників\u2026</string>
     <string name="contributors_cloud_failed_message">Не вдалося завантажити дані учасників</string>
     <string name="contributor_info_menu">Інформація учасника</string>
+    <string name="contributor_info_msg"><![CDATA[<b>Ім\'я:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+                 <b>Псевдонім:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
+                 <b>Коммітів:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
     <string name="contributions_info_menu">Загальна статистика</string>
+    <string name="contributions_info_msg"><![CDATA[<b>Усього учасників:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+                 <b>Усього коммітів:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+                 <b>Останнє оновлення:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
     <string name="anonymous_statistics_title">Статистика crDroid</string>
     <string name="anonymous_statistics_summary">Допоможіть зробити crDroid кращим, відправляючи анонімну статистику</string>
     <string name="anonymous_statistics_warning_title">Про</string>
@@ -386,19 +443,28 @@
     <string name="auto_power_save_summary_on">Автоматично активувати режим енергозбереження при %s батареї</string>
     <string name="auto_power_save_summary_off">Не вмикати режим енергозбереження автоматично</string>
     <string name="auto_power_save_never">Ніколи</string>
+    <string name="long_screen_settings_title">Повноекранні програми</string>
+    <string name="long_screen_settings_summary">Примусове використання повноекранного режиму застарілими програмами</string>
+    <string name="long_screen_settings_no_apps">Немає додатків</string>
     <string name="charging_sounds_settings_title">Звуки зарядки</string>
+    <string name="charging_sounds_enable_title">Увімкнути звук під час заряджання</string>
     <string name="charging_sounds_summary">Грати звук при підключенні чи від\'єднанні від зарядного пристрою</string>
     <string name="power_notifications_vibrate_title">Вібрувати</string>
     <string name="charging_sounds_ringtone_silent">Без звуку</string>
+    <string name="charging_sounds_notification_category_title">Звуки повідомлень</string>
+    <string name="wired_charging_sounds_title">Провідна зарядка</string>
+    <string name="wireless_charging_sounds_title">Безпровідна зарядка</string>
     <string name="touchscreen_gesture_settings_title">Жести сенсорного екрану</string>
     <string name="touchscreen_gesture_settings_summary">Виконувати різні жести для швидкого доступу</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Вібровідгук</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Вібрація при розпізнаванні жесту</string>
     <string name="touchscreen_gesture_two_finger_down_swipe_title">Проведіть вниз двома пальцями</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Проведіть вгору одним пальцем</string>
+    <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Свайп вгору від кнопки \'Додому\'</string>
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Проведіть вниз одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Проведіть вліво одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Проведіть вправо одним пальцем</string>
+    <string name="touchscreen_gesture_single_tap_title">Одиночний дотик</string>
     <string name="touchscreen_gesture_up_arrow_title">Намалюйте \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Намалюйте \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Намалюйте \"&lt;\"</string>
@@ -410,7 +476,12 @@
     <string name="touchscreen_gesture_letter_s_title">Намалюйте літеру \"S\"</string>
     <string name="touchscreen_gesture_letter_v_title">Намалюйте літеру \"V\"</string>
     <string name="touchscreen_gesture_letter_w_title">Намалюйте літеру \"W\"</string>
-    <string name="touchscreen_gesture_letter_z_title">Намалюйте літеру «Z»</string>
+    <string name="touchscreen_gesture_letter_z_title">Намалюйте літеру \"Z\"</string>
+    <string name="touchscreen_gesture_swipe_up_stylus_title">Свайп вгору стілусом</string>
+    <string name="touchscreen_gesture_swipe_down_stylus_title">Свайп вниз стилусом</string>
+    <string name="touchscreen_gesture_swipe_left_stylus_title">Свайп вліво стилусом</string>
+    <string name="touchscreen_gesture_swipe_right_stylus_title">Свайп праворуч стилусом</string>
+    <string name="touchscreen_gesture_long_press_stylus_title">Тривале натискання стилусом</string>
     <string name="touchscreen_gesture_action_dialog_title">Дія жесту</string>
     <string name="touchscreen_gesture_action_do_nothing">Нічого не робити</string>
     <string name="touchscreen_gesture_action_flashlight">Увімкнути або вимкнути ліхтарик</string>
@@ -422,4 +493,38 @@
     <string name="touchscreen_gesture_action_play_pause_music">Відтворити або призупинити відтворення музики</string>
     <string name="touchscreen_gesture_action_previous_track">Перейти до попереднього музичного треку</string>
     <string name="touchscreen_gesture_action_next_track">Перехід до наступного музичного треку</string>
+    <string name="touchscreen_gesture_action_volume_down">Зменшити гучність</string>
+    <string name="touchscreen_gesture_action_volume_up">Збільшити гучність</string>
+    <string name="touchscreen_gesture_action_ambient_display">Показати зовнішній дисплей</string>
+    <string name="trust_category_features">Статус</string>
+    <string name="trust_feature_selinux">SELinux</string>
+    <string name="trust_feature_selinux_value_enforcing">Примусовий</string>
+    <string name="trust_feature_selinux_value_disabled">Вимкнено</string>
+    <string name="trust_feature_selinux_explain">SELinux визначає які процеси мають доступ до файлів/шляхів на вашому пристрої.\nЦе запобігає доступу додатків та служб до файлів, до яких вони не повинні мати доступу: таким чином, потенційний зловмисний процес має обмежений доступ, що дозволяє зберегти вашу безпеку.</string>
+    <string name="trust_feature_security_patches">Пакети безпеки Android</string>
+    <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nВиробник: %2$s</string>
+    <string name="trust_feature_security_patches_value_new">актульний</string>
+    <string name="trust_feature_security_patches_value_medium">застарів на кілька місяців</string>
+    <string name="trust_feature_security_patches_value_old">застарів</string>
+    <string name="trust_feature_security_patches_explain">Виправлення безпеки щомісячно випускаються Google спільно з постачальниками SoC для усунення вразливостей у системі, які можуть бути використані шкідливими програмами для обходу обмежень безпеки та нанесення необоротного пошкодження вашого пристрою. Виправлення, що надаються Google, застосовуються щомісяця на всіх підтримуваних пристроях, але виправлення для пропрієтарного коду можуть застосовуватись лише виробником вашого пристрою. Для підтримки вашого пристрою в безпечному стані, переконайтеся, що ваше складання crDroid актуальне і (якщо застосовно) образ виробника оновлений до останньої версії, рекомендованої crDroid.</string>
+    <string name="trust_feature_encryption">Шифрування</string>
+    <string name="trust_feature_encryption_value_enabled">Увімкнено</string>
+    <string name="trust_feature_encryption_value_nolock">Необхідний захист екрана блокування</string>
+    <string name="trust_feature_encryption_value_disabled">Вимкнено</string>
+    <string name="trust_feature_encryption_explain">Шифрування вашого пристрою запобігає доступу до особистих даних, коли ОС Android не завантажена. Це особливо важливо у випадку крадіжки телефону, оскільки функція перешкоджає отриманню доступу до ваших повідомлень, контактів та іншої особистої інформації без пароля.</string>
+    <string name="trust_category_tools">Конфіденційність</string>
+    <string name="trust_notification_alerts_title">Оповіщення безпеки</string>
+    <string name="trust_warnings_alerts_intro">Ви можете вибрати проблеми безпеки, про які ви хочете отримати оповіщення. Рекомендується ввімкнути всі оповіщення</string>
+    <string name="trust_warnings_selinux">Статус SELinux</string>
+    <string name="trust_warnings_keys">Підпис збирання</string>
+    <string name="trust_onboarding_title">Познайомтеся з Trust</string>
+    <string name="trust_onboarding_description">Trust допомагає підтримувати безпеку пристрою та захищати вашу конфіденційність.\nЗначок Trust відображатиметься під час перевірки контенту.</string>
+    <string name="trust_onboarding_learn_more">Детальніше</string>
+    <string name="trust_onboarding_done">Зрозуміло</string>
+    <string name="trust_restrict_usb_title">Обмеження USB</string>
+    <string name="trust_restrict_usb_summary">Вимкнути визначення нових USB-гаджетів, коли пристрій заблоковано</string>
+    <string name="sms_security_check_limit_title">Обмеження SMS-повідомлень</string>
+    <string name="sms_security_check_limit_summary">Запитувати підтвердження під час надсилання більше %s повідомлень за хвилину</string>
+    <string name="sms_security_check_limit_summary_none">Програмам заборонено надсилати повідомлення без підтвердження</string>
+    <string name="sms_security_check_limit_always_confirm">Підтверджувати завжди</string>
 </resources>
