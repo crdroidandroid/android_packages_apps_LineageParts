@@ -72,7 +72,7 @@ public class Utilities {
     }
 
     public static String getBuildDate() {
-        return SystemProperties.get("ro.build.date", Build.DATE);
+        return SystemProperties.get("ro.build.date", "Unknown");
     }
 
     public static String getAndroidVersion() {
