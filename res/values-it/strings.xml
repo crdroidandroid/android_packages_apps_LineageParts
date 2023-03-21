@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Impostazioni LineageOS</string>
+    <string name="lineageparts_title">Impostazioni crDroid</string>
     <string name="loading">Caricamento\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Annulla</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Totale collaboratori:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Totale commit:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Ultimo aggiornamento:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Statistiche LineageOS</string>
-    <string name="anonymous_statistics_summary">Aiuta a migliorare LineageOS consentendo l\'invio di statistiche anonime</string>
+    <string name="anonymous_statistics_title">Statistiche crDroid</string>
+    <string name="anonymous_statistics_summary">Aiuta a migliorare crDroid consentendo l\'invio di statistiche anonime</string>
     <string name="anonymous_statistics_warning_title">Info</string>
-    <string name="anonymous_statistics_warning">Attivando le Statistiche LineageOS consentirai l\'invio di dati non personali agli sviluppatori per contare il numero di installazioni sui dispositivi. Le informazioni inviate includono un\'identificatore unico che non compromette in alcun modo la tua privacy o dati personali.\n\nPer vedere un esempio di dati inviati, tocca Anteprima Dati.</string>
+    <string name="anonymous_statistics_warning">Attivando le Statistiche crDroid consentirai l\'invio di dati non personali agli sviluppatori per contare il numero di installazioni sui dispositivi. Le informazioni inviate includono un\'identificatore unico che non compromette in alcun modo la tua privacy o dati personali.\n\nPer vedere un esempio di dati inviati, tocca Anteprima Dati.</string>
     <string name="enable_reporting_title">Attiva report</string>
     <string name="preview_data_title">Anteprima dati</string>
     <string name="view_stats_title">Vedi statistiche</string>
@@ -510,7 +510,7 @@
     <string name="trust_feature_security_patches_value_new">Aggiornate</string>
     <string name="trust_feature_security_patches_value_medium">Non aggiornate da qualche mese</string>
     <string name="trust_feature_security_patches_value_old">Non aggiornate</string>
-    <string name="trust_feature_security_patches_explain">Le patch di sicurezza vengono rilasciate mensilmente da Google in cooperazione con i produttori di SoC per risolvere problemi che potrebbero essere sfruttati dalle app dannose per aggirare le restrizioni di sicurezza e causare danni permanenti al dispositivo. Le patch rese disponibili da Google sono applicate a tutti i dispositivi supportati, ma quelle relative ai componenti proprietari possono essere applicati solo dal produttore del dispositivo. Per mantenere il dispositivo sicuro, controlla che la tua versione di LineageOS sia sempre aggiornata ed eventualmente assicurati che i componenti proprietari come firmware e immagine vendor siano quelli raccomandati da LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Le patch di sicurezza vengono rilasciate mensilmente da Google in cooperazione con i produttori di SoC per risolvere problemi che potrebbero essere sfruttati dalle app dannose per aggirare le restrizioni di sicurezza e causare danni permanenti al dispositivo. Le patch rese disponibili da Google sono applicate a tutti i dispositivi supportati, ma quelle relative ai componenti proprietari possono essere applicati solo dal produttore del dispositivo. Per mantenere il dispositivo sicuro, controlla che la tua versione di crDroid sia sempre aggiornata ed eventualmente assicurati che i componenti proprietari come firmware e immagine vendor siano quelli raccomandati da crDroid.</string>
     <string name="trust_feature_encryption">Cifratura</string>
     <string name="trust_feature_encryption_value_enabled">Attiva</string>
     <string name="trust_feature_encryption_value_nolock">Necessita di un blocco schermo sicuro</string>

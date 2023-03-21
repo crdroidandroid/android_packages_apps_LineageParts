@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS - Beállítások</string>
+    <string name="lineageparts_title">crDroid - Beállítások</string>
     <string name="loading">Betöltés\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Mégse</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Összes közreműködő:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Összes feladat:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Utolsó frissítés:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS statisztika</string>
-    <string name="anonymous_statistics_summary">Segítsen a LineageOS jobbá tételében, kapcsolja be a névtelen statisztikai adatok gyűjtését</string>
+    <string name="anonymous_statistics_title">crDroid statisztika</string>
+    <string name="anonymous_statistics_summary">Segítsen a crDroid jobbá tételében, kapcsolja be a névtelen statisztikai adatok gyűjtését</string>
     <string name="anonymous_statistics_warning_title">Névjegy</string>
-    <string name="anonymous_statistics_warning">A LineageOS statisztika engedélyezése nem terjed ki személyes adatokra, csak egy egyedi azonosítóval azonosítjuk az eszközöket. A beküldött adatok beleértve az egyedi azonosítót, nem veszélyeztetik az adatvédelmi vagy személyes adatokat. A statisztika minden rendszerindításkor elküldésre kerül.\n\nAz elküldött adatok menüpont alatt tekintheti meg a statisztikai adatokat.</string>
+    <string name="anonymous_statistics_warning">A crDroid statisztika engedélyezése nem terjed ki személyes adatokra, csak egy egyedi azonosítóval azonosítjuk az eszközöket. A beküldött adatok beleértve az egyedi azonosítót, nem veszélyeztetik az adatvédelmi vagy személyes adatokat. A statisztika minden rendszerindításkor elküldésre kerül.\n\nAz elküldött adatok menüpont alatt tekintheti meg a statisztikai adatokat.</string>
     <string name="enable_reporting_title">Statisztika engedélyezése</string>
     <string name="preview_data_title">Elküldött adatok</string>
     <string name="view_stats_title">Statisztika megtekintése</string>
@@ -510,7 +510,7 @@
     <string name="trust_feature_security_patches_value_new">Naprakész</string>
     <string name="trust_feature_security_patches_value_medium">Pár hónapja elavult</string>
     <string name="trust_feature_security_patches_value_old">Elavult</string>
-    <string name="trust_feature_security_patches_explain">Az Androidos biztonsági hibajavító csomagok havonta jelennek meg a Google és a SoC gyártók jóvoltából, a rendszerben fellépő olyan hibák kezelésére, amelyeket a rosszindulatú alkalmazások kihasználhatnak a biztonsági korlátozások megkerülésére, és ideiglenesen vagy tartósan károsíthatják a készüléket.\nMíg a platformjavítások havonta frissülnek globálisan, a gyártói javításokat csak időnként frissítik az OEM-eken keresztül.\nA készülékbiztonság megőrzéséhez győződjön meg róla, hogy az Ön LineageOS kiadása mindig naprakész-e, és (ha elérhető) biztosítja, hogy a gyártói képet a LineageOS által ajánlott legfrissebbre frissítse.</string>
+    <string name="trust_feature_security_patches_explain">Az Androidos biztonsági hibajavító csomagok havonta jelennek meg a Google és a SoC gyártók jóvoltából, a rendszerben fellépő olyan hibák kezelésére, amelyeket a rosszindulatú alkalmazások kihasználhatnak a biztonsági korlátozások megkerülésére, és ideiglenesen vagy tartósan károsíthatják a készüléket.\nMíg a platformjavítások havonta frissülnek globálisan, a gyártói javításokat csak időnként frissítik az OEM-eken keresztül.\nA készülékbiztonság megőrzéséhez győződjön meg róla, hogy az Ön crDroid kiadása mindig naprakész-e, és (ha elérhető) biztosítja, hogy a gyártói képet a crDroid által ajánlott legfrissebbre frissítse.</string>
     <string name="trust_feature_encryption">Titkosítás</string>
     <string name="trust_feature_encryption_value_enabled">Engedélyezve</string>
     <string name="trust_feature_encryption_value_nolock">Biztonságos zárolási képernyő szükséges</string>

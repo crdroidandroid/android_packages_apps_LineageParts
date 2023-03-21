@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS-Einstellungen</string>
+    <string name="lineageparts_title">crDroid-Einstellungen</string>
     <string name="loading">Wird geladen\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Abbrechen</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Mitwirkende insgesamt:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Beiträge insgesamt:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Letzte Aktualisierung:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS-Statistiken</string>
-    <string name="anonymous_statistics_summary">Helfen Sie uns, LineageOS zu verbessern, indem Sie dem Sammeln anonymer Gerätestatistiken zustimmen.</string>
+    <string name="anonymous_statistics_title">crDroid-Statistiken</string>
+    <string name="anonymous_statistics_summary">Helfen Sie uns, crDroid zu verbessern, indem Sie dem Sammeln anonymer Gerätestatistiken zustimmen.</string>
     <string name="anonymous_statistics_warning_title">Über</string>
-    <string name="anonymous_statistics_warning">Die Aktivierung der LineageOS-Statistiken ermöglicht die Übertragung von nicht-personenbezogenen Daten an die Entwickler von LineageOS. Die bei jedem Neustart des Geräts übermittelten Daten beeinträchtigen nicht die Privatsphäre, da sie keinerlei Rückschlüsse auf den Benutzer zulassen.\n\nFür ein Beispiel der gesendeten Daten bitte auf \"Vorschau\" klicken.</string>
+    <string name="anonymous_statistics_warning">Die Aktivierung der crDroid-Statistiken ermöglicht die Übertragung von nicht-personenbezogenen Daten an die Entwickler von crDroid. Die bei jedem Neustart des Geräts übermittelten Daten beeinträchtigen nicht die Privatsphäre, da sie keinerlei Rückschlüsse auf den Benutzer zulassen.\n\nFür ein Beispiel der gesendeten Daten bitte auf \"Vorschau\" klicken.</string>
     <string name="enable_reporting_title">Berichte einschalten</string>
     <string name="preview_data_title">Vorschau</string>
     <string name="view_stats_title">Statistiken anzeigen</string>
@@ -510,7 +510,7 @@
     <string name="trust_feature_security_patches_value_new">aktuell</string>
     <string name="trust_feature_security_patches_value_medium">einige Monate veraltet</string>
     <string name="trust_feature_security_patches_value_old">veraltet</string>
-    <string name="trust_feature_security_patches_explain">Sicherheitspatches werden monatlich von Google in Zusammenarbeit mit SoC-Anbietern veröffentlicht. Diese beheben Fehler, mittels derer bösartige Anwendungen Sicherheitseinschränkungen umgehen und dein Gerät dauerhaft beschädigen können. Von Google bereitgestellte Patches werden jeden Monat auf alle unterstützten Geräte angewendet, aber Patches für proprietären Code können nur vom Hersteller deines Gerätes bereitgestellt werden. Um dein Gerät sicher zu halten, aktualisiere LineageOS und (wenn möglich) dein Vendor-Image stets auf das von LineageOS empfohlene.</string>
+    <string name="trust_feature_security_patches_explain">Sicherheitspatches werden monatlich von Google in Zusammenarbeit mit SoC-Anbietern veröffentlicht. Diese beheben Fehler, mittels derer bösartige Anwendungen Sicherheitseinschränkungen umgehen und dein Gerät dauerhaft beschädigen können. Von Google bereitgestellte Patches werden jeden Monat auf alle unterstützten Geräte angewendet, aber Patches für proprietären Code können nur vom Hersteller deines Gerätes bereitgestellt werden. Um dein Gerät sicher zu halten, aktualisiere crDroid und (wenn möglich) dein Vendor-Image stets auf das von crDroid empfohlene.</string>
     <string name="trust_feature_encryption">Verschlüsselung</string>
     <string name="trust_feature_encryption_value_enabled">Aktiviert</string>
     <string name="trust_feature_encryption_value_nolock">Benötigt einen sicheren Sperrbildschirm</string>

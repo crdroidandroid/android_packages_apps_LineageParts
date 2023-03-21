@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Impostazions di LineageOS</string>
+    <string name="lineageparts_title">Impostazions di crDroid</string>
     <string name="loading">Daûr a cjariâ\u2026</string>
     <string name="dlg_ok">Va ben</string>
     <string name="cancel">Anule</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Totâl colaboradôrs:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Totâl contribûts:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Ultin inzornament:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Statistichis di LineageOS</string>
-    <string name="anonymous_statistics_summary">Jude a miorâ LineageOS permetint l\'inviament di statistichis anonimis</string>
+    <string name="anonymous_statistics_title">Statistichis di crDroid</string>
+    <string name="anonymous_statistics_summary">Jude a miorâ crDroid permetint l\'inviament di statistichis anonimis</string>
     <string name="anonymous_statistics_warning_title">Informazions</string>
-    <string name="anonymous_statistics_warning">Ativant lis statistichis di LineageOS  tu permetarâs di inviâ dâts, chei che no son personâi, ai
-        svilupadôrs di LineageOS par contâ il numar di instalazions sui dispositîfs. Lis informazions inviadis a includin un identificadôr univoc,
+    <string name="anonymous_statistics_warning">Ativant lis statistichis di crDroid  tu permetarâs di inviâ dâts, chei che no son personâi, ai
+        svilupadôrs di crDroid par contâ il numar di instalazions sui dispositîfs. Lis informazions inviadis a includin un identificadôr univoc,
         che nol vâ a tocjâ in nissune maniere la tô riservatece o i tiei dâts personâi. I dâts a vegnin mandâts a ogni inviament dal sisteme.\n\nPar viodi un esempli di dâts inviâts, tocje Anteprime Dâts.</string>
     <string name="enable_reporting_title">Ative i rapuarts</string>
     <string name="preview_data_title">Anteprime dâts</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">Inzornade</string>
     <string name="trust_feature_security_patches_value_medium">No inzornadis di cualchi mês</string>
     <string name="trust_feature_security_patches_value_old">No inzornadis</string>
-    <string name="trust_feature_security_patches_explain">Lis corezions di sigurece a vegnin publicadis ogni mês di Google in cooperazion cui produtôrs di SoC par risolvi problemis che a podaressin vignî sfrutâts da lis aplicazions malevulis par scjavalgjâ lis restrizions di sigurece e provocâ dams permanents al dispositîf. Lis corezions dadis fûr di Google a son aplicadis a ducj i dispositîfs supuartâts, ma chês relativis ai components proprietaris a puedin jessi aplicadis dome dal produtôr dal dispositîf. Par mantignî il dispositîf sigûr, controle che la tô version di LineageOS e sedi simpri inzornade e in câs controle che i components proprietaris, come i firmwares e la imagjin dal vendidôr, a sedin chei racomandâts di LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Lis corezions di sigurece a vegnin publicadis ogni mês di Google in cooperazion cui produtôrs di SoC par risolvi problemis che a podaressin vignî sfrutâts da lis aplicazions malevulis par scjavalgjâ lis restrizions di sigurece e provocâ dams permanents al dispositîf. Lis corezions dadis fûr di Google a son aplicadis a ducj i dispositîfs supuartâts, ma chês relativis ai components proprietaris a puedin jessi aplicadis dome dal produtôr dal dispositîf. Par mantignî il dispositîf sigûr, controle che la tô version di crDroid e sedi simpri inzornade e in câs controle che i components proprietaris, come i firmwares e la imagjin dal vendidôr, a sedin chei racomandâts di crDroid.</string>
     <string name="trust_feature_encryption">Criptazion</string>
     <string name="trust_feature_encryption_value_enabled">Ative</string>
     <string name="trust_feature_encryption_value_nolock">E necessite di une schermade di bloc sigure</string>

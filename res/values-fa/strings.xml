@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">تنظیمات LineageOS</string>
+    <string name="lineageparts_title">تنظیمات crDroid</string>
     <string name="loading">در حال بارگذاری\u2026</string>
     <string name="dlg_ok">باشه</string>
     <string name="cancel">لغو</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>کل مشارکت کنندگان:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>کل تعهدات:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>آخرین بروزرسانی:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">آمار LineageOS</string>
+    <string name="anonymous_statistics_title">آمار crDroid</string>
     <string name="anonymous_statistics_summary">با مشارکت در گزارش آمار ناشناس، به بهتر شدن سیستم عامل کمک کنید</string>
     <string name="anonymous_statistics_warning_title">درباره</string>
-    <string name="anonymous_statistics_warning">مشارکت در آمار LineageOS اجازه می‌دهد اطلاعات غیرشخصی به
-        توسعه‌دهنگان LineageOS ارسال شده تا به موارد خاص نصب در دستگاه‌های مختلف دسترسی پیدا شود. اطّلاعات ارسال‌ شده شامل یک شناسهٔ یکتا است
+    <string name="anonymous_statistics_warning">مشارکت در آمار crDroid اجازه می‌دهد اطلاعات غیرشخصی به
+        توسعه‌دهنگان crDroid ارسال شده تا به موارد خاص نصب در دستگاه‌های مختلف دسترسی پیدا شود. اطّلاعات ارسال‌ شده شامل یک شناسهٔ یکتا است
         که حریم خصوصی یا اطلاعات شخصی شما را در خطر افشا شدن قرار نمی‌دهد. این اطلاعات هر بار هنگام راه‌اندازی دستگاه ارسال می‌شوند.\n\nبرای مشاهدهٔ یک نمونه از اطلاعاتی که ارسال می‌شود، روی پیش‌نمایش داده‌ها ضربه بزنید.</string>
     <string name="enable_reporting_title">فعال کردن گزارش دهی</string>
     <string name="preview_data_title">پیش‌نمایش داده‌ها</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">به روز</string>
     <string name="trust_feature_security_patches_value_medium">چند ماه گذشته</string>
     <string name="trust_feature_security_patches_value_old">قدیمی</string>
-    <string name="trust_feature_security_patches_explain">وصله‌های امنیتی ماهانه توسط گوگل با همکاری فروشندگان SoC منتشر می‌شوند تا نقص‌هایی را برطرف کنند که می‌تواند توسط برنامه‌های مخرب برای دور زدن محدودیت‌های امنیتی و ایجاد آسیب دائمی به دستگاه شما استفاده شود. وصله‌هایی که توسط گوگل ارائه می‌شوند هر ماه روی تمامی دستگاه‌های پشتیبانی‌شده اعمال می‌شوند، اما وصله‌های کد اختصاصی تنها توسط سازنده دستگاه شما قابل اعمال هستند. برای ایمن نگه داشتن دستگاه خود، مطمئن شوید که نسخه LineageOS شما همیشه به‌روز است و (در صورت لزوم) اطمینان حاصل کنید که ایمیج فروشنده شما به آخرین نسخه توصیه‌شده توسط LineageOS به‌روز است.</string>
+    <string name="trust_feature_security_patches_explain">وصله‌های امنیتی ماهانه توسط گوگل با همکاری فروشندگان SoC منتشر می‌شوند تا نقص‌هایی را برطرف کنند که می‌تواند توسط برنامه‌های مخرب برای دور زدن محدودیت‌های امنیتی و ایجاد آسیب دائمی به دستگاه شما استفاده شود. وصله‌هایی که توسط گوگل ارائه می‌شوند هر ماه روی تمامی دستگاه‌های پشتیبانی‌شده اعمال می‌شوند، اما وصله‌های کد اختصاصی تنها توسط سازنده دستگاه شما قابل اعمال هستند. برای ایمن نگه داشتن دستگاه خود، مطمئن شوید که نسخه crDroid شما همیشه به‌روز است و (در صورت لزوم) اطمینان حاصل کنید که ایمیج فروشنده شما به آخرین نسخه توصیه‌شده توسط crDroid به‌روز است.</string>
     <string name="trust_feature_encryption">رمزنگاری</string>
     <string name="trust_feature_encryption_value_enabled">فعال</string>
     <string name="trust_feature_encryption_value_nolock">به یک صفحه قفل امن نیاز دارد</string>

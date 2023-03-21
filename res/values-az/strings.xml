@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS Ayarları</string>
+    <string name="lineageparts_title">crDroid Ayarları</string>
     <string name="loading">Yüklənir\u2026</string>
     <string name="dlg_ok">Oldu</string>
     <string name="cancel">İmtina</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Cəmi töhfə verənlər:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Cəmi daxil edilənlər:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Son güncəlləmə:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS statistikaları</string>
-    <string name="anonymous_statistics_summary">Anonim statistika göndərməni tərcih edərək, LineageOS-u təkmilləşdirməyimizə kömək edin</string>
+    <string name="anonymous_statistics_title">crDroid statistikaları</string>
+    <string name="anonymous_statistics_summary">Anonim statistika göndərməni tərcih edərək, crDroid-u təkmilləşdirməyimizə kömək edin</string>
     <string name="anonymous_statistics_warning_title">Haqqında</string>
-    <string name="anonymous_statistics_warning">LineageOS Statistikalarına daxil olmaq, cihazlar arasındakı unikal quraşdırmaların
-        izlənilməsi üçün LineageOS-un tərtibatçılarına şəxsi olmayan dataların göndərilməsinə icazə verəcək. Göndərilən məlumatlar, gizliliyiniz və ya şəxsi datanız
+    <string name="anonymous_statistics_warning">crDroid Statistikalarına daxil olmaq, cihazlar arasındakı unikal quraşdırmaların
+        izlənilməsi üçün crDroid-un tərtibatçılarına şəxsi olmayan dataların göndərilməsinə icazə verəcək. Göndərilən məlumatlar, gizliliyiniz və ya şəxsi datanız
         üçün təhlükəli olmayan unikal bir identifikator ehtiva edir. Datalar, hər açlış zamanı göndərilir.\n\nGöndərilən datalara nümunə olaraq \"Datanı önizlə\"yə toxunun.</string>
     <string name="enable_reporting_title">Hesabat göndərməni fəallaşdır</string>
     <string name="preview_data_title">Datanı önizlə</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">Güncəldir</string>
     <string name="trust_feature_security_patches_value_medium">Bir neçə ay köhnəlib</string>
     <string name="trust_feature_security_patches_value_old">Köhnəlib</string>
-    <string name="trust_feature_security_patches_explain">Güvənlik yamaqları Google tərəfindən, SoC satıcıları ilə əməkdaşlıq edilərək, güvənlik məhdudiyyətlərini ötürmək və cihazınıza zərər vurmaq üçün zərərli tətbiqlər tərəfindən istismar edilə biləcək çatışmazlıqları aradan qaldırmaq üçün aylıq olaraq yayımlanır. Google tərəfindən hazırlanan yamaqlar hər ay bütün dəstəklənən cihazlara tətbiq olunur, ancaq xüsusi kodlu yamaqlar yalnız cihazınızın istehsalçısı tərəfindən tətbiq oluna bilər. Cihazınızı güvənli şəkildə saxlamaq üçün LineageOS quruluşunuzun həmişə güncəl olduğuna və (mümkündürsə) satıcı faylınızın LineageOS tərəfindən məsləhət görülən ən son versiyaya güncəlləndiyinə əmin olun.</string>
+    <string name="trust_feature_security_patches_explain">Güvənlik yamaqları Google tərəfindən, SoC satıcıları ilə əməkdaşlıq edilərək, güvənlik məhdudiyyətlərini ötürmək və cihazınıza zərər vurmaq üçün zərərli tətbiqlər tərəfindən istismar edilə biləcək çatışmazlıqları aradan qaldırmaq üçün aylıq olaraq yayımlanır. Google tərəfindən hazırlanan yamaqlar hər ay bütün dəstəklənən cihazlara tətbiq olunur, ancaq xüsusi kodlu yamaqlar yalnız cihazınızın istehsalçısı tərəfindən tətbiq oluna bilər. Cihazınızı güvənli şəkildə saxlamaq üçün crDroid quruluşunuzun həmişə güncəl olduğuna və (mümkündürsə) satıcı faylınızın crDroid tərəfindən məsləhət görülən ən son versiyaya güncəlləndiyinə əmin olun.</string>
     <string name="trust_feature_encryption">Şifrələmə</string>
     <string name="trust_feature_encryption_value_enabled">Fəaldır</string>
     <string name="trust_feature_encryption_value_nolock">Təhlükəsiz bir kilid ekranı lazımdır</string>

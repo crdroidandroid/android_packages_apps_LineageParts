@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS Socruithe</string>
+    <string name="lineageparts_title">crDroid Socruithe</string>
     <string name="loading">Ag lódáil\u2026</string>
     <string name="dlg_ok">Ceart go leor</string>
     <string name="cancel">Cealaigh</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Iomlán ranníocóirí:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Tiomnaíonn tiomáintí:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Nuashonrú is déanaí:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Staitisticí LineageOS</string>
-    <string name="anonymous_statistics_summary">Cabhraigh le LineageOS a dhéanamh níos fearr trí leas a bhaint as tuairisciú staitisticí gan ainm</string>
+    <string name="anonymous_statistics_title">Staitisticí crDroid</string>
+    <string name="anonymous_statistics_summary">Cabhraigh le crDroid a dhéanamh níos fearr trí leas a bhaint as tuairisciú staitisticí gan ainm</string>
     <string name="anonymous_statistics_warning_title">Maidir</string>
-    <string name="anonymous_statistics_warning">Ceadófar sonraí neamhphearsanta a chur isteach chuig an bPríomh-Staidreamh i LineageOS
-        forbróirí LineageOS chun suiteálacha uathúla a rianú thar fheistí. Áirítear san fhaisnéis a cuireadh isteach aitheantóir uathúil,
+    <string name="anonymous_statistics_warning">Ceadófar sonraí neamhphearsanta a chur isteach chuig an bPríomh-Staidreamh i crDroid
+        forbróirí crDroid chun suiteálacha uathúla a rianú thar fheistí. Áirítear san fhaisnéis a cuireadh isteach aitheantóir uathúil,
         nach ndéanann dochar do phríobháideachas nó do shonraí pearsanta. Cuirtear na sonraí isteach le linn gach tosaithe.\n\nChun sampla de na sonraí a chuirtear isteach, tapáil ar Sonraí Réamhamhairc.</string>
     <string name="enable_reporting_title">Cumasaigh tuairisciú</string>
     <string name="preview_data_title">Sonraí réamhamhairc</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">Go dáta</string>
     <string name="trust_feature_security_patches_value_medium">Cúpla mí as dáta</string>
     <string name="trust_feature_security_patches_value_old">As dáta</string>
-    <string name="trust_feature_security_patches_explain">Eisíonn Google paistí slándála go míosúil i gcomhar le díoltóirí SoC chun aghaidh a thabhairt ar lochtanna a d’fhéadfadh aipeanna mailíseacha leas a bhaint astu chun srianta slándála a sheachbhóthar agus chun damáiste buan a dhéanamh do do ghléas. Cuirtear paistí a chuireann Google ar fáil gach mí ar gach gléas a dtacaítear leo, ach ní féidir ach le monaróir do ghléis paistí go dtí an cód dílseánaigh a chur i bhfeidhm. Chun do ghléas a choinneáil sábháilte déan cinnte go bhfuil do leagan LineageOS cothrom le dáta i gcónaí, agus (más infheidhme) cinntigh go ndéantar d’íomhá díoltóir a nuashonrú chuig an gceann is déanaí a mhol LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Eisíonn Google paistí slándála go míosúil i gcomhar le díoltóirí SoC chun aghaidh a thabhairt ar lochtanna a d’fhéadfadh aipeanna mailíseacha leas a bhaint astu chun srianta slándála a sheachbhóthar agus chun damáiste buan a dhéanamh do do ghléas. Cuirtear paistí a chuireann Google ar fáil gach mí ar gach gléas a dtacaítear leo, ach ní féidir ach le monaróir do ghléis paistí go dtí an cód dílseánaigh a chur i bhfeidhm. Chun do ghléas a choinneáil sábháilte déan cinnte go bhfuil do leagan crDroid cothrom le dáta i gcónaí, agus (más infheidhme) cinntigh go ndéantar d’íomhá díoltóir a nuashonrú chuig an gceann is déanaí a mhol crDroid.</string>
     <string name="trust_feature_encryption">Criptiú</string>
     <string name="trust_feature_encryption_value_enabled">Cumasaithe</string>
     <string name="trust_feature_encryption_value_nolock">Teastaíonn scáileán glas slán</string>

@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS stillingar</string>
+    <string name="lineageparts_title">crDroid stillingar</string>
     <string name="loading">Hleð inn\u2026</string>
     <string name="dlg_ok">Í lagi</string>
     <string name="cancel">Hætta við</string>
@@ -403,10 +403,10 @@
     <string name="contributors_cloud_failed_message">Gat ekki hlaðið inn upplýsingum um framlög</string>
     <string name="contributor_info_menu">Upplýsingar um þátttakanda</string>
     <string name="contributions_info_menu">Upplýsingar um framlög</string>
-    <string name="anonymous_statistics_title">Tölfræði LineageOS</string>
-    <string name="anonymous_statistics_summary">Hjálpaðu okkur við að gera LineageOS betra með því að skrá þig í að senda nafnlausa notkunartölfræði</string>
+    <string name="anonymous_statistics_title">Tölfræði crDroid</string>
+    <string name="anonymous_statistics_summary">Hjálpaðu okkur við að gera crDroid betra með því að skrá þig í að senda nafnlausa notkunartölfræði</string>
     <string name="anonymous_statistics_warning_title">Um hugbúnaðinn</string>
-    <string name="anonymous_statistics_warning">Ef tekið er þátt í tölfræðisöfnun LineageOS er gefið leyfi til að sendar séu ópresónugreinanleg gögn til forritara LineageOS til að fylgjast með einstökum uppsetningum á mismunandi tækjum. Meðal upplýsinganna sem sendar eru inn er einstakt auðkenni,
+    <string name="anonymous_statistics_warning">Ef tekið er þátt í tölfræðisöfnun crDroid er gefið leyfi til að sendar séu ópresónugreinanleg gögn til forritara crDroid til að fylgjast með einstökum uppsetningum á mismunandi tækjum. Meðal upplýsinganna sem sendar eru inn er einstakt auðkenni,
         sem þó skerðir ekki friðhelgi persónulegra gagna. Gögnin eru send inn í hverri ræsingu.\n\nTil að sjá dæmi um hverskyns gögn er verið að senda, skaltu ýta á forskoðun gagna.</string>
     <string name="enable_reporting_title">Virkja sendingu skýrslna</string>
     <string name="preview_data_title">Forskoðun gagna</string>
@@ -493,7 +493,7 @@
     <string name="trust_feature_security_patches_value_new">Nýjasta útgáfa</string>
     <string name="trust_feature_security_patches_value_medium">Nokkra mánuði úr takti</string>
     <string name="trust_feature_security_patches_value_old">Úrelt</string>
-    <string name="trust_feature_security_patches_explain">Google gefur út öryggisplástra mánaðarlega í sambandi við SoC öryggissérfræðinga til að bæta úr göllum, sem óvinveitt forrit gætu nýtt sér til að komast framhjá öryggistakmörkunum og þannig valdið alvarlegum skemmdum á kerfinu þínu. Öryggisplástrar Google eru settir inn í hverjum mánuði á öll studd tæki, en öryggisplástra á séreignakóða getur einungis framleiðandi tækisins sett inn. Til að halda tækinu þinu öruggu ættirðu að sjá til þess að útgáfa þín af LineageOS sé ávallt af nýjustu gerð og (ef við á) tryggja að kerfisdiskmynd framleiðanda sé uppfærð í þá nýjustu sem LineageOS mælir með.</string>
+    <string name="trust_feature_security_patches_explain">Google gefur út öryggisplástra mánaðarlega í sambandi við SoC öryggissérfræðinga til að bæta úr göllum, sem óvinveitt forrit gætu nýtt sér til að komast framhjá öryggistakmörkunum og þannig valdið alvarlegum skemmdum á kerfinu þínu. Öryggisplástrar Google eru settir inn í hverjum mánuði á öll studd tæki, en öryggisplástra á séreignakóða getur einungis framleiðandi tækisins sett inn. Til að halda tækinu þinu öruggu ættirðu að sjá til þess að útgáfa þín af crDroid sé ávallt af nýjustu gerð og (ef við á) tryggja að kerfisdiskmynd framleiðanda sé uppfærð í þá nýjustu sem crDroid mælir með.</string>
     <string name="trust_feature_encryption">Dulritun</string>
     <string name="trust_feature_encryption_value_enabled">Virkt</string>
     <string name="trust_feature_encryption_value_nolock">Þarf öruggan læsiskjá</string>
