@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS அமைப்புகள்</string>
+    <string name="lineageparts_title">crDroid அமைப்புகள்</string>
     <string name="loading">ஏற்றுகின்றது\u2026</string>
     <string name="dlg_ok">சரி</string>
     <string name="cancel">விலக்குக</string>
@@ -135,7 +135,7 @@
     <string name="network_traffic_show_units_on">இயக்குக</string>
     <string name="contributors_cloud_fragment_title">பங்களிப்பாளர்</string>
     <string name="contributors_cloud_loading_message">பங்களிப்பாளர் தரவு ஏற்றுகின்றது\u2026</string>
-    <string name="anonymous_statistics_title">LineageOS புள்ளிவிவரங்கள்</string>
+    <string name="anonymous_statistics_title">crDroid புள்ளிவிவரங்கள்</string>
     <string name="preview_country_title">நாடு</string>
     <string name="touchscreen_gesture_settings_title">தொடுதிரை மெய்ப்பாடுகள்</string>
     <string name="touchscreen_gesture_settings_summary">விரைவான செயல்களுக்காகப் பல்வேறு தொடுதிரை மெய்ப்பாடுகளை இயற்றுக</string>
