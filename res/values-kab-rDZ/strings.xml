@@ -16,7 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Iγewwaṛen n LineageOS</string>
+    <string name="lineageparts_title">Iγewwaṛen n crDroid</string>
     <string name="loading">Asali\u2026</string>
     <string name="dlg_ok">Ok</string>
     <string name="cancel">Sefex</string>
@@ -270,7 +270,7 @@
     <string name="network_traffic_mode_disable">Yensa</string>
     <string name="protected_apps_manager_title">Isnasen immestnen</string>
     <string name="contributors_cloud_fragment_title">Iwiziwen</string>
-    <string name="anonymous_statistics_title">Tiddadanin n LineageOS</string>
+    <string name="anonymous_statistics_title">Tiddadanin n crDroid</string>
     <string name="anonymous_statistics_warning_title">Awal ɣef...</string>
     <string name="view_stats_title">Wali tidaddanin</string>
     <string name="anonymous_learn_more">Issin ugar</string>
