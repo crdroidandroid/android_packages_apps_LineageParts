@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Nastavitve LineageOS</string>
+    <string name="lineageparts_title">Nastavitve crDroid</string>
     <string name="loading">Nalaganje \u2026</string>
     <string name="dlg_ok">V redu</string>
     <string name="cancel">Prekliči</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Skupaj sodelavcev:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Skupaj prispevkov:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Zadnja posodobitev:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Statistika LineageOS</string>
-    <string name="anonymous_statistics_summary">Pomagajte izboljšati LineageOS tako, da izberete pošiljanje anonimne statistike</string>
+    <string name="anonymous_statistics_title">Statistika crDroid</string>
+    <string name="anonymous_statistics_summary">Pomagajte izboljšati crDroid tako, da izberete pošiljanje anonimne statistike</string>
     <string name="anonymous_statistics_warning_title">O aplikaciji</string>
-    <string name="anonymous_statistics_warning">Izbira statistike LineageOS bo dovolila pošiljanje neosebnih podatkov
-        razvijalcem LineageOS-a, da lahko sledijo edinstvenim namestitvam v napravah. Poslani podatki vključujejo edinstven določilnik,
+    <string name="anonymous_statistics_warning">Izbira statistike crDroid bo dovolila pošiljanje neosebnih podatkov
+        razvijalcem crDroid-a, da lahko sledijo edinstvenim namestitvam v napravah. Poslani podatki vključujejo edinstven določilnik,
         ki ne ogroža vaše zasebnosti in osebnih podatkov. Podatki so poslani ob vsakem zagonu.\n\nZa primer poslanih podatkov tapnite Predogled podatkov.</string>
     <string name="enable_reporting_title">Omogoči poročanje</string>
     <string name="preview_data_title">Predogled podatkov</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">Posodobljeno</string>
     <string name="trust_feature_security_patches_value_medium">Nekaj mesecev zastarelo</string>
     <string name="trust_feature_security_patches_value_old">Zastarelo</string>
-    <string name="trust_feature_security_patches_explain">Varnostni popravki so izdani mesečno s strani Googla v sodelovanju s proizvajalci SoC-ov, da naslovijo pomanjkljivosti, ki jih lahko zlonamerne aplikacije izrabijo za obvoz varnostnih omejitev in lahko povzročijo trajne poškodbe vaše naprave. Popravki s strani Googla so na vseh podprtih napravah uveljavljeni vsak mesec, vendar so lahko popravki lastniške kode uveljavljeni samo s strani proizvajalca naprave. Da ohranite vašo napravo varno, poskrbite, da je vaša izgradnja LineageOS-a vedno posodobljena in (v kolikor je na voljo) odtis dobavitelja posodobobljen na zadnjo različico priporočeno s strani LineageOS-a.</string>
+    <string name="trust_feature_security_patches_explain">Varnostni popravki so izdani mesečno s strani Googla v sodelovanju s proizvajalci SoC-ov, da naslovijo pomanjkljivosti, ki jih lahko zlonamerne aplikacije izrabijo za obvoz varnostnih omejitev in lahko povzročijo trajne poškodbe vaše naprave. Popravki s strani Googla so na vseh podprtih napravah uveljavljeni vsak mesec, vendar so lahko popravki lastniške kode uveljavljeni samo s strani proizvajalca naprave. Da ohranite vašo napravo varno, poskrbite, da je vaša izgradnja crDroid-a vedno posodobljena in (v kolikor je na voljo) odtis dobavitelja posodobobljen na zadnjo različico priporočeno s strani crDroid-a.</string>
     <string name="trust_feature_encryption">Šifriranje</string>
     <string name="trust_feature_encryption_value_enabled">Omogočeno</string>
     <string name="trust_feature_encryption_value_nolock">Potreben je varni zaklenjen zaslon</string>

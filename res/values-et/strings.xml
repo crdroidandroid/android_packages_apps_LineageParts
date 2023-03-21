@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS\'i seaded</string>
+    <string name="lineageparts_title">crDroid\'i seaded</string>
     <string name="loading">Laadimine\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Tühista</string>
@@ -390,11 +390,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Panustajaid kokku:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Commite kokku:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Viimane uuendus:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS\'i statistika</string>
-    <string name="anonymous_statistics_summary">Aita LineageOS\'i paremaks teha, lülitades sisse anonüümse statistika raporteerimise</string>
+    <string name="anonymous_statistics_title">crDroid\'i statistika</string>
+    <string name="anonymous_statistics_summary">Aita crDroid\'i paremaks teha, lülitades sisse anonüümse statistika raporteerimise</string>
     <string name="anonymous_statistics_warning_title">Teave</string>
-    <string name="anonymous_statistics_warning">Lülitades sisse LineageOS\'i statistika, lubad sa isikustamata teabe saatmist
-        LineageOS\'i arendajatele, et nad saaksid jälgida seadmepõhiselt unikaalseid paigaldusi. Saadetud teabe hulgas on unikaalne identifikaator,
+    <string name="anonymous_statistics_warning">Lülitades sisse crDroid\'i statistika, lubad sa isikustamata teabe saatmist
+        crDroid\'i arendajatele, et nad saaksid jälgida seadmepõhiselt unikaalseid paigaldusi. Saadetud teabe hulgas on unikaalne identifikaator,
         mis ei ohusta sinu privaatsust ega isiklikke andmeid. Teave saadetakse igal käivitusel.\n\nEt näha saadetavate andmete näidet, koputa valikul
 andmete eelvaade.</string>
     <string name="enable_reporting_title">Luba raporteerimine</string>
@@ -478,7 +478,7 @@ andmete eelvaade.</string>
     <string name="trust_feature_security_patches_value_new">Ajakohane</string>
     <string name="trust_feature_security_patches_value_medium">Paar kuud vana</string>
     <string name="trust_feature_security_patches_value_old">Vananenud</string>
-    <string name="trust_feature_security_patches_explain">Google väljastab iga kuu turvapaikasid koostöös SoC tarnijatega, parandamaks vigu, mida võivad pahatahtlikud rakendused ära kasutada, et pääseda mööda turvapiirangutest ning põhjustada püsivat kahju sinu seadmele. Paigad, mille Google väljastab rakendatakse iga kuu kõikidele toetatud seadmetele, aga omandiõigustega koodile saab paiku määrata ainult sinu seadme tootja. Et hoida oma seade turvalisena, veendu, et sinu LineageOS järk on alati kaasaegne ning (võimalusel) veendu, et sinu tarnija tõmmis on uuendatud LineageOS\'i poolt viimasena soovitatud versioonile.</string>
+    <string name="trust_feature_security_patches_explain">Google väljastab iga kuu turvapaikasid koostöös SoC tarnijatega, parandamaks vigu, mida võivad pahatahtlikud rakendused ära kasutada, et pääseda mööda turvapiirangutest ning põhjustada püsivat kahju sinu seadmele. Paigad, mille Google väljastab rakendatakse iga kuu kõikidele toetatud seadmetele, aga omandiõigustega koodile saab paiku määrata ainult sinu seadme tootja. Et hoida oma seade turvalisena, veendu, et sinu crDroid järk on alati kaasaegne ning (võimalusel) veendu, et sinu tarnija tõmmis on uuendatud crDroid\'i poolt viimasena soovitatud versioonile.</string>
     <string name="trust_feature_encryption">Krüpteerimine</string>
     <string name="trust_feature_encryption_value_enabled">Lubatud</string>
     <string name="trust_feature_encryption_value_nolock">Vajab turvalist lukustuskuva</string>

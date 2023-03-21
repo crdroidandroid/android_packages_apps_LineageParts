@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS Postavke</string>
+    <string name="lineageparts_title">crDroid Postavke</string>
     <string name="loading">Učitavanje\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Odustani</string>
@@ -375,10 +375,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Svi suradnici:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Ukupno obveza</b><xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Zadnje ažuriranje</b><xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS statistika</string>
-    <string name="anonymous_statistics_summary">Pomozite nam poboljšati LineageOS slanjem anonimnih statističkih izvješća</string>
+    <string name="anonymous_statistics_title">crDroid statistika</string>
+    <string name="anonymous_statistics_summary">Pomozite nam poboljšati crDroid slanjem anonimnih statističkih izvješća</string>
     <string name="anonymous_statistics_warning_title">O</string>
-    <string name="anonymous_statistics_warning">Omogućavanjem slanja LineageOS statistike dozvolit će se da se neosobni podaci dostave razvojnom timu LineageOS-a kako bi se pratio broj pojedinačnih instalacija na različite uređaje. Informacije koje se šalju sadrže jedinstvenu identifikaciju koja ne kompromitira privatnost ili osobne podatke. Podaci se šalju pri svakom pokretanju uređaja.\n\nZa primjer podataka koji se šalju, dodirnite pregled podataka.</string>
+    <string name="anonymous_statistics_warning">Omogućavanjem slanja crDroid statistike dozvolit će se da se neosobni podaci dostave razvojnom timu crDroid-a kako bi se pratio broj pojedinačnih instalacija na različite uređaje. Informacije koje se šalju sadrže jedinstvenu identifikaciju koja ne kompromitira privatnost ili osobne podatke. Podaci se šalju pri svakom pokretanju uređaja.\n\nZa primjer podataka koji se šalju, dodirnite pregled podataka.</string>
     <string name="enable_reporting_title">Omogući izvješća</string>
     <string name="preview_data_title">Pretpregled podataka</string>
     <string name="view_stats_title">Vidi statistiku</string>

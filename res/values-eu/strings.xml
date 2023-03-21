@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS ezarpenak</string>
+    <string name="lineageparts_title">crDroid ezarpenak</string>
     <string name="loading">Kargatzen\u2026</string>
     <string name="dlg_ok">Ados</string>
     <string name="cancel">Utzi</string>
@@ -366,10 +366,10 @@
     <string name="contributors_cloud_failed_message">Ezin izan dira parte-hartzaileen datuak kargatu</string>
     <string name="contributor_info_menu">Parte-hartzailearen informazioa</string>
     <string name="contributions_info_menu">Parte-hartzeen informazioa</string>
-    <string name="anonymous_statistics_title">LineageOS estatistikak</string>
-    <string name="anonymous_statistics_summary">LineageOS hobetzen lagundu estatistika anonimoak bidaliz</string>
+    <string name="anonymous_statistics_title">crDroid estatistikak</string>
+    <string name="anonymous_statistics_summary">crDroid hobetzen lagundu estatistika anonimoak bidaliz</string>
     <string name="anonymous_statistics_warning_title">Honi buruz</string>
-    <string name="anonymous_statistics_warning">LineageOS-en estatistiken bilketa eta bidaltzea baimenduz, informazio ez pertsonala LineageOS garatzaileei bidaltzea baimentzen duzu, gailuetan burutzen diren instalazioen jarraipenerako. Bidalitako informazioak identifikadore esklusibo eta anonimo bat darama.
+    <string name="anonymous_statistics_warning">crDroid-en estatistiken bilketa eta bidaltzea baimenduz, informazio ez pertsonala crDroid garatzaileei bidaltzea baimentzen duzu, gailuetan burutzen diren instalazioen jarraipenerako. Bidalitako informazioak identifikadore esklusibo eta anonimo bat darama.
 Informazio hau gailuaren abio bakoitzean bidaltzen da.\n\nBidalitako informazioaren adibide bat ikusteko, sakatu Aurreikusi datuak.</string>
     <string name="enable_reporting_title">Gaitu txosten bidalketa</string>
     <string name="preview_data_title">Aurreikusi datuak</string>
@@ -446,7 +446,7 @@ Informazio hau gailuaren abio bakoitzean bidaltzen da.\n\nBidalitako informazioa
     <string name="trust_feature_selinux_explain">SELinux-ek prozesuek zeintsu fitxategi edo bide atzitzeko baimena duten agintzen du.\nHonek aplikazio eta zerbitzuek ez dagozkien fitxategiak atzitu ahal izatea ekiditen du: honela potentzialki gaiztoa den prozesu batek sarbide mugatua du eta zure segurtasuna babesten da.</string>
     <string name="trust_feature_security_patches">Android segurtasun partxeak</string>
     <string name="trust_feature_security_patches_value_base">Plataforma: %1$s\nEkoizlea: %2$s</string>
-    <string name="trust_feature_security_patches_explain">Segurtasun partxeak hilabetero kaleratzen ditu Googlek ekoizleekin elkarlanean, aplikazio gaizkileek segurtasun mugak inguratzeko eta gailuan kalte iraunkorra sortzeko erabili ditzaketen ahuleziak konpontzeko. Googlek argitaratutako partxeak onartutako gailu guztietan aplikatzen dira hilabetero, baina jabeduna den kodean ekoizleak besterik ezin du aplikatu partxea. Gailua seguru mantentzeko egiaztatu LineageOS beti egunean dagoela eta (baldin eta badagokio) egiaztatu zure ekoizlearen irudia LineageOS-ek aholkatutako azkenera eguneratu dela.</string>
+    <string name="trust_feature_security_patches_explain">Segurtasun partxeak hilabetero kaleratzen ditu Googlek ekoizleekin elkarlanean, aplikazio gaizkileek segurtasun mugak inguratzeko eta gailuan kalte iraunkorra sortzeko erabili ditzaketen ahuleziak konpontzeko. Googlek argitaratutako partxeak onartutako gailu guztietan aplikatzen dira hilabetero, baina jabeduna den kodean ekoizleak besterik ezin du aplikatu partxea. Gailua seguru mantentzeko egiaztatu crDroid beti egunean dagoela eta (baldin eta badagokio) egiaztatu zure ekoizlearen irudia crDroid-ek aholkatutako azkenera eguneratu dela.</string>
     <string name="trust_feature_encryption">Zifratzea</string>
     <string name="trust_feature_encryption_value_enabled">Gaituta</string>
     <string name="trust_feature_encryption_value_nolock">Blokeo-pantaila seguru bat behar du</string>

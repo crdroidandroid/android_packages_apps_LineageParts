@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS 설정</string>
+    <string name="lineageparts_title">crDroid 설정</string>
     <string name="loading">불러오는 중\u2026</string>
     <string name="dlg_ok">확인</string>
     <string name="cancel">취소</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>총 기여자:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>총 변경 사항:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>마지막 업데이트:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS 통계</string>
-    <string name="anonymous_statistics_summary">익명의 통계 자료를 보내 LineageOS 개선에 도움 주기</string>
+    <string name="anonymous_statistics_title">crDroid 통계</string>
+    <string name="anonymous_statistics_summary">익명의 통계 자료를 보내 crDroid 개선에 도움 주기</string>
     <string name="anonymous_statistics_warning_title">정보</string>
-    <string name="anonymous_statistics_warning">LineageOS 통계를 사용하면 장치 고유의 설치 상태를 추적하기 위해 개인 정보를 포함하지 않은 정보가 LineageOS의 개발자에게 전송됩니다. 정보는 매번 부팅할 때마다 전송됩니다.\n\n전송되는 정보를 보려면 데이터 미리보기를 누르세요.</string>
+    <string name="anonymous_statistics_warning">crDroid 통계를 사용하면 장치 고유의 설치 상태를 추적하기 위해 개인 정보를 포함하지 않은 정보가 crDroid의 개발자에게 전송됩니다. 정보는 매번 부팅할 때마다 전송됩니다.\n\n전송되는 정보를 보려면 데이터 미리보기를 누르세요.</string>
     <string name="enable_reporting_title">보고 사용</string>
     <string name="preview_data_title">데이터 미리보기</string>
     <string name="view_stats_title">통계 보기</string>
@@ -510,7 +510,7 @@
     <string name="trust_feature_security_patches_value_new">최신</string>
     <string name="trust_feature_security_patches_value_medium">수 개월 지남</string>
     <string name="trust_feature_security_patches_value_old">오래됨</string>
-    <string name="trust_feature_security_patches_explain">보안 패치는 Google이 SoC 공급업체와의 협력으로 매월 발표됩니다. 이 보안 패치는 유해한 앱을 통해 보안을 우회하여 기기를 영구적으로 손상시킬 수 있는 취약점을 막아냅니다. Google에서 제공하는 패치는 지원하는 모든 기기에 적용할 수 있으나, 비공개 코드에 대한 패치는 기기의 공급업체에서 패치를 제공해야만 적용할 수 있습니다. 기기를 보호하려면 LineageOS를 항상 최신 버전으로 업데이트하고, 가능하면 기기의 공급업체 이미지가 LineageOS에서 권장하는 최신 이미지인지 확인하세요.</string>
+    <string name="trust_feature_security_patches_explain">보안 패치는 Google이 SoC 공급업체와의 협력으로 매월 발표됩니다. 이 보안 패치는 유해한 앱을 통해 보안을 우회하여 기기를 영구적으로 손상시킬 수 있는 취약점을 막아냅니다. Google에서 제공하는 패치는 지원하는 모든 기기에 적용할 수 있으나, 비공개 코드에 대한 패치는 기기의 공급업체에서 패치를 제공해야만 적용할 수 있습니다. 기기를 보호하려면 crDroid를 항상 최신 버전으로 업데이트하고, 가능하면 기기의 공급업체 이미지가 crDroid에서 권장하는 최신 이미지인지 확인하세요.</string>
     <string name="trust_feature_encryption">암호화</string>
     <string name="trust_feature_encryption_value_enabled">활성화됨</string>
     <string name="trust_feature_encryption_value_nolock">보안성 높은 잠금 화면 필요</string>

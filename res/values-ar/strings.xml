@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">إعدادات LineageOS</string>
+    <string name="lineageparts_title">إعدادات crDroid</string>
     <string name="loading">تحميل\u2026</string>
     <string name="dlg_ok">موافق</string>
     <string name="cancel">إلغاء</string>
@@ -390,10 +390,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>إجمالي المساهمين:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  إجمالي الالتزامات:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>آخر تحديث:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">إحصائيات نظام LineageOS</string>
-    <string name="anonymous_statistics_summary">ساهم في جعل LineageOS أفضل بإرسال تقارير الإحصائيات</string>
+    <string name="anonymous_statistics_title">إحصائيات نظام crDroid</string>
+    <string name="anonymous_statistics_summary">ساهم في جعل crDroid أفضل بإرسال تقارير الإحصائيات</string>
     <string name="anonymous_statistics_warning_title">حول</string>
-    <string name="anonymous_statistics_warning">بالموافقة على المشاركة في إحصائيات LineageOS سيسمح بإرسال البيانات غير الشخصية إلى مطوري LineageOS لتعقب الإصدارات المثبتة على مختلف الأجهزة كلٍ على حدة. وتشمل المعلومات المقدمة معرفًا فريدًا من نوعه، وبالتالي لا تتعرض خصوصيتك أو بياناتك الشخصية للخطر. تُرسل البيانات عند التشغيل في كل مرة.\n\n للإطلاع على مثال للبيانات التي يتم إرسالها، اضغط على معاينة البيانات.</string>
+    <string name="anonymous_statistics_warning">بالموافقة على المشاركة في إحصائيات crDroid سيسمح بإرسال البيانات غير الشخصية إلى مطوري crDroid لتعقب الإصدارات المثبتة على مختلف الأجهزة كلٍ على حدة. وتشمل المعلومات المقدمة معرفًا فريدًا من نوعه، وبالتالي لا تتعرض خصوصيتك أو بياناتك الشخصية للخطر. تُرسل البيانات عند التشغيل في كل مرة.\n\n للإطلاع على مثال للبيانات التي يتم إرسالها، اضغط على معاينة البيانات.</string>
     <string name="enable_reporting_title">تفعيل إرسال التقارير</string>
     <string name="preview_data_title">معاينة البيانات</string>
     <string name="view_stats_title">عرض الإحصائيات</string>
@@ -478,7 +478,7 @@
     <string name="trust_feature_security_patches_value_new">آخِر إصدار</string>
     <string name="trust_feature_security_patches_value_medium">بضعة أشهر قبل آخر تحديث</string>
     <string name="trust_feature_security_patches_value_old">غير محدّث</string>
-    <string name="trust_feature_security_patches_explain">تصدر تصحيحات الأمان شهريًا من Google بالتعاون مع موردي SoC لمعالجة العيوب التي يمكن استغلالها من قبل تطبيقات خبيثة لتجاوز القيود الأمنية ويتسبب في ذلك في ضرر دائم لجهازك. التحديثات التي أتاحتها Google تطبق كل شهر على جميع الأجهزة المدعومة، ولكن يمكن تطبيق تصحيحات رمز الملكية فقط من الشركة المصنعة لجهازك. للحفاظ على جعل جهازك آمن برجاء التأكد بأن اصدار LineageOS الخاص بك محدث باستمرار، وضمان تحديث (إذا كان ممكنًا) صورة موردك إلى آخر اصدار موصى به من LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">تصدر تصحيحات الأمان شهريًا من Google بالتعاون مع موردي SoC لمعالجة العيوب التي يمكن استغلالها من قبل تطبيقات خبيثة لتجاوز القيود الأمنية ويتسبب في ذلك في ضرر دائم لجهازك. التحديثات التي أتاحتها Google تطبق كل شهر على جميع الأجهزة المدعومة، ولكن يمكن تطبيق تصحيحات رمز الملكية فقط من الشركة المصنعة لجهازك. للحفاظ على جعل جهازك آمن برجاء التأكد بأن اصدار crDroid الخاص بك محدث باستمرار، وضمان تحديث (إذا كان ممكنًا) صورة موردك إلى آخر اصدار موصى به من crDroid.</string>
     <string name="trust_feature_encryption">التشفير</string>
     <string name="trust_feature_encryption_value_enabled">مفعل</string>
     <string name="trust_feature_encryption_value_nolock">يحتاج شاشة قفل آمنة</string>

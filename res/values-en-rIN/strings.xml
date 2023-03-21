@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS Settings</string>
+    <string name="lineageparts_title">crDroid Settings</string>
     <string name="loading">Loading\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Cancel</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Total contributors:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Total commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Last update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS statistics</string>
-    <string name="anonymous_statistics_summary">Help make LineageOS better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">crDroid statistics</string>
+    <string name="anonymous_statistics_summary">Help make crDroid better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into LineageOS Statistics will allow non-personal data to be submitted to the
-        developers of LineageOS to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into crDroid Statistics will allow non-personal data to be submitted to the
+        developers of crDroid to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">Up to date</string>
     <string name="trust_feature_security_patches_value_medium">A few months out of date</string>
     <string name="trust_feature_security_patches_value_old">Out of date</string>
-    <string name="trust_feature_security_patches_explain">Security patches are released monthly by Google in cooperation with SoC vendors to address flaws which could be exploited by malicious apps to bypass security restrictions and cause permanent damage to your device. Patches made available by Google are applied every month on all supported devices, but patches to proprietary code can only be applied by your device\'s manufacturer. To keep your device safe make sure your LineageOS build is always up-to-date, and (if applicable) ensure your vendor image is updated to the latest one recommended by LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Security patches are released monthly by Google in cooperation with SoC vendors to address flaws which could be exploited by malicious apps to bypass security restrictions and cause permanent damage to your device. Patches made available by Google are applied every month on all supported devices, but patches to proprietary code can only be applied by your device\'s manufacturer. To keep your device safe make sure your crDroid build is always up-to-date, and (if applicable) ensure your vendor image is updated to the latest one recommended by crDroid.</string>
     <string name="trust_feature_encryption">Encryption</string>
     <string name="trust_feature_encryption_value_enabled">Enabled</string>
     <string name="trust_feature_encryption_value_nolock">Needs a secure lock screen</string>

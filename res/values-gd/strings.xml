@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Roghainnean LineageOS</string>
+    <string name="lineageparts_title">Roghainnean crDroid</string>
     <string name="loading">’Ga luchdadh\u2026</string>
     <string name="dlg_ok">Ceart ma-thà</string>
     <string name="cancel">Sguir dheth</string>
@@ -396,11 +396,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Com-pàirtichean iomlan:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Commits iomlan:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>An t-ùrachadh mu dheireadh:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Stadastaireachd air LineageOS</string>
-    <string name="anonymous_statistics_summary">Cuidich leinn a thoirt piseach air LineageOS is tu a’ cur aithrisean stadastaireachd gun urra an comas</string>
+    <string name="anonymous_statistics_title">Stadastaireachd air crDroid</string>
+    <string name="anonymous_statistics_summary">Cuidich leinn a thoirt piseach air crDroid is tu a’ cur aithrisean stadastaireachd gun urra an comas</string>
     <string name="anonymous_statistics_warning_title">Mu dhèidhinn</string>
-    <string name="anonymous_statistics_warning">Ma cheadaicheas tu gun cruinnich LineageOS stadastaireachd, thèid dàta neo-phearsanta a chur a-null gu
-        luchd-leasachaidh LineageOS airson stàlaidhean fa leth a thracadh thar uidheaman. Gabhaidh am fiosrachadh a thèid a chur a-null a-steach aithnichear àraidh
+    <string name="anonymous_statistics_warning">Ma cheadaicheas tu gun cruinnich crDroid stadastaireachd, thèid dàta neo-phearsanta a chur a-null gu
+        luchd-leasachaidh crDroid airson stàlaidhean fa leth a thracadh thar uidheaman. Gabhaidh am fiosrachadh a thèid a chur a-null a-steach aithnichear àraidh
         nach bris a-steach air do phrìobhaideachd no dàta phearsanta. Thèid an dàta a chur a-null gach turas a thèid an t-uidheam a bhùtadh.\n\nAirson ball-eisimpleir dhen dàta a thèid a chur a-null, thòir gnogag air “Ro-sheall an dàta”.</string>
     <string name="enable_reporting_title">Cuir na h-aithrisean an comas</string>
     <string name="preview_data_title">Ro-sheall an dàta</string>
@@ -487,7 +487,7 @@
     <string name="trust_feature_security_patches_value_new">Cho ùr ’s a ghabhas</string>
     <string name="trust_feature_security_patches_value_medium">Corra mìos ro shean</string>
     <string name="trust_feature_security_patches_value_old">Dh’fhalbh an ùine air</string>
-    <string name="trust_feature_security_patches_explain">Sgaoilidh Google ’s reiceadairean SoC brèidean tèarainteachd gach mìos a dhèiligeas ri easbhaidhean a b’ urrainn do dh’aplacaidean droch-rùnach a chleachdadh airson cuingeachaidhean tèarainteachd a sheachnadh is cron maireannach a dhèanamh air an uidheam agad. Thèid na brèidean a chuireas Google gu làimh a chur an sàs gach mìos air gach uidheam ris a bheil taic ach cha ghabh brèidean air còd fo shealbh a chur an sàs ach le dèanadair an uidheim agad. Airson an t-uidheam agad a chumail sàbhailte, dèan cinnteach gu bheil an togail agad dhe LineageOS cho ùr ’s a ghabhas an-còmhnaidh agus (ma tha seo iomchaidh) dèan cinnteach gun deach ìomhaigh an reiceadair agad ùrachadh dhan fhear as ùire a mholas LineageOS dhut.</string>
+    <string name="trust_feature_security_patches_explain">Sgaoilidh Google ’s reiceadairean SoC brèidean tèarainteachd gach mìos a dhèiligeas ri easbhaidhean a b’ urrainn do dh’aplacaidean droch-rùnach a chleachdadh airson cuingeachaidhean tèarainteachd a sheachnadh is cron maireannach a dhèanamh air an uidheam agad. Thèid na brèidean a chuireas Google gu làimh a chur an sàs gach mìos air gach uidheam ris a bheil taic ach cha ghabh brèidean air còd fo shealbh a chur an sàs ach le dèanadair an uidheim agad. Airson an t-uidheam agad a chumail sàbhailte, dèan cinnteach gu bheil an togail agad dhe crDroid cho ùr ’s a ghabhas an-còmhnaidh agus (ma tha seo iomchaidh) dèan cinnteach gun deach ìomhaigh an reiceadair agad ùrachadh dhan fhear as ùire a mholas crDroid dhut.</string>
     <string name="trust_feature_encryption">Crioptachadh</string>
     <string name="trust_feature_encryption_value_enabled">An comas</string>
     <string name="trust_feature_encryption_value_nolock">Feumach air sgrìn-ghlasaidh thèarainte</string>

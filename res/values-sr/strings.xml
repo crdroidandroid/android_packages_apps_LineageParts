@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Подешавања LineageOS-а</string>
+    <string name="lineageparts_title">Подешавања crDroid-а</string>
     <string name="loading">Учитавам\u2026</string>
     <string name="dlg_ok">У реду</string>
     <string name="cancel">Откажи</string>
@@ -365,9 +365,9 @@
     <string name="contributor_info_menu">Подаци о сарадницима</string>
     <string name="contributions_info_menu">Општа статистика</string>
     <string name="anonymous_statistics_title">Слање статистике</string>
-    <string name="anonymous_statistics_summary">Помозите нам да побољшамо LineageOS тако што ћете дозволити слање анонимне статистике.</string>
+    <string name="anonymous_statistics_summary">Помозите нам да побољшамо crDroid тако што ћете дозволити слање анонимне статистике.</string>
     <string name="anonymous_statistics_warning_title">Информације</string>
-    <string name="anonymous_statistics_warning">Анонимни подаци омогућавају програмерима LineageOS-а да прате рад ОС на различитим уређајима. Јединствени идентификатор, који не угрожава вашу приватност, шаље се по сваком подизању система.\n\nДа бисте видели пример, додирните „Прегледај податке“.</string>
+    <string name="anonymous_statistics_warning">Анонимни подаци омогућавају програмерима crDroid-а да прате рад ОС на различитим уређајима. Јединствени идентификатор, који не угрожава вашу приватност, шаље се по сваком подизању система.\n\nДа бисте видели пример, додирните „Прегледај податке“.</string>
     <string name="enable_reporting_title">Омогући</string>
     <string name="preview_data_title">Прегледај податке</string>
     <string name="view_stats_title">Прикажи статистику</string>
@@ -443,7 +443,7 @@
     <string name="trust_feature_selinux_explain">SELinux одређује који процеси имају приступ којим фајловима/путањама на Вашем уређају.\nОво спречава апликације и сервисе да добију приступ фајловима којима не би требало: овако се малициозни процеси ограничавају и осигурава се ваша сигурност.</string>
     <string name="trust_feature_security_patches">Андроид безбедоносне закрпе</string>
     <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nДобављач: %2$s</string>
-    <string name="trust_feature_security_patches_explain">Сигуроносне закрпе се раде на месечном нивоу од стране Google-а у сарадњи са SoC добављачем да реше преблеме које могу искористити злонамерне апликације да заобиђу сигурносне рестрикције и да трајно оштете уређај. Закрпе које су доступне Google прави сваког месеца на свим подржаним уређајима, али закрпе може поставити само произвођач уређаја. Да осигурате сигурност уређаја нека LineageOS увек буде ажуриран, и (ако је примењиво) осигурајте да је слика добављача ажурирана по препоруци LineageOS-а.</string>
+    <string name="trust_feature_security_patches_explain">Сигуроносне закрпе се раде на месечном нивоу од стране Google-а у сарадњи са SoC добављачем да реше преблеме које могу искористити злонамерне апликације да заобиђу сигурносне рестрикције и да трајно оштете уређај. Закрпе које су доступне Google прави сваког месеца на свим подржаним уређајима, али закрпе може поставити само произвођач уређаја. Да осигурате сигурност уређаја нека crDroid увек буде ажуриран, и (ако је примењиво) осигурајте да је слика добављача ажурирана по препоруци crDroid-а.</string>
     <string name="trust_feature_encryption">Enkripcija</string>
     <string name="trust_feature_encryption_value_enabled">Омогућено</string>
     <string name="trust_feature_encryption_value_nolock">Захтева безбедни екран закљувања</string>

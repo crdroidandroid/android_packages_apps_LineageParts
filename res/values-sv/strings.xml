@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Inställningar för LineageOS</string>
+    <string name="lineageparts_title">Inställningar för crDroid</string>
     <string name="loading">Laddar\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Avbryt</string>
@@ -331,11 +331,11 @@
     <string name="network_traffic_show_units_on">På</string>
     <string name="protected_apps_manager_title">Skyddade appar</string>
     <string name="contributors_cloud_fragment_title">Bidragsgivare</string>
-    <string name="anonymous_statistics_title">LineageOS-statistik</string>
-    <string name="anonymous_statistics_summary">Hjälp till att göra LineageOS bättre genom att skicka in anonym statistik</string>
+    <string name="anonymous_statistics_title">crDroid-statistik</string>
+    <string name="anonymous_statistics_summary">Hjälp till att göra crDroid bättre genom att skicka in anonym statistik</string>
     <string name="anonymous_statistics_warning_title">Om</string>
-    <string name="anonymous_statistics_warning">Att delta i LineageOS statistikprogram tillåter att icke-personlig data skickas till
-        LineageOS-utvecklarna för att spåra unika installationer mellan enheter. Den delgivna informationen innehåller ett unikt ID-nummer,
+    <string name="anonymous_statistics_warning">Att delta i crDroid statistikprogram tillåter att icke-personlig data skickas till
+        crDroid-utvecklarna för att spåra unika installationer mellan enheter. Den delgivna informationen innehåller ett unikt ID-nummer,
         som inte kränker din integritet eller dina personliga data. Datan skickas varje gång enheten startas.\n\nFör ett exempel på den data som skickas, tryck på Förhandsgranska data.</string>
     <string name="preview_data_title">Förhandsgranska data</string>
     <string name="view_stats_title">Visa statistik</string>
@@ -389,7 +389,7 @@
     <string name="trust_feature_selinux_explain">SELinux bestämmer vilka filer och sökvägar olika processer har åtkomst till.\nFunktionen förhindrar appar och tjänster från att komma åt filer de inte ska kunna komma åt, och begränsar därigenom möjligheten för skadlig programvara att äventyra säkerheten.</string>
     <string name="trust_feature_security_patches">Säkerhetsuppdateringar för Android</string>
     <string name="trust_feature_security_patches_value_base">Plattform: %1$s\nTillverkare: %2$s</string>
-    <string name="trust_feature_security_patches_explain">Varje månad släpper Google säkerhetsuppdateringar tillsammans med chiptillverkare för att rätta till säkerhetsfel som skadlig programvara skulle kunna använda för att ta sig runt säkerhetsreglerna och skada enheten. LineageOS tillämpar Googles korrigeringar en gång i månaden på alla enheter som stöds men tillverkarspecifik programkod kan bara korrigeras av tillverkarna. För att hålla din enhet säker bör du se till att du använder den senaste versionen av LineageOS samt att systemets fasta programvara har uppdaterats till den senaste versionen som LineageOS rekommenderar.</string>
+    <string name="trust_feature_security_patches_explain">Varje månad släpper Google säkerhetsuppdateringar tillsammans med chiptillverkare för att rätta till säkerhetsfel som skadlig programvara skulle kunna använda för att ta sig runt säkerhetsreglerna och skada enheten. crDroid tillämpar Googles korrigeringar en gång i månaden på alla enheter som stöds men tillverkarspecifik programkod kan bara korrigeras av tillverkarna. För att hålla din enhet säker bör du se till att du använder den senaste versionen av crDroid samt att systemets fasta programvara har uppdaterats till den senaste versionen som crDroid rekommenderar.</string>
     <string name="trust_feature_encryption">Kryptering</string>
     <string name="trust_feature_encryption_value_nolock">En säker låsskärm behövs</string>
     <string name="trust_feature_encryption_explain">Är din enhet krypterad går det inte att komma åt informationen på enheten innan Android har startats. Det är särskilt viktigt om någon stjäl din enhet eftersom det förhindrar andra från att se dina meddelanden, kontakter, och annan känslig information utan ditt lösenord.\nKrypteringen blir effektivare ju säkrare lösenord du ställer in.</string>

@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Ρυθμίσεις LineageOS</string>
+    <string name="lineageparts_title">Ρυθμίσεις crDroid</string>
     <string name="loading">Φόρτωση\u2026</string>
     <string name="dlg_ok">ΟΚ</string>
     <string name="cancel">Ακύρωση</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>Σύνολο συνεισφερόντων:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Σύνολο συνεισφορών:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Τελευταία ενημέρωση:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Στατιστικά LineageOS</string>
-    <string name="anonymous_statistics_summary">Βοηθήστε το LineageOS να γίνει καλύτερο ενεργοποιώντας την αποστολή ανώνυμων στατιστικών στοιχείων</string>
+    <string name="anonymous_statistics_title">Στατιστικά crDroid</string>
+    <string name="anonymous_statistics_summary">Βοηθήστε το crDroid να γίνει καλύτερο ενεργοποιώντας την αποστολή ανώνυμων στατιστικών στοιχείων</string>
     <string name="anonymous_statistics_warning_title">Σχετικά</string>
-    <string name="anonymous_statistics_warning">Ενεργοποιώντας τα στατιστικά του LineageOS επιτρέπετε την αποστολή
-        μη προσωπικών δεδομένων στους προγραμματιστές του LineageOS για παρακολούθηση του αριθμού μοναδικών εγκαταστάσεων
+    <string name="anonymous_statistics_warning">Ενεργοποιώντας τα στατιστικά του crDroid επιτρέπετε την αποστολή
+        μη προσωπικών δεδομένων στους προγραμματιστές του crDroid για παρακολούθηση του αριθμού μοναδικών εγκαταστάσεων
         σε όλες τις συσκευές. Οι πληροφορίες που αποστέλλονται συμπεριλαμβάνουν ένα μοναδικό αναγνωριστικό, το οποίο δεν θέτει
         σε κίνδυνο την ασφάλεια σας ή τα προσωπικά δεδομένα. Τα δεδομένα αποστέλλονται σε κάθε εκκίνηση.\n\nΓια ένα παράδειγμα
         των δεδομένων που αποστέλλονται, πατήστε στην Προεπισκόπηση δεδομένων.</string>
@@ -514,7 +514,7 @@
     <string name="trust_feature_security_patches_value_new">Ενημερωμένη</string>
     <string name="trust_feature_security_patches_value_medium">Μερικούς μήνες παλιά</string>
     <string name="trust_feature_security_patches_value_old">Ξεπερασμένη</string>
-    <string name="trust_feature_security_patches_explain">Οι ενημερωμένες εκδόσεις ασφαλείας αποστέλλονται κάθε μήνα από την Google σε συνεργασία με τους κατασκευαστές SoC για την αντιμετώπιση σφαλμάτων τα οποία θα μπορούσαν να εκμεταλλευτούν από κακόβουλες εφαρμογές για να παρακάμψουν τους περιορισμούς ασφαλείας και να προκαλέσουν μόνιμη βλάβη στη συσκευή σας.\nΟι ενημερώσεις ασφαλείας που διατίθενται από την Google εφαρμόζονται για όλες τις υποστηριζόμενες συσκευές κάθε μήνα, αλλά οι ενημερώσεις ασφαλείας για κλειστό κώδικα μπορούν να εφαρμοστούν μόνο από τον κατασκευαστή της συσκευής σας.\nΓια να διατηρήσετε τη συσκευή σας ασφαλή, βεβαιωθείτε ότι χρησιμοποιείτε πάντα μια ενημερωμένη έκδοση του LineageOS και (ενδεχομένως) σιγουρευτείτε ότι η εικόνα \"vendor\" είναι ενημερωμένη στην πιο πρόσφατη έκδοση προτεινόμενη από το LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Οι ενημερωμένες εκδόσεις ασφαλείας αποστέλλονται κάθε μήνα από την Google σε συνεργασία με τους κατασκευαστές SoC για την αντιμετώπιση σφαλμάτων τα οποία θα μπορούσαν να εκμεταλλευτούν από κακόβουλες εφαρμογές για να παρακάμψουν τους περιορισμούς ασφαλείας και να προκαλέσουν μόνιμη βλάβη στη συσκευή σας.\nΟι ενημερώσεις ασφαλείας που διατίθενται από την Google εφαρμόζονται για όλες τις υποστηριζόμενες συσκευές κάθε μήνα, αλλά οι ενημερώσεις ασφαλείας για κλειστό κώδικα μπορούν να εφαρμοστούν μόνο από τον κατασκευαστή της συσκευής σας.\nΓια να διατηρήσετε τη συσκευή σας ασφαλή, βεβαιωθείτε ότι χρησιμοποιείτε πάντα μια ενημερωμένη έκδοση του crDroid και (ενδεχομένως) σιγουρευτείτε ότι η εικόνα \"vendor\" είναι ενημερωμένη στην πιο πρόσφατη έκδοση προτεινόμενη από το crDroid.</string>
     <string name="trust_feature_encryption">Κρυπτογράφηση</string>
     <string name="trust_feature_encryption_value_enabled">Ενεργή</string>
     <string name="trust_feature_encryption_value_nolock">Απαιτεί ασφαλή οθόνη κλειδώματος</string>

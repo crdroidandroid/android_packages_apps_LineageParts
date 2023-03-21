@@ -365,10 +365,10 @@
     <string name="contributors_cloud_failed_message">Не вдалося завантажити дані учасників</string>
     <string name="contributor_info_menu">Інформація учасника</string>
     <string name="contributions_info_menu">Загальна статистика</string>
-    <string name="anonymous_statistics_title">Статистика LineageOS</string>
-    <string name="anonymous_statistics_summary">Допоможіть зробити LineageOS кращим, відправляючи анонімну статистику</string>
+    <string name="anonymous_statistics_title">Статистика crDroid</string>
+    <string name="anonymous_statistics_summary">Допоможіть зробити crDroid кращим, відправляючи анонімну статистику</string>
     <string name="anonymous_statistics_warning_title">Про</string>
-    <string name="anonymous_statistics_warning">Анонімні звіти дозволяють розробникам LineageOS відстежувати роботу ОС на різних пристроях. Інформація, що відправляється включає назву пристрою, версію прошивки і унікальний ідентифікатор, що ніяким чином не впливає на Вашу конфіденційність. Дані відправляються при кожному завантаженні пристрою.\n\nЩоб переглянути приклад, натисніть \"Попередній перегляд даних\".</string>
+    <string name="anonymous_statistics_warning">Анонімні звіти дозволяють розробникам crDroid відстежувати роботу ОС на різних пристроях. Інформація, що відправляється включає назву пристрою, версію прошивки і унікальний ідентифікатор, що ніяким чином не впливає на Вашу конфіденційність. Дані відправляються при кожному завантаженні пристрою.\n\nЩоб переглянути приклад, натисніть \"Попередній перегляд даних\".</string>
     <string name="enable_reporting_title">Увімкнути надсилання звітів</string>
     <string name="preview_data_title">Попередній перегляд даних</string>
     <string name="view_stats_title">Перегляд статистики</string>

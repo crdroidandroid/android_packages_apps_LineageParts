@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Nastavenia LineageOS</string>
+    <string name="lineageparts_title">Nastavenia crDroid</string>
     <string name="loading">Nahrávanie\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Zrušiť</string>
@@ -391,10 +391,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Celkom prispievateľov:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Celkom príspevkov:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Posledná aktualizácia:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Štatistiky LineageOS</string>
-    <string name="anonymous_statistics_summary">Pomôžte zlepšiť LineageOS povolením anonymných štatistických hlásení</string>
+    <string name="anonymous_statistics_title">Štatistiky crDroid</string>
+    <string name="anonymous_statistics_summary">Pomôžte zlepšiť crDroid povolením anonymných štatistických hlásení</string>
     <string name="anonymous_statistics_warning_title">O</string>
-    <string name="anonymous_statistics_warning">Povolením štatistík LineageOS súhlasíte s odosielaním neosobných údajov vývojárom LineageOSu, za účelom evidencie jedinečných inštalácií naprieč všetkými zariadeniami. Informácie obsahujú unikátny identifikátor, ktorý neohrozuje vaše súkromné alebo osobné údaje. Údaje sú odoslané pri každom spustení.\n\nNa ukážku odosielaných údajov kliknite na Prehľad údajov.</string>
+    <string name="anonymous_statistics_warning">Povolením štatistík crDroid súhlasíte s odosielaním neosobných údajov vývojárom crDroidu, za účelom evidencie jedinečných inštalácií naprieč všetkými zariadeniami. Informácie obsahujú unikátny identifikátor, ktorý neohrozuje vaše súkromné alebo osobné údaje. Údaje sú odoslané pri každom spustení.\n\nNa ukážku odosielaných údajov kliknite na Prehľad údajov.</string>
     <string name="enable_reporting_title">Povoliť hlásenia</string>
     <string name="preview_data_title">Prehľad údajov</string>
     <string name="view_stats_title">Zobraziť štatistiky</string>
@@ -476,7 +476,7 @@
     <string name="trust_feature_security_patches_value_new">Aktuálne</string>
     <string name="trust_feature_security_patches_value_medium">Staré niekoľko mesiacov</string>
     <string name="trust_feature_security_patches_value_old">Neaktuálne</string>
-    <string name="trust_feature_security_patches_explain">Bezpečnostné záplaty sú vydávané mesačne spoločnosťou Google a dodávateľmi SoC na riešenie nedostatkov v systéme, ktoré by mohli byť zneužiť škodlivými aplikáciami na obídenie bezpečnostných obmedzení a mohli by spôsobiť dočasné alebo trvalé poškodenie vášho zariadenia.\nZatiaľ čo záplaty platformy sú aktualizované globálne každý mesiac, záplaty OEM dodávateľov sú aktualizované z času na čas.\nAk chcete, aby vaše zariadenie bolo v bezpečí, uistite sa, že vaša zostava LineageOS je vždy aktuálna.</string>
+    <string name="trust_feature_security_patches_explain">Bezpečnostné záplaty sú vydávané mesačne spoločnosťou Google a dodávateľmi SoC na riešenie nedostatkov v systéme, ktoré by mohli byť zneužiť škodlivými aplikáciami na obídenie bezpečnostných obmedzení a mohli by spôsobiť dočasné alebo trvalé poškodenie vášho zariadenia.\nZatiaľ čo záplaty platformy sú aktualizované globálne každý mesiac, záplaty OEM dodávateľov sú aktualizované z času na čas.\nAk chcete, aby vaše zariadenie bolo v bezpečí, uistite sa, že vaša zostava crDroid je vždy aktuálna.</string>
     <string name="trust_feature_encryption">Šifrovanie</string>
     <string name="trust_feature_encryption_value_enabled">Zapnuté</string>
     <string name="trust_feature_encryption_value_nolock">Je potrebná zabezpečená obrazovka uzamknutia</string>

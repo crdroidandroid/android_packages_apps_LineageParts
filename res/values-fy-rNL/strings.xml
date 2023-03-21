@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS-ynstellingen</string>
+    <string name="lineageparts_title">crDroid-ynstellingen</string>
     <string name="loading">Lade\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Annulearje</string>
@@ -369,10 +369,10 @@
     <string name="contributors_cloud_failed_message">Kin ynformaasje oer meiwurkers net lade</string>
     <string name="contributor_info_menu">Meiwurkersynformaasje</string>
     <string name="contributions_info_menu">Meiwurkersynformaasje</string>
-    <string name="anonymous_statistics_title">LineageOS-statistiken</string>
-    <string name="anonymous_statistics_summary">Help LineageOS te ferbetterjen troch anonime statistiken te ferstjoeren</string>
+    <string name="anonymous_statistics_title">crDroid-statistiken</string>
+    <string name="anonymous_statistics_summary">Help crDroid te ferbetterjen troch anonime statistiken te ferstjoeren</string>
     <string name="anonymous_statistics_warning_title">Oer</string>
-    <string name="anonymous_statistics_warning">Troch statistiken ferstjoere ta te stean wurde wylst it opstarten anonime gegevens nei de ûntwikkelers fan LineageOS ferstjoerd om unike ynstallaasjes folgje te kinnen. Yn de gegevens sit in unyk id-nûmer ferwurke, dat jo privacy net skeint.\n\nOm in foarbyld te sjen, tikke jo op ‘Foarbyld fan gegevens’.</string>
+    <string name="anonymous_statistics_warning">Troch statistiken ferstjoere ta te stean wurde wylst it opstarten anonime gegevens nei de ûntwikkelers fan crDroid ferstjoerd om unike ynstallaasjes folgje te kinnen. Yn de gegevens sit in unyk id-nûmer ferwurke, dat jo privacy net skeint.\n\nOm in foarbyld te sjen, tikke jo op ‘Foarbyld fan gegevens’.</string>
     <string name="enable_reporting_title">Statistiken ferstjoere</string>
     <string name="preview_data_title">Foarbyld fan gegevens</string>
     <string name="view_stats_title">Statistiken toane</string>
@@ -451,7 +451,7 @@
     <string name="trust_feature_selinux_explain">SELinux bepaalt hokker prosessen tagong hawwe ta hokker bestannen/mappen op jo apparaat.\nDit foarkomt dat applikaasjes en tsjinsten tagong krije ta bestannen dy\'t se net nedich hawwe: op dizze manier wurdt in potinsjeel kwea-aardich proses beheind en jo feilichheid behâlden.</string>
     <string name="trust_feature_security_patches">Android-befeiligingspatches</string>
     <string name="trust_feature_security_patches_value_base">Platfoarm: %1$s\nLeveransier: %2$s</string>
-    <string name="trust_feature_security_patches_explain">Befeiligingspatches wurde elke moanne troch Google frijjûn yn gearwurking mei SoC-leveransiers om flaters oan te pakken dy\'t misbrûkt wurde kinne troch kweawollende apps om befeiligingsbeheiningen te omsilen en permaninte skea oan jo apparaat te feroarsaakjen. Patches dy\'t troch Google beskikber steld wurde, wurde elke moanne op alle stipe apparaten tapast, mar patches foar bedriuwseigen koade kinne allinnich troch de fabrikant fan jo apparaat tapast wurde. Om jo apparaat feilich te hâlden, moatte jo derfoar soargje dat jo LineageOS-build altyd by-de-tiid is en (wannear fan tapassing) soargje dat jo leveransiers-image fernijd wurdt nei de lêste dy\'t troch LineageOS oanrekommandearre wurdt.</string>
+    <string name="trust_feature_security_patches_explain">Befeiligingspatches wurde elke moanne troch Google frijjûn yn gearwurking mei SoC-leveransiers om flaters oan te pakken dy\'t misbrûkt wurde kinne troch kweawollende apps om befeiligingsbeheiningen te omsilen en permaninte skea oan jo apparaat te feroarsaakjen. Patches dy\'t troch Google beskikber steld wurde, wurde elke moanne op alle stipe apparaten tapast, mar patches foar bedriuwseigen koade kinne allinnich troch de fabrikant fan jo apparaat tapast wurde. Om jo apparaat feilich te hâlden, moatte jo derfoar soargje dat jo crDroid-build altyd by-de-tiid is en (wannear fan tapassing) soargje dat jo leveransiers-image fernijd wurdt nei de lêste dy\'t troch crDroid oanrekommandearre wurdt.</string>
     <string name="trust_feature_encryption">Fersifering</string>
     <string name="trust_feature_encryption_value_enabled">Ynskeakele</string>
     <string name="trust_feature_encryption_value_nolock">Fereasket in feilich beskoattelingsskerm</string>

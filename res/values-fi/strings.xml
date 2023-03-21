@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS Asetukset</string>
+    <string name="lineageparts_title">crDroid Asetukset</string>
     <string name="loading">Ladataan\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Peruuta</string>
@@ -391,10 +391,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Kehittäjiä yhteensä:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Muutoksia yhteensä:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Päivitetty:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS-tilastot</string>
-    <string name="anonymous_statistics_summary">Auta tekemään LineageOSista parempi tarjoamalla anonyymejä tilastoraportteja</string>
+    <string name="anonymous_statistics_title">crDroid-tilastot</string>
+    <string name="anonymous_statistics_summary">Auta tekemään crDroidista parempi tarjoamalla anonyymejä tilastoraportteja</string>
     <string name="anonymous_statistics_warning_title">Tietoja</string>
-    <string name="anonymous_statistics_warning">LineageOS-tilastojen käyttöönotto mahdollistaa anonyymien tietojen lähettämisen LineageOSin kehittäjille, jotta laitteiden järjestelmäasennuksia voidaan seurata. Tiedot sisältävät yksilöllisen tunnisteen, joka ei vaaranna henkilökohtaisia tietojasi. Tietoja lähetetään jokaisella uudelleenkäynnistyskerralla.\n\nValitse Esikatsele tietoja nähdäksesi, millaisia tietoja laitteestasi lähetetään.</string>
+    <string name="anonymous_statistics_warning">crDroid-tilastojen käyttöönotto mahdollistaa anonyymien tietojen lähettämisen crDroidin kehittäjille, jotta laitteiden järjestelmäasennuksia voidaan seurata. Tiedot sisältävät yksilöllisen tunnisteen, joka ei vaaranna henkilökohtaisia tietojasi. Tietoja lähetetään jokaisella uudelleenkäynnistyskerralla.\n\nValitse Esikatsele tietoja nähdäksesi, millaisia tietoja laitteestasi lähetetään.</string>
     <string name="enable_reporting_title">Ota raportointi käyttöön</string>
     <string name="preview_data_title">Esikatsele tietoja</string>
     <string name="view_stats_title">Näytä tilastot</string>
@@ -473,7 +473,7 @@
     <string name="trust_feature_selinux_explain">SELinux määrittelee millä prosesseilla on pääsy laitteesi tiedostoihin/polkuihin.\nTämä ehkäisee sovelluksia ja palveluita pääsemästä tiedostoihin joihin niiden ei kuuluisi päästä: tällä tavalla potentiaaliset haitalliset prosessit estetään, ja turvallisuutesi turvataan.</string>
     <string name="trust_feature_security_patches">Android-tietoturvakorjaukset</string>
     <string name="trust_feature_security_patches_value_base">Alusta: %1$s\nValmistaja: %2$s</string>
-    <string name="trust_feature_security_patches_explain">Google julkaisee tietoturvapäivityksiä kuukausittain yhteistyössä alustan valmistajien kanssa korjatakseen ongelmia joita haitalliset sovellukset voisivat käyttää ohittaakseen turvallisuusmäärityksiä ja aiheuttaakseen vahinkoa laitteellesi. Googlen julkaisemat päivitykset lisätään joka kuukausi kaikkiin tuettuihin laitteisiin, mutta suljettuun koodiin tehdyt muutokset voi julkaista vain laitteen valmistaja. Pitääksesi laitteesi turvassa, varmista että käytössä on aina tuore LineageOS-koontiversio, ja (jos mahdollista) laitevalmistajan versio on viimeisin LineageOS:n suosittelema.</string>
+    <string name="trust_feature_security_patches_explain">Google julkaisee tietoturvapäivityksiä kuukausittain yhteistyössä alustan valmistajien kanssa korjatakseen ongelmia joita haitalliset sovellukset voisivat käyttää ohittaakseen turvallisuusmäärityksiä ja aiheuttaakseen vahinkoa laitteellesi. Googlen julkaisemat päivitykset lisätään joka kuukausi kaikkiin tuettuihin laitteisiin, mutta suljettuun koodiin tehdyt muutokset voi julkaista vain laitteen valmistaja. Pitääksesi laitteesi turvassa, varmista että käytössä on aina tuore crDroid-koontiversio, ja (jos mahdollista) laitevalmistajan versio on viimeisin crDroid:n suosittelema.</string>
     <string name="trust_feature_encryption">Salaus</string>
     <string name="trust_feature_encryption_value_enabled">Käytössä</string>
     <string name="trust_feature_encryption_value_nolock">Vaatii turvallisen lukitusnäytön</string>

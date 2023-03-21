@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">การตั้งค่า LineageOS</string>
+    <string name="lineageparts_title">การตั้งค่า crDroid</string>
     <string name="loading">กำลังโหลด\u2026</string>
     <string name="dlg_ok">ตกลง</string>
     <string name="cancel">ยกเลิก</string>
@@ -378,10 +378,10 @@
     <string name="contributors_cloud_failed_message">ไม่สามารถโหลดข้อมูลผู้ร่วมพัฒนา</string>
     <string name="contributor_info_menu">ข้อมูลผู้ร่วมพัฒนา</string>
     <string name="contributions_info_menu">ข้อมูลผู้ร่วมพัฒนา</string>
-    <string name="anonymous_statistics_title">สถิติ LineageOS</string>
-    <string name="anonymous_statistics_summary">ช่วยทำให้ LineageOS ดีขึ้นโดยการส่งรายงานสถิติแบบไม่ระบุตัวตน</string>
+    <string name="anonymous_statistics_title">สถิติ crDroid</string>
+    <string name="anonymous_statistics_summary">ช่วยทำให้ crDroid ดีขึ้นโดยการส่งรายงานสถิติแบบไม่ระบุตัวตน</string>
     <string name="anonymous_statistics_warning_title">เกี่ยวกับ</string>
-    <string name="anonymous_statistics_warning">การส่งสถิติแบบไม่ระบุตัวตนไปยัง LineageOS จะอนุญาตให้ส่งข้อมูลที่ไม่ใช่ข้อมูลส่วนตัวไปยังนักพัฒนาของ LineageOS เพื่อติดตามการติดตั้งบนอุปกรณ์ทั้งหมด ข้อมูลที่ถูกส่งรวมไปถึงตัวระบุลักษณะเฉพาะ\n\nซึ่งไม่ส่งผลกระทบต่อความเป็นส่วนตัวและข้อมูลส่วนบุคคลของคุณ โดยจะส่งข้อมูลทุกครั้งที่เริ่มระบบ\n\n แตะ \"แสดงตัวอย่างข้อมูล\" เพื่อดูตัวอย่างข้อมูลที่ถูกส่ง</string>
+    <string name="anonymous_statistics_warning">การส่งสถิติแบบไม่ระบุตัวตนไปยัง crDroid จะอนุญาตให้ส่งข้อมูลที่ไม่ใช่ข้อมูลส่วนตัวไปยังนักพัฒนาของ crDroid เพื่อติดตามการติดตั้งบนอุปกรณ์ทั้งหมด ข้อมูลที่ถูกส่งรวมไปถึงตัวระบุลักษณะเฉพาะ\n\nซึ่งไม่ส่งผลกระทบต่อความเป็นส่วนตัวและข้อมูลส่วนบุคคลของคุณ โดยจะส่งข้อมูลทุกครั้งที่เริ่มระบบ\n\n แตะ \"แสดงตัวอย่างข้อมูล\" เพื่อดูตัวอย่างข้อมูลที่ถูกส่ง</string>
     <string name="enable_reporting_title">เปิดใช้งานการรายงาน</string>
     <string name="preview_data_title">แสดงตัวอย่างข้อมูล</string>
     <string name="view_stats_title">ดูสถิติ</string>
@@ -463,7 +463,7 @@
     <string name="trust_feature_security_patches_value_new">รุ่นล่าสุด</string>
     <string name="trust_feature_security_patches_value_medium">ล้าหลังไม่กี่เดือน</string>
     <string name="trust_feature_security_patches_value_old">ล้าสมัย</string>
-    <string name="trust_feature_security_patches_explain">Google ออกแพตช์รักษาความปลอดภัยเป็นประจำทุกเดือนโดยร่วมมือกับผู้ขาย SoC เพื่อแก้ไขข้อบกพร่องซึ่งอาจถูกใช้โดยแอปที่เป็นอันตรายเพื่อข้ามข้อจำกัดในด้านความปลอดภัยและทำให้อุปกรณ์ของคุณเสียหายอย่างถาวร Google มีการติดตั้งแพตช์แก้ไขทุกเดือนในอุปกรณ์ที่รองรับทั้งหมด แต่ผู้ผลิตอุปกรณ์ของคุณสามารถแก้ไขข้อบกพร่องสำหรับโค้ดที่เป็นกรรมสิทธิ์ได้เท่านั้น เพื่อให้อุปกรณ์ของคุณปลอดภัยตรวจสอบให้แน่ใจว่ารุ่น LineageOS ที่คุณใช้งานอยู่เป็นรุ่นล่าสุดอยู่เสมอและ (ถ้ามี) ให้แน่ใจว่าไฟล์ภาพผู้ขายของคุณได้รับการอัปเดตเป็นรุ่นล่าสุดที่ถูกแนะนำโดย LineageOS</string>
+    <string name="trust_feature_security_patches_explain">Google ออกแพตช์รักษาความปลอดภัยเป็นประจำทุกเดือนโดยร่วมมือกับผู้ขาย SoC เพื่อแก้ไขข้อบกพร่องซึ่งอาจถูกใช้โดยแอปที่เป็นอันตรายเพื่อข้ามข้อจำกัดในด้านความปลอดภัยและทำให้อุปกรณ์ของคุณเสียหายอย่างถาวร Google มีการติดตั้งแพตช์แก้ไขทุกเดือนในอุปกรณ์ที่รองรับทั้งหมด แต่ผู้ผลิตอุปกรณ์ของคุณสามารถแก้ไขข้อบกพร่องสำหรับโค้ดที่เป็นกรรมสิทธิ์ได้เท่านั้น เพื่อให้อุปกรณ์ของคุณปลอดภัยตรวจสอบให้แน่ใจว่ารุ่น crDroid ที่คุณใช้งานอยู่เป็นรุ่นล่าสุดอยู่เสมอและ (ถ้ามี) ให้แน่ใจว่าไฟล์ภาพผู้ขายของคุณได้รับการอัปเดตเป็นรุ่นล่าสุดที่ถูกแนะนำโดย crDroid</string>
     <string name="trust_feature_encryption">การเข้ารหัส</string>
     <string name="trust_feature_encryption_value_enabled">เปิดใช้งาน</string>
     <string name="trust_feature_encryption_value_nolock">ต้องการหน้าจอล็อกที่ปลอดภัย</string>

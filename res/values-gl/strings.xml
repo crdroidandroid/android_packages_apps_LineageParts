@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Configuración de LineageOS</string>
+    <string name="lineageparts_title">Configuración de crDroid</string>
     <string name="loading">Cargando\u2026</string>
     <string name="dlg_ok">ACEPTAR</string>
     <string name="cancel">Cancelar</string>
@@ -397,10 +397,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Colaboradores totais:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Total de contribucións:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Última actualización:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS estadisticas</string>
-    <string name="anonymous_statistics_summary">Axude a mellorar LineageOS enviando informes de estatísiticas anónimas</string>
+    <string name="anonymous_statistics_title">crDroid estadisticas</string>
+    <string name="anonymous_statistics_summary">Axude a mellorar crDroid enviando informes de estatísiticas anónimas</string>
     <string name="anonymous_statistics_warning_title">Sobre</string>
-    <string name="anonymous_statistics_warning">Optar polo envío de estatísticas LineageOS permitirá que se transmitan datos non personais aos desenvolvedores de LineageOS para rastrear intalacións únicas através dos dispositivos. Os datos transmitidos teñen un identificador único, que non compromete a súa privacidade ou datos persoais. Os datos serán enviados cada vez que se inicie.\n\nPara ver un exemplo dos datos van ser enviados, toque en Previsualizar datos.</string>
+    <string name="anonymous_statistics_warning">Optar polo envío de estatísticas crDroid permitirá que se transmitan datos non personais aos desenvolvedores de crDroid para rastrear intalacións únicas através dos dispositivos. Os datos transmitidos teñen un identificador único, que non compromete a súa privacidade ou datos persoais. Os datos serán enviados cada vez que se inicie.\n\nPara ver un exemplo dos datos van ser enviados, toque en Previsualizar datos.</string>
     <string name="enable_reporting_title">Activar envío de estatísticas</string>
     <string name="preview_data_title">Previsualizar datos</string>
     <string name="view_stats_title">Ver as estatísticas</string>
@@ -486,7 +486,7 @@
     <string name="trust_feature_security_patches_value_new">Actualizada</string>
     <string name="trust_feature_security_patches_value_medium">Desactualizada desde hai uns meses</string>
     <string name="trust_feature_security_patches_value_old">Desactualizada</string>
-    <string name="trust_feature_security_patches_explain">Os parches de seguranza son liberados mensualmente por Google coa cooperación dos fabricantes de SoC para corrixir fallos que poden ser aproveitados por aplicacións maliciosas para saltar as restricións de seguranza e causar danos permanentes o teu dispositivo. Os parches dispoñíbeis dende Google aplícanse mensualmente en tódolos dispositivos compatíbeis, agás os de código propietario que serán aplicados polo fabricante do teu dispositivo. Para manter o teu dispositivo seguro verifica que a versión do LineageOS está actualizada, e (se aplica) asegúrate que a imaxe do teu fabricante está actualizada á máis recente recomendada polo equipo do LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Os parches de seguranza son liberados mensualmente por Google coa cooperación dos fabricantes de SoC para corrixir fallos que poden ser aproveitados por aplicacións maliciosas para saltar as restricións de seguranza e causar danos permanentes o teu dispositivo. Os parches dispoñíbeis dende Google aplícanse mensualmente en tódolos dispositivos compatíbeis, agás os de código propietario que serán aplicados polo fabricante do teu dispositivo. Para manter o teu dispositivo seguro verifica que a versión do crDroid está actualizada, e (se aplica) asegúrate que a imaxe do teu fabricante está actualizada á máis recente recomendada polo equipo do crDroid.</string>
     <string name="trust_feature_encryption">Cifrado</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>
     <string name="trust_feature_encryption_value_nolock">Precisas dunha pantalla de bloqueo segura</string>

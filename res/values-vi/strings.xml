@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Cài Đặt LineageOS</string>
+    <string name="lineageparts_title">Cài Đặt crDroid</string>
     <string name="loading">Đang tải\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Hủy</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Tổng những người đóng góp:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Tổng đóng góp:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Cập nhật mới nhất:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Thống kê LineageOS</string>
-    <string name="anonymous_statistics_summary">Giúp cho LineageOS tốt hơn bằng cách chọn vào báo cáo số liệu thống kê ẩn danh</string>
+    <string name="anonymous_statistics_title">Thống kê crDroid</string>
+    <string name="anonymous_statistics_summary">Giúp cho crDroid tốt hơn bằng cách chọn vào báo cáo số liệu thống kê ẩn danh</string>
     <string name="anonymous_statistics_warning_title">Về</string>
-    <string name="anonymous_statistics_warning">Chọn tham gia Thống kê LineageOS sẽ cho phép gửi dữ liệu không liên quan đến cá nhân đến những nhà phát triển của LineageOS để theo dõi số lượt cài đặt duy nhất trên các thiết bị. Thông tin đã gửi sẽ bao gồm một ký hiệu nhận dạng duy nhất, nó sẽ không ảnh hưởng đến sự riêng tư hoặc dữ liệu cá nhân của bạn. Dữ liệu được gửi vào mỗi lần khởi động.\n\nĐể xem mẫu dữ liệu được gửi, chạm vào Xem trước dữ liệu.</string>
+    <string name="anonymous_statistics_warning">Chọn tham gia Thống kê crDroid sẽ cho phép gửi dữ liệu không liên quan đến cá nhân đến những nhà phát triển của crDroid để theo dõi số lượt cài đặt duy nhất trên các thiết bị. Thông tin đã gửi sẽ bao gồm một ký hiệu nhận dạng duy nhất, nó sẽ không ảnh hưởng đến sự riêng tư hoặc dữ liệu cá nhân của bạn. Dữ liệu được gửi vào mỗi lần khởi động.\n\nĐể xem mẫu dữ liệu được gửi, chạm vào Xem trước dữ liệu.</string>
     <string name="enable_reporting_title">Cho phép báo cáo</string>
     <string name="preview_data_title">Xem trước dữ liệu</string>
     <string name="view_stats_title">Xem thống kê</string>
@@ -510,7 +510,7 @@
     <string name="trust_feature_security_patches_value_new">Đã cập nhật</string>
     <string name="trust_feature_security_patches_value_medium">Đã hết hạn một vài tháng</string>
     <string name="trust_feature_security_patches_value_old">Đã cũ</string>
-    <string name="trust_feature_security_patches_explain">Các bản vá bảo mật được Google phát hành hàng tháng với sự hợp tác của các nhà cung cấp SoC để giải quyết các lỗi có thể bị các ứng dụng độc hại khai thác để vượt qua các hạn chế bảo mật và gây thiệt hại vĩnh viễn cho thiết bị của bạn. Các bản vá được Google cung cấp được áp dụng hàng tháng trên tất cả các thiết bị được hỗ trợ, nhưng bản vá cho mã độc quyền chỉ có thể được nhà sản xuất thiết bị của bạn áp dụng. Để giữ cho thiết bị của bạn an toàn, hãy đảm bảo rằng việc xây dựng LineageOS của bạn luôn được cập nhật và (nếu có) đảm bảo hình ảnh của nhà cung cấp của bạn được cập nhật thành hình ảnh mới nhất do LineageOS đề xuất.</string>
+    <string name="trust_feature_security_patches_explain">Các bản vá bảo mật được Google phát hành hàng tháng với sự hợp tác của các nhà cung cấp SoC để giải quyết các lỗi có thể bị các ứng dụng độc hại khai thác để vượt qua các hạn chế bảo mật và gây thiệt hại vĩnh viễn cho thiết bị của bạn. Các bản vá được Google cung cấp được áp dụng hàng tháng trên tất cả các thiết bị được hỗ trợ, nhưng bản vá cho mã độc quyền chỉ có thể được nhà sản xuất thiết bị của bạn áp dụng. Để giữ cho thiết bị của bạn an toàn, hãy đảm bảo rằng việc xây dựng crDroid của bạn luôn được cập nhật và (nếu có) đảm bảo hình ảnh của nhà cung cấp của bạn được cập nhật thành hình ảnh mới nhất do crDroid đề xuất.</string>
     <string name="trust_feature_encryption">Mã hóa</string>
     <string name="trust_feature_encryption_value_enabled">Đã bật</string>
     <string name="trust_feature_encryption_value_nolock">Cần một màn hình khóa an toàn</string>
