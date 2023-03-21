@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS تەڭشەكلىرى</string>
+    <string name="lineageparts_title">crDroid تەڭشەكلىرى</string>
     <string name="loading">يۈكلەۋاتىدۇ\u2026</string>
     <string name="dlg_ok">جەزملە</string>
     <string name="cancel">ۋاز كەچ</string>
@@ -420,11 +420,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>جەمئىي تۆھپىكار سانى:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>جەمئىي تاپشۇرغىنى:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>ئاخىرقى يېڭىلاش:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS ئىستاتىستىكىسى</string>
-    <string name="anonymous_statistics_summary">ئاتسىز ئىستاتىستىكا دوكلاتىنى ئېچىپ LineageOS نى ياخشىلاشقا ياردەم بېرىڭ</string>
+    <string name="anonymous_statistics_title">crDroid ئىستاتىستىكىسى</string>
+    <string name="anonymous_statistics_summary">ئاتسىز ئىستاتىستىكا دوكلاتىنى ئېچىپ crDroid نى ياخشىلاشقا ياردەم بېرىڭ</string>
     <string name="anonymous_statistics_warning_title">ھەققىدە</string>
-    <string name="anonymous_statistics_warning">بۇ LineageOS ئىستاتىستىكىسىنى قوزغىتىپ شەخسىي ئۇچۇرلار بولمىغان سانلىق مەلۇماتنى
-         LineageOS ئىجادكارلىرىغا يوللاپ، ھەر خىل ئۈسكۈنىلەردىكى ئورنىتىشلارنى ئىزلاشقا قولايلىق يارىتىدۇ. يوللانغان ئۇچۇردا ئالاھىدە بىر بەلگە بولۇپ،
+    <string name="anonymous_statistics_warning">بۇ crDroid ئىستاتىستىكىسىنى قوزغىتىپ شەخسىي ئۇچۇرلار بولمىغان سانلىق مەلۇماتنى
+         crDroid ئىجادكارلىرىغا يوللاپ، ھەر خىل ئۈسكۈنىلەردىكى ئورنىتىشلارنى ئىزلاشقا قولايلىق يارىتىدۇ. يوللانغان ئۇچۇردا ئالاھىدە بىر بەلگە بولۇپ،
          شەخسىيەت ۋە شەخسىي سانلىق مەلۇماتلارغا چېتىلمايدۇ. بۇ سانلىق مەلۇماتلار ھەر قېتىم قوزغالغاندا يوللىنىدۇ.\n\nيوللانغان سانلىق مەلۇماتنىڭ ئۈلگىسى سۈپىتىدە سانلىق مەلۇماتنى ئالدىن كۆزەتنى چېكىڭ.</string>
     <string name="enable_reporting_title">دوكلاتنى قوزغات</string>
     <string name="preview_data_title">سانلىق مەلۇماتنى ئالدىن كۆزەت</string>
@@ -511,7 +511,7 @@
     <string name="trust_feature_security_patches_value_new">ئەڭ يېڭى</string>
     <string name="trust_feature_security_patches_value_medium">بىر قانچە ئاي ۋاقتى ئۆتكەن</string>
     <string name="trust_feature_security_patches_value_old">ۋاقتى ئۆتكەن</string>
-    <string name="trust_feature_security_patches_explain">بىخەتەرلىك ياماقلىرى Google بىلەن SoC ساتقۇچىلار ھەمكارلىشىپ ھەر ئايدا تارقىتىلىدۇ، يامان غەرەزلىك ئەپ ئارقىلىق بىخەتەرلىك چەكلىمىسىدىن ئۆتۈپ، ئۈسكۈنىڭىزگە مەڭگۈلۈك زىيان سالىدىغان كەمتۈكلۈكلەرنى ھەل قىلىدۇ. Google شىركىتى تەمىنلىگەن ياماقلار ھەر ئايدا بارلىق قوللايدىغان ئۈسكۈنىلەردە قوللىنىلىدۇ، ئەمما پەقەت ئۈسكۈنىڭىزنى ئىشلەپچىقارغۇچى شەخسىي كودقا ياماق تەمىنلىيەلەيدۇ. ئۈسكۈنىڭىزنىڭ بىخەتەرلىكىنى قوغداش ئۈچۈن LineageOS نەشرىنىڭ ھەر ۋاقىت يېڭىلىنىپ تۇرۇشىغا كاپالەتلىك قىلىڭ، (ئەگەر مۇمكىن بولسا) ساتقۇچى نەشرىڭىزنىڭ LineageOS تەۋسىيە قىلغان ئەڭ يېڭى نەشرىگە يېڭىلىنىشىغا كاپالەتلىك قىلىڭ.</string>
+    <string name="trust_feature_security_patches_explain">بىخەتەرلىك ياماقلىرى Google بىلەن SoC ساتقۇچىلار ھەمكارلىشىپ ھەر ئايدا تارقىتىلىدۇ، يامان غەرەزلىك ئەپ ئارقىلىق بىخەتەرلىك چەكلىمىسىدىن ئۆتۈپ، ئۈسكۈنىڭىزگە مەڭگۈلۈك زىيان سالىدىغان كەمتۈكلۈكلەرنى ھەل قىلىدۇ. Google شىركىتى تەمىنلىگەن ياماقلار ھەر ئايدا بارلىق قوللايدىغان ئۈسكۈنىلەردە قوللىنىلىدۇ، ئەمما پەقەت ئۈسكۈنىڭىزنى ئىشلەپچىقارغۇچى شەخسىي كودقا ياماق تەمىنلىيەلەيدۇ. ئۈسكۈنىڭىزنىڭ بىخەتەرلىكىنى قوغداش ئۈچۈن crDroid نەشرىنىڭ ھەر ۋاقىت يېڭىلىنىپ تۇرۇشىغا كاپالەتلىك قىلىڭ، (ئەگەر مۇمكىن بولسا) ساتقۇچى نەشرىڭىزنىڭ crDroid تەۋسىيە قىلغان ئەڭ يېڭى نەشرىگە يېڭىلىنىشىغا كاپالەتلىك قىلىڭ.</string>
     <string name="trust_feature_encryption">شىفىرلاش</string>
     <string name="trust_feature_encryption_value_enabled">قوزغىتىلغان</string>
     <string name="trust_feature_encryption_value_nolock">بىخەتەر ئېكران قۇلۇپىنى تەڭشەك كېرەك</string>
