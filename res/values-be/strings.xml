@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Налады LineageOS</string>
+    <string name="lineageparts_title">Налады crDroid</string>
     <string name="loading">Загрузка\u2026</string>
     <string name="cancel">Скасаваць</string>
     <string name="add">Дадаць</string>
