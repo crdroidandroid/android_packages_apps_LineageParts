@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS-innstillingar</string>
+    <string name="lineageparts_title">crDroid-innstillingar</string>
     <string name="loading">Lastar inn \u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Avbryt</string>
@@ -426,10 +426,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Bidragsytarar totalt:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Bidrag totalt:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Siste oppdatering:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS-statistikk</string>
-    <string name="anonymous_statistics_summary">Hjelp til med å gjera LineageOS betre ved å senda inn anonym statistikk</string>
+    <string name="anonymous_statistics_title">crDroid-statistikk</string>
+    <string name="anonymous_statistics_summary">Hjelp til med å gjera crDroid betre ved å senda inn anonym statistikk</string>
     <string name="anonymous_statistics_warning_title">Om</string>
-    <string name="anonymous_statistics_warning">Ved å senda inn statistikk til LineageOS-utviklarane, gjev du dei løyve til å samla inn anonyme data for å telja installasjonar på ulike einingar. Informasjonen inneheld ein unik identifikator som ikkje går ut over personvernet eller personopplysningane dine. Data vert sende inn ved kvar oppstart.\n\nTrykk på «Førehandsvis data» for å sjå døme på kva som vert sendt.</string>
+    <string name="anonymous_statistics_warning">Ved å senda inn statistikk til crDroid-utviklarane, gjev du dei løyve til å samla inn anonyme data for å telja installasjonar på ulike einingar. Informasjonen inneheld ein unik identifikator som ikkje går ut over personvernet eller personopplysningane dine. Data vert sende inn ved kvar oppstart.\n\nTrykk på «Førehandsvis data» for å sjå døme på kva som vert sendt.</string>
     <string name="enable_reporting_title">Slå på rapportering</string>
     <string name="preview_data_title">Førehandsvis data</string>
     <string name="view_stats_title">Sjå statistikk</string>
@@ -515,7 +515,7 @@
     <string name="trust_feature_security_patches_value_new">Oppdatert</string>
     <string name="trust_feature_security_patches_value_medium">Nokre månader gamal</string>
     <string name="trust_feature_security_patches_value_old">Utdatert</string>
-    <string name="trust_feature_security_patches_explain">Sikkerheitsoppdateringar vert gjevne ut kvar månad av Google i samarbeid med brikkeleverandørar for å tetta hol som kan utnyttast av skadelege appar for å gå utanom sikkerheitsavgrensingar og gjera varig skade på eininga di. Oppdateringar frå Google vert lagde inn kvar månad på alle støtta einingar, men oppdateringar for produsenten sin eigen kode kan berre leggjast inn av produsenten sjølv. For å halda eininga di trygg må du fylgja med på at LineageOS-versjonen din alltid er oppdatert, og (dersom aktuelt) sjå til at leverandørbiletet ditt er oppdatert til det nyaste som LineageOS tilrår.</string>
+    <string name="trust_feature_security_patches_explain">Sikkerheitsoppdateringar vert gjevne ut kvar månad av Google i samarbeid med brikkeleverandørar for å tetta hol som kan utnyttast av skadelege appar for å gå utanom sikkerheitsavgrensingar og gjera varig skade på eininga di. Oppdateringar frå Google vert lagde inn kvar månad på alle støtta einingar, men oppdateringar for produsenten sin eigen kode kan berre leggjast inn av produsenten sjølv. For å halda eininga di trygg må du fylgja med på at crDroid-versjonen din alltid er oppdatert, og (dersom aktuelt) sjå til at leverandørbiletet ditt er oppdatert til det nyaste som crDroid tilrår.</string>
     <string name="trust_feature_encryption">Kryptering</string>
     <string name="trust_feature_encryption_value_enabled">Påslått</string>
     <string name="trust_feature_encryption_value_nolock">Treng ein trygg skjermlås</string>
