@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Setări LineageOS</string>
+    <string name="lineageparts_title">Setări crDroid</string>
     <string name="loading">Încărcare\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Revocați</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Total contribuitori:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Total commit-uri:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Ultima actualizare:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Statistici LineageOS</string>
-    <string name="anonymous_statistics_summary">Ajutați la îmbunătățirea lui LineageOS prin optarea pentru raportarea anonimă de statistici</string>
+    <string name="anonymous_statistics_title">Statistici crDroid</string>
+    <string name="anonymous_statistics_summary">Ajutați la îmbunătățirea lui crDroid prin optarea pentru raportarea anonimă de statistici</string>
     <string name="anonymous_statistics_warning_title">Despre</string>
-    <string name="anonymous_statistics_warning">Optând să trimiteți Statistici LineageOS, le permiteți dezvoltatorilor LineageOS
+    <string name="anonymous_statistics_warning">Optând să trimiteți Statistici crDroid, le permiteți dezvoltatorilor crDroid
         să primească date ne-personale pentru a urmări instalările unice la o gamă mare de dispozitive. Informația transmisă include un identificator unic,
         care nu vă compromite intimitatea sau datele personale. Datele sunt trimise la fiecare pornire a dispozitivului.\n\nPentru a vedea un exemplu de date ce se trimit, apăsați pe Previzualizare Date.</string>
     <string name="enable_reporting_title">Activare raportare</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">La zi</string>
     <string name="trust_feature_security_patches_value_medium">Expirate de câteva luni</string>
     <string name="trust_feature_security_patches_value_old">Expirat</string>
-    <string name="trust_feature_security_patches_explain">Corecțiile de securitate sunt lansate lunar de către Google în cooperare cu vânzătorii SoC pentru a remedia problemele care pot fi exploatate de aplicațiile malițioase pentru a trece peste restricțiile de securitate și să cauzeze daune permanente în dispozitivul dvs. Patch-urile făcute disponibile de Google sunt aplicate lunar pe toate dispozitivele compatibile, dar patch-urile la codul proprietar pot fi aplicate numai de către producătorul dispozitivului. Pentru a vă menține dispozitivul în siguranță, asigurați-vă că build-ul LineageOS al dvs. este la zi și (dacă se aplică) asigurați-vă că imaginea vendor-ului este actualizată la cea recomandată de LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Corecțiile de securitate sunt lansate lunar de către Google în cooperare cu vânzătorii SoC pentru a remedia problemele care pot fi exploatate de aplicațiile malițioase pentru a trece peste restricțiile de securitate și să cauzeze daune permanente în dispozitivul dvs. Patch-urile făcute disponibile de Google sunt aplicate lunar pe toate dispozitivele compatibile, dar patch-urile la codul proprietar pot fi aplicate numai de către producătorul dispozitivului. Pentru a vă menține dispozitivul în siguranță, asigurați-vă că build-ul crDroid al dvs. este la zi și (dacă se aplică) asigurați-vă că imaginea vendor-ului este actualizată la cea recomandată de crDroid.</string>
     <string name="trust_feature_encryption">Criptare</string>
     <string name="trust_feature_encryption_value_enabled">Activat</string>
     <string name="trust_feature_encryption_value_nolock">Necesită un ecran de blocare securizat</string>
