@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Cunfiguratziones de LineageOS</string>
+    <string name="lineageparts_title">Cunfiguratziones de crDroid</string>
     <string name="loading">Carrighende\u2026</string>
     <string name="dlg_ok">AB</string>
     <string name="cancel">Annulla</string>
@@ -420,10 +420,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Totale collaboratziones:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Totale contributos:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Ùrtima atualizatzione:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Istatìsticas de LineageOS</string>
-    <string name="anonymous_statistics_summary">Agiuda a megiorare LineageOS permitende s\'imbiu de istatìsticas anònimas</string>
+    <string name="anonymous_statistics_title">Istatìsticas de crDroid</string>
+    <string name="anonymous_statistics_summary">Agiuda a megiorare crDroid permitende s\'imbiu de istatìsticas anònimas</string>
     <string name="anonymous_statistics_warning_title">Informatziones</string>
-    <string name="anonymous_statistics_warning">Ativende is Istatìsticas LineageOS as a permìtere s\'imbiu de datos non personales a s\'iscuadra de isvilupu
+    <string name="anonymous_statistics_warning">Ativende is Istatìsticas crDroid as a permìtere s\'imbiu de datos non personales a s\'iscuadra de isvilupu
         pro contare su nùmeru de installatziones ùnicas in is dispositivos. S\'informatzione imbiada includet un\'identificadore ùnicu
         chi non cumpromitet in nissuna manera sa riservadesa tua o is datos personales. Is datos s\'imbiant a cada aviu\n\nPro bìdere un\'esempru de datos imbiados, incarca Previsualizatzione datos.</string>
     <string name="enable_reporting_title">Ativa is informes</string>
@@ -511,7 +511,7 @@
     <string name="trust_feature_security_patches_value_new">Atualizadu</string>
     <string name="trust_feature_security_patches_value_medium">No atualizadas dae calicunu mese</string>
     <string name="trust_feature_security_patches_value_old">No atualizadas</string>
-    <string name="trust_feature_security_patches_explain">Is patch de seguresa essint onni mese dae sa Google in cooperatzione cun is produtores de SoC pro nch\'isòrvere problemas chi diant pòdere isfrutare is aplicatziones dannàrgias pro inghiriare is restritziones de seguresa e causare dannos permanentes a su dispositivu. Is patch dispostos dae sa Google sunt aplicados a totu is dispositivos cumpatìbiles, ma cussos chi pertocant a su còdighe propietàriu ddas podet aplicare isceti su produtore de su dispositivu tuo. Pro mantènnere su dispositivu in seguresa controlla chi sa versione tua de LineageOS siat semper atualizada e s\'in casu assegura·ti chi s\'immàgine de su produtore tuo siat atualizada a s\'ùrtima versione cussigiada dae LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Is patch de seguresa essint onni mese dae sa Google in cooperatzione cun is produtores de SoC pro nch\'isòrvere problemas chi diant pòdere isfrutare is aplicatziones dannàrgias pro inghiriare is restritziones de seguresa e causare dannos permanentes a su dispositivu. Is patch dispostos dae sa Google sunt aplicados a totu is dispositivos cumpatìbiles, ma cussos chi pertocant a su còdighe propietàriu ddas podet aplicare isceti su produtore de su dispositivu tuo. Pro mantènnere su dispositivu in seguresa controlla chi sa versione tua de crDroid siat semper atualizada e s\'in casu assegura·ti chi s\'immàgine de su produtore tuo siat atualizada a s\'ùrtima versione cussigiada dae crDroid.</string>
     <string name="trust_feature_encryption">Tzifradura</string>
     <string name="trust_feature_encryption_value_enabled">Ativada</string>
     <string name="trust_feature_encryption_value_nolock">Rechedet un\'ischermu de blocu seguru</string>

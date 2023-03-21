@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">ڕێکخستنەکانی LineageOS</string>
+    <string name="lineageparts_title">ڕێکخستنەکانی crDroid</string>
     <string name="loading">باردەکرێت\u2026</string>
     <string name="dlg_ok">باشە</string>
     <string name="cancel">پاشگەزبوونەوە</string>
@@ -424,8 +424,8 @@
     <string name="contributor_info_msg"><![CDATA[ <b>ناو:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/> <b>ناسناو:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/> <b>بەشدارییەکان:</b> <xliff:g id="commits">%3$s</xliff:g> ]]></string>
     <string name="contributions_info_menu">زانیاری گشتی بەشدارییەکان</string>
     <string name="contributions_info_msg"><![CDATA[ <b>کۆی هاوبەشەکان:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/> <b>کۆی بەشدارییەکان:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/> <b>دواین نوێکاری:</b> <xliff:g id="date">%3$s</xliff:g> ]]></string>
-    <string name="anonymous_statistics_title">ئامارەکانی LineageOS</string>
-    <string name="anonymous_statistics_summary">یارمەتیدانی LineageOS بە ناردنی ئاماری نەناسراو</string>
+    <string name="anonymous_statistics_title">ئامارەکانی crDroid</string>
+    <string name="anonymous_statistics_summary">یارمەتیدانی crDroid بە ناردنی ئاماری نەناسراو</string>
     <string name="anonymous_statistics_warning_title">دەربارە</string>
     <string name="anonymous_statistics_warning">ناردنی ئامارەکان ڕێگە بە گەشەپێدەران دەدات بزانن چەند ئامێر سیستمەکەیان بەکاردەهێنن بەبێ ئاشکراکردنی ناسنامە یان زانیارییە کەسییەکانت. داتاکان لە کاتی هەڵبوونی ئامێردا دەنێردرێن.</string>
     <string name="enable_reporting_title">چالاککردنی ڕاپۆرتکردن</string>
@@ -513,7 +513,7 @@
     <string name="trust_feature_security_patches_value_new">نوێیە</string>
     <string name="trust_feature_security_patches_value_medium">چەند مانگێک کۆنە</string>
     <string name="trust_feature_security_patches_value_old">کۆن بووە</string>
-    <string name="trust_feature_security_patches_explain">پارچەکانی پاراستن مانگانە لەلایەن Googleـەوە بە هاوکاری کۆمپانیاکانی دروستکەری پارچە (SoC) بڵاودەکرێنەوە بۆ پڕکردنەوەی ئەو کەلێنانەی کە لەوانەیە لەلایەن بەرنامە زیانبەخشەکانەوە بەکاربهێنرێن بۆ تێپەڕاندنی قەدەغەکردنەکانی پاراستن. ئەو پارچانەی Google بڵاویان دەکاتەوە مانگانە لەسەر هەموو ئامێرە پاڵپشتیکراوەکان جێبەجێ دەکرێن، بەڵام پارچەکانی تایبەت بە کۆدی دروستکەر تەنها لەلایەن کۆمپانیای دروستکەری ئامێرەکەوە دەتوانرێت جێبەجێ بکرێن. بۆ هێشتنەوەی ئامێرەکەت بە پارێزراوی، دڵنیابە کە وەشانی LineageOSـەکەت هەمیشە نوێیە.</string>
+    <string name="trust_feature_security_patches_explain">پارچەکانی پاراستن مانگانە لەلایەن Googleـەوە بە هاوکاری کۆمپانیاکانی دروستکەری پارچە (SoC) بڵاودەکرێنەوە بۆ پڕکردنەوەی ئەو کەلێنانەی کە لەوانەیە لەلایەن بەرنامە زیانبەخشەکانەوە بەکاربهێنرێن بۆ تێپەڕاندنی قەدەغەکردنەکانی پاراستن. ئەو پارچانەی Google بڵاویان دەکاتەوە مانگانە لەسەر هەموو ئامێرە پاڵپشتیکراوەکان جێبەجێ دەکرێن، بەڵام پارچەکانی تایبەت بە کۆدی دروستکەر تەنها لەلایەن کۆمپانیای دروستکەری ئامێرەکەوە دەتوانرێت جێبەجێ بکرێن. بۆ هێشتنەوەی ئامێرەکەت بە پارێزراوی، دڵنیابە کە وەشانی crDroidـەکەت هەمیشە نوێیە.</string>
     <string name="trust_feature_encryption">کۆدکردن (Encryption)</string>
     <string name="trust_feature_encryption_value_enabled">چالاکە</string>
     <string name="trust_feature_encryption_value_nolock">پێویستی بە قوفڵێکی پارێزراوی ڕوونما هەیە</string>
