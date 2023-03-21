@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS அமைப்புகள்</string>
+    <string name="lineageparts_title">crDroid அமைப்புகள்</string>
     <string name="loading">ஏற்றுகின்றது\u2026</string>
     <string name="dlg_ok">சரி</string>
     <string name="cancel">விலக்குக</string>

@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Configuración de LineageOS</string>
+    <string name="lineageparts_title">Configuración de crDroid</string>
     <string name="loading">Cargando\u2026</string>
     <string name="dlg_ok">D\'acuerdu</string>
     <string name="cancel">Encaboxar</string>
@@ -209,7 +209,7 @@
     <string name="contributions_info_msg"><![CDATA[<b>Collaboradores totales:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Unvios totales:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Últimu anovamientu:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Estadístiques de LineageOS</string>
+    <string name="anonymous_statistics_title">Estadístiques de crDroid</string>
     <string name="preview_data_title">Previsualizar los datos</string>
     <string name="anonymous_learn_more">Saber más</string>
     <string name="preview_id_title">ID única</string>
@@ -245,7 +245,7 @@
     <string name="trust_feature_security_patches_value_new">Anovaos</string>
     <string name="trust_feature_security_patches_value_medium">Ensin anovar hai unos meses</string>
     <string name="trust_feature_security_patches_value_old">Ensin anovar</string>
-    <string name="trust_feature_security_patches_explain">Google, n\'andecha colos fabricantes de SoC, espubliza mensualmente parches de seguranza pa iguar fallos que podríen esplotar aplicaciones malicioses pa saltar les llendes de seguranza y causar un dañu permanente nel preséu. Los parches forníos por Google aplíquense cada mes en tolos preseos compatibles, mas los parches pa códigu privativu namás pue aplicalos el fabricante del preséu. Pa caltener el preséu seguru, asegúrate de que la versión de LineageOS ta anovada siempre, y (si ye posible) asegúrate tamién de que la imaxe del fabricante ta anovada a la última versión qu\'aconseya LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Google, n\'andecha colos fabricantes de SoC, espubliza mensualmente parches de seguranza pa iguar fallos que podríen esplotar aplicaciones malicioses pa saltar les llendes de seguranza y causar un dañu permanente nel preséu. Los parches forníos por Google aplíquense cada mes en tolos preseos compatibles, mas los parches pa códigu privativu namás pue aplicalos el fabricante del preséu. Pa caltener el preséu seguru, asegúrate de que la versión de crDroid ta anovada siempre, y (si ye posible) asegúrate tamién de que la imaxe del fabricante ta anovada a la última versión qu\'aconseya crDroid.</string>
     <string name="trust_feature_encryption">Cifráu</string>
     <string name="trust_feature_encryption_value_enabled">Activóse</string>
     <string name="trust_feature_encryption_value_nolock">Precisa una pantalla de bloquéu segura</string>

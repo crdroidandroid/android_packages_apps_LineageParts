@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS সেটিংস</string>
+    <string name="lineageparts_title">crDroid সেটিংস</string>
     <string name="battery_light_enable_title">ব্যাটারি লাইট চালু করো</string>
     <string name="notification_light_enable_title">বিজ্ঞপ্তি লাইট চালু করো</string>
     <string name="volume_panel_on_left_title">বামে প্যানেল দেখান</string>

@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Gosodiadau LineageOS</string>
+    <string name="lineageparts_title">Gosodiadau crDroid</string>
     <string name="loading">Yn llwytho\u2026</string>
     <string name="dlg_ok">Iawn</string>
     <string name="cancel">Canslo</string>
@@ -417,10 +417,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Nifer cyfranwyr:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Nifer o gyfraniadau (commits):</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Diweddariad diwethaf:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Ystadegau LineageOS</string>
-    <string name="anonymous_statistics_summary">Helpu i wella LineageOS gan ganiatáu casglu adroddiadau ystadegau anhysbys</string>
+    <string name="anonymous_statistics_title">Ystadegau crDroid</string>
+    <string name="anonymous_statistics_summary">Helpu i wella crDroid gan ganiatáu casglu adroddiadau ystadegau anhysbys</string>
     <string name="anonymous_statistics_warning_title">Ynghylch</string>
-    <string name="anonymous_statistics_warning">Bydd cytuno i rannu Ystadegau LineageOS yn caniatáu data na sydd yn bersonol i gael ei rannu gyda datblygwyr LineageOS er mwyn tracio gosodiadau unigryw ar draws dyfeisiau. Bydd y wybodaeth a rennir yn cynnwys dynodwr unigryw i\'w adnabod heb gyfaddawdu dy breifatrwydd na dy ddata personol. Caiff y data ei rannu pob tro mae\'r system yn dechrau.\n\nI weld enghraifft o\'r data sy\'n cael ei rannu, tapia Rhagolwg Data.</string>
+    <string name="anonymous_statistics_warning">Bydd cytuno i rannu Ystadegau crDroid yn caniatáu data na sydd yn bersonol i gael ei rannu gyda datblygwyr crDroid er mwyn tracio gosodiadau unigryw ar draws dyfeisiau. Bydd y wybodaeth a rennir yn cynnwys dynodwr unigryw i\'w adnabod heb gyfaddawdu dy breifatrwydd na dy ddata personol. Caiff y data ei rannu pob tro mae\'r system yn dechrau.\n\nI weld enghraifft o\'r data sy\'n cael ei rannu, tapia Rhagolwg Data.</string>
     <string name="enable_reporting_title">Caniatáu adroddiadau</string>
     <string name="preview_data_title">Rhagolwg o\'r data</string>
     <string name="view_stats_title">Gweld ystadegau</string>
@@ -506,7 +506,7 @@
     <string name="trust_feature_security_patches_value_new">Yn gyfredol</string>
     <string name="trust_feature_security_patches_value_medium">Rhai misoedd yn hen</string>
     <string name="trust_feature_security_patches_value_old">Yn hen</string>
-    <string name="trust_feature_security_patches_explain">Mae Google yn rhyddhau cyweiriadau diogelwch (security patches) yn fisol ar y cyd â darparwyr i fynd i\'r afael â namau y gellir cael eu hecsbloetio gan apiau maleisus er mwyn osgoi cyfyngiadau diogelwch ac achosi niwed parhaol i dy ddyfais. Mae cyweiriadau gan Google yn cael eu rhyddhau pob mis ond gall cyweiriadau i god dy ddyfais fel arfer ond cael eu gosod gan y gwneuthurwr. Wrth dy fod wedi gosod LineageOS i gymryd lle\'r fersiwn Android gwreiddiol ar dy ddyfais, mae\'r materion hyn yn dy ddwylo dy hun. I gadw dy ddyfais yn ddiogel, sicrha dy fod yn diweddaru dy adeiledd LineageOS i\'w gadw yn gyfredol ac, os yn berthnasol, sicrha bod y ddelwedd darparwr (vendor image) yn cael ei ddiweddaru i\'r un mwyaf diweddar a argymhellir gan LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Mae Google yn rhyddhau cyweiriadau diogelwch (security patches) yn fisol ar y cyd â darparwyr i fynd i\'r afael â namau y gellir cael eu hecsbloetio gan apiau maleisus er mwyn osgoi cyfyngiadau diogelwch ac achosi niwed parhaol i dy ddyfais. Mae cyweiriadau gan Google yn cael eu rhyddhau pob mis ond gall cyweiriadau i god dy ddyfais fel arfer ond cael eu gosod gan y gwneuthurwr. Wrth dy fod wedi gosod crDroid i gymryd lle\'r fersiwn Android gwreiddiol ar dy ddyfais, mae\'r materion hyn yn dy ddwylo dy hun. I gadw dy ddyfais yn ddiogel, sicrha dy fod yn diweddaru dy adeiledd crDroid i\'w gadw yn gyfredol ac, os yn berthnasol, sicrha bod y ddelwedd darparwr (vendor image) yn cael ei ddiweddaru i\'r un mwyaf diweddar a argymhellir gan crDroid.</string>
     <string name="trust_feature_encryption">Amgryptiad</string>
     <string name="trust_feature_encryption_value_enabled">Galluogwyd</string>
     <string name="trust_feature_encryption_value_nolock">Mae angen scrin cloi diogel</string>

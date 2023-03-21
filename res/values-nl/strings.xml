@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS-instellingen</string>
+    <string name="lineageparts_title">crDroid-instellingen</string>
     <string name="loading">Aan het laden\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Annuleer</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Totaal aantal bijdragers:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Totaal aantal commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Laatste update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS-statistieken</string>
-    <string name="anonymous_statistics_summary">Help LineageOS te verbeteren door anonieme statistieken te verzenden</string>
+    <string name="anonymous_statistics_title">crDroid-statistieken</string>
+    <string name="anonymous_statistics_summary">Help crDroid te verbeteren door anonieme statistieken te verzenden</string>
     <string name="anonymous_statistics_warning_title">Over</string>
-    <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van LineageOS verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
+    <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van crDroid verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
     <string name="enable_reporting_title">Statistieken verzenden</string>
     <string name="preview_data_title">Voorbeeld van gegevens</string>
     <string name="view_stats_title">Statistieken tonen</string>
@@ -510,7 +510,7 @@
     <string name="trust_feature_security_patches_value_new">Bijgewerkt</string>
     <string name="trust_feature_security_patches_value_medium">Een paar maanden oud</string>
     <string name="trust_feature_security_patches_value_old">Verouderd</string>
-    <string name="trust_feature_security_patches_explain">Beveiligingspatches worden maandelijks door Google vrijgegeven in samenwerking met SoC-leveranciers om fouten aan te pakken die kunnen worden uitgebuit door kwaadwillende apps om beveiligingsbeperkingen te omzeilen en permanente schade aan uw apparaat te veroorzaken. Patches die door Google beschikbaar worden gesteld, worden elke maand op alle ondersteunde apparaten toegepast, maar patches voor bedrijfseigen code kunnen alleen door de fabrikant van uw apparaat worden toegepast. Om uw apparaat veilig te houden, moet u ervoor zorgen dat uw LineageOS-build altijd up-to-date is en (indien van toepassing) zorgen dat uw leveranciers-image wordt geüpdatet naar de laatste die door LineageOS wordt aanbevolen.</string>
+    <string name="trust_feature_security_patches_explain">Beveiligingspatches worden maandelijks door Google vrijgegeven in samenwerking met SoC-leveranciers om fouten aan te pakken die kunnen worden uitgebuit door kwaadwillende apps om beveiligingsbeperkingen te omzeilen en permanente schade aan uw apparaat te veroorzaken. Patches die door Google beschikbaar worden gesteld, worden elke maand op alle ondersteunde apparaten toegepast, maar patches voor bedrijfseigen code kunnen alleen door de fabrikant van uw apparaat worden toegepast. Om uw apparaat veilig te houden, moet u ervoor zorgen dat uw crDroid-build altijd up-to-date is en (indien van toepassing) zorgen dat uw leveranciers-image wordt geüpdatet naar de laatste die door crDroid wordt aanbevolen.</string>
     <string name="trust_feature_encryption">Encryptie</string>
     <string name="trust_feature_encryption_value_enabled">Ingeschakeld</string>
     <string name="trust_feature_encryption_value_nolock">Vereist een veilig vergrendelingsscherm</string>

@@ -333,10 +333,10 @@
     <string name="contributors_cloud_failed_message">Не може да се вчитаат податоците за соработниците</string>
     <string name="contributor_info_menu">Информации за соработникот</string>
     <string name="contributions_info_menu">Информации за придонеси</string>
-    <string name="anonymous_statistics_title">LineageOS статистика</string>
-    <string name="anonymous_statistics_summary">Помогнете за подобрувањето на LineageOS со одбирање на анонимно известување за статистика</string>
+    <string name="anonymous_statistics_title">crDroid статистика</string>
+    <string name="anonymous_statistics_summary">Помогнете за подобрувањето на crDroid со одбирање на анонимно известување за статистика</string>
     <string name="anonymous_statistics_warning_title">За</string>
-    <string name="anonymous_statistics_warning">Откажувањето во LineageOS статистика ќе им овозможи на не-лични податоци да бидат доставени до програмерите на LineageOS за да ги следат уникатните инсталации низ уредите. Доставените информации вклучуваат уникатен идентификатор, што не ја загрозува вашата приватност или лични податоци. Податоците се поднесуваат за време на секое подигање.\n\nЗа пример на податоците што се доставуваат, допрете на преглед на податоци.</string>
+    <string name="anonymous_statistics_warning">Откажувањето во crDroid статистика ќе им овозможи на не-лични податоци да бидат доставени до програмерите на crDroid за да ги следат уникатните инсталации низ уредите. Доставените информации вклучуваат уникатен идентификатор, што не ја загрозува вашата приватност или лични податоци. Податоците се поднесуваат за време на секое подигање.\n\nЗа пример на податоците што се доставуваат, допрете на преглед на податоци.</string>
     <string name="enable_reporting_title">Овозможи извештај</string>
     <string name="preview_data_title">Преглед на податоци</string>
     <string name="view_stats_title">Прикажи ги статистиките</string>

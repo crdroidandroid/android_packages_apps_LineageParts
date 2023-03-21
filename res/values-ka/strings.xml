@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS პარამეტრები</string>
+    <string name="lineageparts_title">crDroid პარამეტრები</string>
     <string name="loading">იტვირთება\u2026</string>
     <string name="dlg_ok">კარგი</string>
     <string name="cancel">გაუქმება</string>
@@ -421,11 +421,11 @@
     <string name="contributions_info_msg"><![CDATA[<b>მონაწილე ჯამში:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>შეტანილი წვლილი ჯამში:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>ბოლო განახლება:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS-ის სტატისტიკა</string>
-    <string name="anonymous_statistics_summary">დაგვეხმარეთ, რომ გავაუმჯობესოთ LineageOS, ვინაობის გაუმხელი მონაცემების აღრიცხვაში ჩართვით</string>
+    <string name="anonymous_statistics_title">crDroid-ის სტატისტიკა</string>
+    <string name="anonymous_statistics_summary">დაგვეხმარეთ, რომ გავაუმჯობესოთ crDroid, ვინაობის გაუმხელი მონაცემების აღრიცხვაში ჩართვით</string>
     <string name="anonymous_statistics_warning_title">შესახებ</string>
-    <string name="anonymous_statistics_warning">LineageOS-სტატისტიკაში ჩართვით, პირადი ინფორმაციისგან გამიჯნული მონაცემები გაეგზავნება
-        LineageOS-ის შემმუშავებლებს, თითოეული დაყენების აღსარიცხად მოწყობილობებზე. ეს მონაცემები შეიცავს სხვებისგან გამოსარჩევ ნიშანს,
+    <string name="anonymous_statistics_warning">crDroid-სტატისტიკაში ჩართვით, პირადი ინფორმაციისგან გამიჯნული მონაცემები გაეგზავნება
+        crDroid-ის შემმუშავებლებს, თითოეული დაყენების აღსარიცხად მოწყობილობებზე. ეს მონაცემები შეიცავს სხვებისგან გამოსარჩევ ნიშანს,
         რომლითაც არ მჟღავნდება თქვენი ვინაობა ან პირადი ინფორმაცია. მონაცემები გაიგზავნება ყოველი ჩართვისას.\n\nმაგალითის სანახავად, თუ რა სახისაა ეს ინფორმაცია, შეეხეთ „მონაცემთა შეთვალიერებას“.</string>
     <string name="enable_reporting_title">ანგარიშგების ჩართვა</string>
     <string name="preview_data_title">მონაცემების შეთვალიერება</string>
@@ -512,7 +512,7 @@
     <string name="trust_feature_security_patches_value_new">განახლებულია</string>
     <string name="trust_feature_security_patches_value_medium">რამდენიმე თვეა გასაახლებელია</string>
     <string name="trust_feature_security_patches_value_old">გასაახლებელია</string>
-    <string name="trust_feature_security_patches_explain">უსაფრთხოების შესწორებებს Google ყოველთვიურად უშვებს მწარმოებლებთან თანამშრომლობით, რომ აღმოიფხვრას სისუსტეები, რომელთაც მავნე პროგრამები იყენებენ დაცვის გვერდის ასავლელად და მოწყობილობისთვის გამოუსწორებელი ზიანის მისაყენებლად. შესწორებებს, რომელთაც უზრუნველყოფს Google, ყოველთვიურად მიიღებს ყველა მხარდაჭერილი მოწყობილობა, მაგრამ იმ შესწორებების მიღება, რომლებიც დახურულ კოდს შეიცავს, მხოლოდ მოწყობილობის უშუალო მწარმოებლისგან შეიძლება. თქვენი მოწყობილობის უსაფრთხოებისთვის მუდმივად განაახლეთ LineageOS-ანაწყობი და ამასთანავე დარწმუნდით (თუ ესადაგება თქვენს შემთხვევას), რომ მწარმოებლის ის გამოშვებაც უახლესი გაქვთ, რომელსაც მხარს უჭერს LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">უსაფრთხოების შესწორებებს Google ყოველთვიურად უშვებს მწარმოებლებთან თანამშრომლობით, რომ აღმოიფხვრას სისუსტეები, რომელთაც მავნე პროგრამები იყენებენ დაცვის გვერდის ასავლელად და მოწყობილობისთვის გამოუსწორებელი ზიანის მისაყენებლად. შესწორებებს, რომელთაც უზრუნველყოფს Google, ყოველთვიურად მიიღებს ყველა მხარდაჭერილი მოწყობილობა, მაგრამ იმ შესწორებების მიღება, რომლებიც დახურულ კოდს შეიცავს, მხოლოდ მოწყობილობის უშუალო მწარმოებლისგან შეიძლება. თქვენი მოწყობილობის უსაფრთხოებისთვის მუდმივად განაახლეთ crDroid-ანაწყობი და ამასთანავე დარწმუნდით (თუ ესადაგება თქვენს შემთხვევას), რომ მწარმოებლის ის გამოშვებაც უახლესი გაქვთ, რომელსაც მხარს უჭერს crDroid.</string>
     <string name="trust_feature_encryption">დაშიფვრა</string>
     <string name="trust_feature_encryption_value_enabled">ჩართული</string>
     <string name="trust_feature_encryption_value_nolock">საჭიროებს ეკრანის დაცულ ჩამკეტს</string>

@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS ಅಳವಡಿಕೆಗಳು</string>
+    <string name="lineageparts_title">crDroid ಅಳವಡಿಕೆಗಳು</string>
     <string name="loading">ಭರಿಸುತ್ತಿದೆ\u2026</string>
     <string name="dlg_ok">ಸರಿ</string>
     <string name="cancel">ರದ್ದು</string>
@@ -361,10 +361,10 @@
     <string name="contributors_cloud_failed_message">ನೆರವಾದವರ ದತ್ತಾಂಶವನ್ನು ಭರಿಸಲಾಗುತ್ತಿಲ್ಲ</string>
     <string name="contributor_info_menu">ನೆರವಾದವರ ಮಾಹಿತಿ</string>
     <string name="contributions_info_menu">ನೆರವುಗಳ ಮಾಹಿತಿ</string>
-    <string name="anonymous_statistics_title">LineageOS ಅಂಕ್ಯಾಂಶಗಳು</string>
-    <string name="anonymous_statistics_summary">ಅಂಕ್ಯಾಂಶಗಳನ್ನು ಅನಾಮಿಕವಾಗಿ ಸಲ್ಲಿಸಲು ಒಪ್ಪುವ ಮೂಲಕ LineageOS ಅನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ನೆರವಾಗಿ</string>
+    <string name="anonymous_statistics_title">crDroid ಅಂಕ್ಯಾಂಶಗಳು</string>
+    <string name="anonymous_statistics_summary">ಅಂಕ್ಯಾಂಶಗಳನ್ನು ಅನಾಮಿಕವಾಗಿ ಸಲ್ಲಿಸಲು ಒಪ್ಪುವ ಮೂಲಕ crDroid ಅನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ನೆರವಾಗಿ</string>
     <string name="anonymous_statistics_warning_title">ಬಗ್ಗೆ</string>
-    <string name="anonymous_statistics_warning">LineageOS ಅಂಕ್ಯಾಂಶಗಳನ್ನು ಅನುಮತಿಸುವುದರಿಂದ ಸಾಧನಗಳಾದ್ಯಂತ ಅನನ್ಯವಾದ ಸ್ಥಾಪನೆಗಳನ್ನು ಜಾಡುಹಿಡಿಯಲು LineageOS ಅಭಿವರ್ಧಕರಿಗೆ  ವೈಯಕ್ತಿಕವಲ್ಲದ ದತ್ತಾಂಶ ಸಲ್ಲಿಸುತ್ತದೆ. ಸಲ್ಲಿಸಿದ ಮಾಹಿತಿಯಲ್ಲಿ ಒಂದು ಅನನ್ಯ ಗುರುತಿದೆ, ಇದು ನಿಮ್ಮ ಗೌಪ್ಯತೆ ಅಥವಾ ವೈಯಕ್ತಿಕ ದತ್ತಾಂಶವನ್ನು ಬಹಿರಂಗಪಡಿಸುವುದಿಲ್ಲ. ಪ್ರತಿ ಬೂಟ್ ಸಮಯದಲ್ಲಿ ದತ್ತಾಂಶವನ್ನು ಸಲ್ಲಿಸಲಾಗುತ್ತದೆ.\n\nಸಲ್ಲಿಸಿದ ದತ್ತಾಂಶದ ಒಂದು ಉದಾಹರಣೆಗಾಗಿ, ದತ್ತಾಂಶ ಮುನ್ನೋಟ ಒತ್ತಿ.</string>
+    <string name="anonymous_statistics_warning">crDroid ಅಂಕ್ಯಾಂಶಗಳನ್ನು ಅನುಮತಿಸುವುದರಿಂದ ಸಾಧನಗಳಾದ್ಯಂತ ಅನನ್ಯವಾದ ಸ್ಥಾಪನೆಗಳನ್ನು ಜಾಡುಹಿಡಿಯಲು crDroid ಅಭಿವರ್ಧಕರಿಗೆ  ವೈಯಕ್ತಿಕವಲ್ಲದ ದತ್ತಾಂಶ ಸಲ್ಲಿಸುತ್ತದೆ. ಸಲ್ಲಿಸಿದ ಮಾಹಿತಿಯಲ್ಲಿ ಒಂದು ಅನನ್ಯ ಗುರುತಿದೆ, ಇದು ನಿಮ್ಮ ಗೌಪ್ಯತೆ ಅಥವಾ ವೈಯಕ್ತಿಕ ದತ್ತಾಂಶವನ್ನು ಬಹಿರಂಗಪಡಿಸುವುದಿಲ್ಲ. ಪ್ರತಿ ಬೂಟ್ ಸಮಯದಲ್ಲಿ ದತ್ತಾಂಶವನ್ನು ಸಲ್ಲಿಸಲಾಗುತ್ತದೆ.\n\nಸಲ್ಲಿಸಿದ ದತ್ತಾಂಶದ ಒಂದು ಉದಾಹರಣೆಗಾಗಿ, ದತ್ತಾಂಶ ಮುನ್ನೋಟ ಒತ್ತಿ.</string>
     <string name="enable_reporting_title">ವರದಿಸುವಿಕೆ ಸಶಕ್ತಿಸು</string>
     <string name="preview_data_title">ದತ್ತಾಂಶ ಮುನ್ನೋಟ</string>
     <string name="view_stats_title">ಅಂಕ್ಯಾಂಶಗಳನ್ನು ವೀಕ್ಷಿಸು</string>
@@ -439,7 +439,7 @@
     <string name="trust_feature_selinux_explain">SELinux ನಿಮ್ಮ ಯಂತ್ರದಲ್ಲಿನ ಯಾವ ಕಡತಗಳು/ಮಾರ್ಗಗಳಿಗೆ ಯಾವ ಆಪ್ಗಳು ಎಟುಕುಹಕ್ಕನ್ನು ಹೊಂದಿವೆಯಂದು ಆದೇಶಿಸುತ್ತದೆ.\nಇದರಿಂದ ಆಪ್ಗಳು ಮತ್ತು ಸೇವೆಗಳು ಎಟುಕುಹಕ್ಕಿಲ್ಲದ ಕಡತಗಳನ್ನು ಎಟುಕುವುದನ್ನು ತಡೆಯುತ್ತದೆ. ಈ ರೀತಿ ಸಂಭಾವ್ಯ ದುರುದ್ದೇಶಪೂರಿತ ಆಪ್ ಮೊಟಕಾಗುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಭದ್ರತೆ ಸುರಕ್ಷ.</string>
     <string name="trust_feature_security_patches">Android ಭದ್ರತಾ ತೇಪೆಗಳು</string>
     <string name="trust_feature_security_patches_value_base">ವೇದಿಕೆ: %1$s\nತಯಾರಕ: %2$s</string>
-    <string name="trust_feature_security_patches_explain">ಭದ್ರತಾ ನಿರ್ಬಂಧಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಶಾಶ್ವತ ಹಾನಿಯನ್ನು ಉಂಟುಮಾಡಲು ದುರುದ್ದೇಶಪೂರಿತ ಆಪ್ಗಳು ಬಳಸಿಕೊಳ್ಳಬಹುದಾದ ದೋಷಗಳನ್ನು ಪರಿಹರಿಸಲು ಭದ್ರತಾ ತೇಪೆಗಳನ್ನು Google SoC ಮಾರಾಟಗಾರರ ಸಹಯೋಗದೊಂದಿಗೆ ಮಾಸಿಕವಾಗಿ ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ. Google ನಿಂದ ಲಭ್ಯವಿರುವ ತೇಪೆಗಳನ್ನು ಎಲ್ಲಾ ಬೆಂಬಲಿತ ಯಂತ್ರಗಳಲ್ಲಿ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ, ಆದರೆ ಸ್ವಾಮ್ಯದ ತಂತ್ರಾಂಶ ತೇಪೆಗಳನ್ನು ನಿಮ್ಮ ಯಂತ್ರದ ತಯಾರಕರಿಂದ ಮಾತ್ರ ಅನ್ವಯಿಸಬಹುದು. ನಿಮ್ಮ ಯಂತ್ರವನ್ನು ಸುರಕ್ಷಿತವಾಗಿಡಲು LineageOS ಸದಾ ನವೀಕೃತವಾಗಿರುತ್ತದೆ ಮತ್ತು ಸಾಧ್ಯವಾದರೆ ನಿಮ್ಮ ಮಾರಾಟಗಾರರ ತಂತ್ರಾಂಶದ ಆವೃತ್ತಿ LineageOS ಸಲಹೆಯಂತೆ ನವೀಕರಿಸಲಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="trust_feature_security_patches_explain">ಭದ್ರತಾ ನಿರ್ಬಂಧಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಶಾಶ್ವತ ಹಾನಿಯನ್ನು ಉಂಟುಮಾಡಲು ದುರುದ್ದೇಶಪೂರಿತ ಆಪ್ಗಳು ಬಳಸಿಕೊಳ್ಳಬಹುದಾದ ದೋಷಗಳನ್ನು ಪರಿಹರಿಸಲು ಭದ್ರತಾ ತೇಪೆಗಳನ್ನು Google SoC ಮಾರಾಟಗಾರರ ಸಹಯೋಗದೊಂದಿಗೆ ಮಾಸಿಕವಾಗಿ ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ. Google ನಿಂದ ಲಭ್ಯವಿರುವ ತೇಪೆಗಳನ್ನು ಎಲ್ಲಾ ಬೆಂಬಲಿತ ಯಂತ್ರಗಳಲ್ಲಿ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ, ಆದರೆ ಸ್ವಾಮ್ಯದ ತಂತ್ರಾಂಶ ತೇಪೆಗಳನ್ನು ನಿಮ್ಮ ಯಂತ್ರದ ತಯಾರಕರಿಂದ ಮಾತ್ರ ಅನ್ವಯಿಸಬಹುದು. ನಿಮ್ಮ ಯಂತ್ರವನ್ನು ಸುರಕ್ಷಿತವಾಗಿಡಲು crDroid ಸದಾ ನವೀಕೃತವಾಗಿರುತ್ತದೆ ಮತ್ತು ಸಾಧ್ಯವಾದರೆ ನಿಮ್ಮ ಮಾರಾಟಗಾರರ ತಂತ್ರಾಂಶದ ಆವೃತ್ತಿ crDroid ಸಲಹೆಯಂತೆ ನವೀಕರಿಸಲಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
     <string name="trust_feature_encryption">ಗುಪ್ತಲಿಪೀಕರಣ</string>
     <string name="trust_feature_encryption_value_enabled">ಸಶಕ್ತ</string>
     <string name="trust_feature_encryption_value_nolock">ಬಂಧಿತ ಪರದೆಯೊಂದು ಬೇಕು</string>
