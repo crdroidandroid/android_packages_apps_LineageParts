@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Configuració de LineageOS</string>
+    <string name="lineageparts_title">Configuració de crDroid</string>
     <string name="loading">S\'està carregant\u2026</string>
     <string name="dlg_ok">D\'ACORD</string>
     <string name="cancel">Cancel·la</string>
@@ -421,10 +421,10 @@
     <string name="contributions_info_msg"><![CDATA[<b>Col·laboradors totals:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Aportacions totals:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Darrera actualització:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">Estadístiques de LineageOS</string>
-    <string name="anonymous_statistics_summary">Ajuda a fer millor LineageOS optant a transmetre estadístiques anònimes</string>
+    <string name="anonymous_statistics_title">Estadístiques de crDroid</string>
+    <string name="anonymous_statistics_summary">Ajuda a fer millor crDroid optant a transmetre estadístiques anònimes</string>
     <string name="anonymous_statistics_warning_title">Quant a</string>
-    <string name="anonymous_statistics_warning">Optant a les estadístiques de LineageOS permetràs que dades no-personals siguin transmeses als desenvolupadors de LineageOS per rastrejar les instal·lacions individuals a través dels dispositius. La informació transmesa inclou un identificador únic, que no compromet la privacitat o les dades personals. Les dades son transmeses durant cada arrancada.\n\nPer un exemple de les dades transmeses, pica a vista prèvia de Dades.</string>
+    <string name="anonymous_statistics_warning">Optant a les estadístiques de crDroid permetràs que dades no-personals siguin transmeses als desenvolupadors de crDroid per rastrejar les instal·lacions individuals a través dels dispositius. La informació transmesa inclou un identificador únic, que no compromet la privacitat o les dades personals. Les dades son transmeses durant cada arrancada.\n\nPer un exemple de les dades transmeses, pica a vista prèvia de Dades.</string>
     <string name="enable_reporting_title">Activa els informes</string>
     <string name="preview_data_title">Vista prèvia de Dades</string>
     <string name="view_stats_title">Veure estadístiques</string>
@@ -510,7 +510,7 @@
     <string name="trust_feature_security_patches_value_new">Actualitzat</string>
     <string name="trust_feature_security_patches_value_medium">Obsolet uns mesos</string>
     <string name="trust_feature_security_patches_value_old">Obsolet</string>
-    <string name="trust_feature_security_patches_explain">Els pegats de seguretat són publicats mensualment per Google en cooperació amb proveïdors de SoC per abordar falles que podrien ser explotades per aplicacions malicioses per eludir les restriccions de seguretat i causar danys permanents al dispositiu. Els pegats posats a disposició per Google s\'apliquen tots els mesos en tots els dispositius compatibles, però els pegats per al codi propietari només poden ser aplicats pel fabricant del dispositiu. Per mantenir el dispositiu segur, assegureu-vos que la compilació de LineageOS estigui sempre actualitzada i, si és possible, assegureu-vos que la imatge del proveïdor estigui actualitzada a la més recent recomanada per LineageOS.</string>
+    <string name="trust_feature_security_patches_explain">Els pegats de seguretat són publicats mensualment per Google en cooperació amb proveïdors de SoC per abordar falles que podrien ser explotades per aplicacions malicioses per eludir les restriccions de seguretat i causar danys permanents al dispositiu. Els pegats posats a disposició per Google s\'apliquen tots els mesos en tots els dispositius compatibles, però els pegats per al codi propietari només poden ser aplicats pel fabricant del dispositiu. Per mantenir el dispositiu segur, assegureu-vos que la compilació de crDroid estigui sempre actualitzada i, si és possible, assegureu-vos que la imatge del proveïdor estigui actualitzada a la més recent recomanada per crDroid.</string>
     <string name="trust_feature_encryption">Xifrat</string>
     <string name="trust_feature_encryption_value_enabled">Activat</string>
     <string name="trust_feature_encryption_value_nolock">Necessita una pantalla de bloqueig segura</string>
