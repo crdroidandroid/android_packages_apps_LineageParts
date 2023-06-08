@@ -235,6 +235,8 @@
     <string name="profile_setup_actions_description">Teraz skonfiguruj akcję, która wydarzy się, gdy profil zostanie aktywowany</string>
     <string name="profiles_settings_title">Profile systemu</string>
     <string name="profile_settings_title">Profil</string>
+    <string name="profiles_settings_enable_title">Włącz profile</string>
+    <string name="profiles_create_new">Utwórz nowy profil</string>
     <string name="profile_empty_list_profiles_off">Aby konfigurować i korzystać z profili systemowych musisz je aktywować.</string>
     <string name="profile_settings_summary_off">Profile są wyłączone</string>
     <string name="profile_trigger_configure">Skonfiguruj wyzwalacz</string>
@@ -463,6 +465,9 @@
     <string name="trust_feature_selinux_explain">SELinux narzuca, które procesy mają dostęp do poszczególnych plików na Twoim urządzeniu.\nZapobiega to dostępowi aplikacjom i usługom do plików, które nie powinny być obsługiwane. Dzięki temu złośliwy proces ma ograniczony dostęp, zapewniając utrzymanie bezpieczeństwa.</string>
     <string name="trust_feature_security_patches">Poprawki zabezpieczeń Androida</string>
     <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nDostawca: %2$s</string>
+    <string name="trust_feature_security_patches_value_new">Aktualne</string>
+    <string name="trust_feature_security_patches_value_medium">Przestarzałe od kilku miesięcy</string>
+    <string name="trust_feature_security_patches_value_old">Nieaktualne</string>
     <string name="trust_feature_security_patches_explain">Aktualizacje zabezpieczeń są wydawane co miesiąc przez Google w kooperacji z dostawcami SoC w celu łatania luk w systemie, które mogą zostać wykorzystane przez złośliwe oprogramowanie w celu obejścia zabezpieczeń oraz wyrządzenia trwałych szkód w twoim urządzeniu. Łatki udostępniane przez Google są aplikowane w każdym miesiącu na wszystkich wspieranych urządzeniach, ale poprawki dla kodu własnościowego mogą być aplikowane tylko przez producenta twojego telefonu. By utrzymać twój telefon bezpiecznym, zawsze używaj najnowsze wersji crDroid i (jeżeli dotyczy) twój obraz vendor jest zaktualizowany do najnowszej wersji zalecanej przez crDroid.</string>
     <string name="trust_feature_encryption">Szyfrowanie</string>
     <string name="trust_feature_encryption_value_enabled">Włączone</string>
@@ -479,6 +484,11 @@
     <string name="trust_onboarding_learn_more">Dowiedz się więcej</string>
     <string name="trust_onboarding_done">Rozumiem</string>
     <string name="trust_restrict_usb_title">Ogranicz połączenie USB</string>
+    <string name="trust_restrict_usb_summary">Sterowanie obsługą połączeń USB takich jak słuchawki, urządzenia pamięci masowej, wejścia (myszy, klawiatury i joysticki) oraz ADB</string>
+    <string name="trust_restrict_usb_always">Odmawiaj połączeń USB</string>
+    <string name="trust_restrict_usb_keyguard">Zezwalaj na połączenia USB po odblokowaniu</string>
+    <string name="trust_restrict_usb_disabled">Zawsze zezwalaj na połączenia USB</string>
+    <string name="trust_summary">Zabezpiecz swoje urządzenie i chroń swoją prywatność</string>
     <string name="sms_security_check_limit_title">Limit wiadomości SMS</string>
     <string name="sms_security_check_limit_summary">Aplikacje mogą wysłać %s wiadomości przez 1 minutę, nim konieczne będzie potwierdzenie</string>
     <string name="sms_security_check_limit_summary_none">Aplikacje nie mogą wysyłać żadnych wiadomości bez potwierdzenia</string>
