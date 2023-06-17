@@ -17,12 +17,6 @@
         android:entryValues="@array/status_bar_quick_qs_pulldown_values"
         android:defaultValue="0" />
 
-    <Preference
-        android:fragment="org.lineageos.lineageparts.statusbar.NetworkTrafficSettings"
-        android:key="network_traffic_settings"
-        android:title="@string/network_traffic_settings_title"
-        android:summary="@string/network_traffic_settings_summary" />
-
     <PreferenceCategory
         android:title="@string/status_bar_icons_title">
 
