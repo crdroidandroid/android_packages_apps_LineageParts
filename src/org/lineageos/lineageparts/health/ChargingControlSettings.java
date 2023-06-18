@@ -27,7 +27,7 @@ import org.lineageos.lineageparts.search.BaseSearchIndexProvider;
 import org.lineageos.lineageparts.search.Searchable;
 
 import lineageos.health.HealthInterface;
-import lineageos.preference.LineageSystemSettingDropDownPreference;
+import lineageos.preference.LineageSystemSettingListPreference;
 import lineageos.preference.LineageSystemSettingMainSwitchPreference;
 import lineageos.providers.LineageSettings;
 
@@ -47,7 +47,7 @@ public class ChargingControlSettings extends SettingsPreferenceFragment implemen
     private static final String CHARGING_CONTROL_LIMIT_PREF = "charging_control_charging_limit";
 
     private LineageSystemSettingMainSwitchPreference mChargingControlEnabledPref;
-    private LineageSystemSettingDropDownPreference mChargingControlModePref;
+    private LineageSystemSettingListPreference mChargingControlModePref;
     private StartTimePreference mChargingControlStartTimePref;
     private TargetTimePreference mChargingControlTargetTimePref;
     private ChargingLimitPreference mChargingControlLimitPref;
