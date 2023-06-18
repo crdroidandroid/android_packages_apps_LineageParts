@@ -11,7 +11,7 @@
         android:key="charging_control_enabled"
         android:title="@string/charging_control_enable_title" />
 
-    <lineageos.preference.LineageSystemSettingDropDownPreference
+    <lineageos.preference.LineageSystemSettingListPreference
         android:key="charging_control_mode"
         android:title="@string/charging_control_mode_title"
         android:entries="@array/charging_control_mode_entries"
