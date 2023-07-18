@@ -18,7 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="lineageparts_title">Налады crDroid</string>
     <string name="loading">Загрузка\u2026</string>
-    <string name="dlg_ok">Добра</string>
     <string name="cancel">Скасаваць</string>
     <string name="add">Дадаць</string>
     <string name="choose_app">Выбраць праграму</string>
@@ -32,6 +31,7 @@
     <string name="yes">Так</string>
     <string name="no">Не</string>
     <string name="search">Пошук</string>
+    <string name="search_menu">Налады пошуку</string>
     <string name="disabled">Адключана</string>
     <string name="enabled">Уключана</string>
     <string name="privacy_settings_title">Прыватнасць</string>
@@ -41,13 +41,10 @@
     <string name="dialog_delete_message">Выдаліць выбраны элемент?</string>
     <string name="brightness">Узровень яркасці</string>
     <string name="pulse_length_always_on">Заўсёды ўключана</string>
-    <string name="pulse_length_very_short">Вельмі кароткае</string>
     <string name="pulse_length_short">Кароткае</string>
-    <string name="pulse_length_very_long">Вельмі доўгае</string>
     <string name="pulse_speed_very_fast">Вельмі хуткае</string>
     <string name="pulse_speed_fast">Хутка</string>
     <string name="pulse_speed_slow">Павольнае</string>
-    <string name="pulse_speed_very_slow">Вельмі павольнае</string>
     <string name="light_brightness_normal">Звычайны</string>
     <string name="light_brightness_zen">Не турбаваць</string>
     <string name="battery_low_pulse_title">Мігцець пры разраджаным акумулятары</string>
@@ -102,7 +99,6 @@
     <string name="color_red_title">Чырвоны</string>
     <string name="color_green_title">Зялёны</string>
     <string name="color_blue_title">Сіні</string>
-    <string name="picture_adjustment_title">Карэкціроўка малюнка</string>
     <string name="picture_adjustment_summary">Карэкціраваць адценне, насычанасць, глыбіню і кантраст</string>
     <string name="adj_hue_title">Адценне</string>
     <string name="adj_saturation_title">Насычанасць</string>
@@ -111,8 +107,6 @@
     <string name="button_pref_title">Кнопкі</string>
     <string name="hardware_keys_power_key_title">Кнопка сілкавання</string>
     <string name="hardware_keys_back_key_title">Кнопка \"Назад\"</string>
-    <string name="hardware_keys_assist_key_title">Кнопка Пошук</string>
-    <string name="hardware_keys_appswitch_key_title">Кнопка Нядаўнія праграмы</string>
     <string name="hardware_keys_camera_key_title">Кнопка \"Камера\"</string>
     <string name="hardware_keys_volume_keys_title">Кнопкі гучнасці</string>
     <string name="hardware_keys_short_press_title">Дзеянні пры кароткім націску</string>
@@ -121,6 +115,7 @@
     <string name="hardware_keys_action_nothing">Няма дзеяння</string>
     <string name="hardware_keys_action_menu">Адкрыць/закрыць меню</string>
     <string name="hardware_keys_action_app_switch">Пераключэнне паміж нядаўнімі праграмамі</string>
+    <string name="hardware_keys_action_search">Пошукавы асістэнт</string>
     <string name="hardware_keys_action_voice_search">Галасавы пошук</string>
     <string name="hardware_keys_action_in_app_search">Пошук у праграме</string>
     <string name="hardware_keys_action_launch_camera">Запуск камеры</string>
@@ -140,6 +135,7 @@
     <string name="power_end_call_title">Завяршыць выклік</string>
     <string name="power_end_call_summary">Завяршаць тэлефонны выклік націскам кнопкі выключэння</string>
     <string name="swap_volume_buttons_title">Пераарыентаваць</string>
+    <string name="swap_volume_buttons_summary">Памяняць месцамі кнопкі рэгулявання гучнасці пры павароце экрана</string>
     <string name="volume_panel_on_left_summary">Паказваць панэль гучнасці ў левай частцы экрана</string>
     <string name="volume_answer_call_title">Адказаць на выклік</string>
     <string name="volume_answer_call_summary">Адказваць на ўваходныя выклікі, націскам кнопак гучнасці</string>
@@ -181,18 +177,14 @@
     <string name="torch_long_press_power_timeout_10min">10 хвілін</string>
     <string name="profile_menu_delete_title">Выдаліць</string>
     <string name="profile_action_none">Пакінуць без змянення</string>
-    <string name="profile_action_system">Па змаўчаньні</string>
     <string name="profile_action_disable">Выключыць</string>
     <string name="profile_action_enable">Уключыць</string>
-    <string name="profile_trigger_a2dp_connect">Пры падлучэнні A2DP</string>
-    <string name="profile_trigger_a2dp_disconnect">Пры адлучэнні A2DP</string>
     <string name="profile_tabs_wifi">Wi\u2011Fi</string>
     <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_tabs_nfc">NFC</string>
     <string name="profile_triggers_header">Умовы актывацыі гэтага профілю</string>
     <string name="profile_setup_setup_triggers_title">Крок 1: дадайце ўмовы пераключэння</string>
     <string name="profile_setup_setup_triggers_title_config">Змяненне пераключэння: <xliff:g id="profile_name">%1$s</xliff:g></string>
-    <string name="profile_setup_actions_title">Крок 2: налады дзеянняў</string>
     <string name="profile_setup_actions_title_config">Змяніць канфігурацыю дзеянняў</string>
     <string name="wireless_networks_settings_title">Бесправадныя сеткі</string>
     <string name="no_bluetooth_triggers">Адсутнічаюць спалучаныя прылады Bluetooth.\nНацісніце, каб дадаць прыладу і стварыць умову пераключэння на яе аснове.</string>
@@ -202,14 +194,16 @@
     <string name="profiles_add">Дадаць</string>
     <string name="profile_menu_delete">Выдаліць</string>
     <string name="profile_settings_title">Профіль</string>
-    <string name="profile_empty_list_profiles_off">Для выкарыстання і налад профіляў сістэмы задзейнічай функцыю \"Профілі\".</string>
     <string name="profile_settings_summary_off">Профілі адключаны</string>
+    <string name="profile_write_touch_tag">Прыкладзіце метку для яе запісу</string>
+    <string name="profile_selected">Выбраны профіль: %1$s</string>
     <string name="profile_nfc_text">Запіс меткі NFC для профілю дазволіць дотыкам да меткі выбраць неабходны профіль. Пры паўторным дотыку будзе адноўлены профіль, які выкарыстоўваўся раней.</string>
     <string name="profile_unknown_nfc_tag">Невядомы профіль</string>
     <string name="profile_add_nfc_text">Гэта метка NFC спасылаецца на невядомы профіль. Далучэнне меткі NFC да існуючага профілю дазволіць выкарыстоўваць метку для яго выбару.</string>
     <string name="profile_remove_dialog_message">Выдаліць профіль %1$s?</string>
     <string name="profile_menu_fill_from_state">Імпартаваць бягучыя налады прылады</string>
     <string name="profile_remove_current_profile">Не атрымалася выдаліць бягучы профіль!</string>
+    <string name="profile_entries_on">Уключана</string>
     <string name="profile_entries_off">Выключана</string>
     <string name="profile_name_title">Назва</string>
     <string name="new_profile_name">&lt;новы профіль&gt;</string>
@@ -226,7 +220,6 @@
     <string name="profile_volumeoverrides_title">Перавызначэнне гуку</string>
     <string name="connection_state_enabled">Уключыць</string>
     <string name="volume_override_summary">Задаць у %1$s/%2$s</string>
-    <string name="profile_volume_override_checkbox_label">Перавызначыць гук</string>
     <string name="profile_profiles_manage">Профілі</string>
     <string name="profile_settings">Налады профілю</string>
     <string name="profile_trigger_connect">Пры падключэнні</string>
@@ -246,7 +239,6 @@
     <string name="profile_lockmode_disabled_summary">Адключыць экран блакіроўкі</string>
     <string name="profile_airplanemode_title">Рэжым палёту</string>
     <string name="profile_brightness_title">Яркасць экрана</string>
-    <string name="profile_brightness_override_summary">Прызначыць на %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Змяняць яркасць</string>
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Пункт доступу Wi\u2011Fi</string>
@@ -255,7 +247,6 @@
     <string name="toggleData">Перадача даных</string>
     <string name="toggleSync">Аўтасінхранізацыя даных</string>
     <string name="toggleNfc">NFC</string>
-    <string name="ring_mode_title">Рэжым выкліку</string>
     <string name="ring_mode_normal">Звычайны</string>
     <string name="ring_mode_vibrate">Вібрацыя</string>
     <string name="ring_mode_mute">Бязгучны</string>
@@ -264,7 +255,6 @@
     <string name="media_volume_title">Медыя</string>
     <string name="alarm_volume_title">Будзільнік</string>
     <string name="status_bar_title">Панэль стану</string>
-    <string name="status_bar_quick_qs_pulldown_title">Хуткі доступ</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s край радка панэлі стану выцягвае хуткія налады</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Злева</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Справа</string>
@@ -273,7 +263,6 @@
     <string name="status_bar_quick_qs_pulldown_right">Справа</string>
     <string name="status_bar_double_tap_to_sleep_title">Выключаць экран падвойным націскам</string>
     <string name="status_bar_double_tap_to_sleep_summary">Двойчы націсніце на панэль стану, каб выключыць экран</string>
-    <string name="status_bar_icons_title">Значкі ў панэлі стану</string>
     <string name="status_bar_notif_count_title">Паказваць колькасць апавяшчэнняў</string>
     <string name="status_bar_notif_count_summary">Паказваць колькасць адкладзеных апавяшчэнняў</string>
     <string name="status_bar_system_icons_title">Сістэмныя значкі</string>
@@ -304,8 +293,10 @@
     <string name="network_traffic_settings_summary">Паказваць бягучыя ўзроўні сеткавага трафіку ў панэлі стану</string>
     <string name="network_traffic_mode_title">Рэжым паказу</string>
     <string name="network_traffic_mode_disable">Адключана</string>
+    <string name="network_traffic_mode_up">Толькі выходны трафік</string>
     <string name="network_traffic_mode_all">Выходны і ўваходны трафік</string>
     <string name="network_traffic_autohide">Хаваць аўтаматычна</string>
+    <string name="network_traffic_units_title">Адзінкі вымярэння трафіку</string>
     <string name="network_traffic_units_megabits">Мегабіт у секунду (Мб/с)</string>
     <string name="network_traffic_units_kilobytes">Кілабайт у секунду (кБ/с)</string>
     <string name="network_traffic_units_megabytes">Мегабайт у секунду (МБ/с)</string>
@@ -314,10 +305,11 @@
     <string name="contributor_info_menu">Інфармацыя пра ўдзельніка</string>
     <string name="contributions_info_menu">Агульная статыстыка</string>
     <string name="preview_device_title">Прылада</string>
+    <string name="preview_version_title">Версія</string>
     <string name="preview_country_title">Краіна</string>
     <string name="preview_carrier_title">Аператар</string>
+    <string name="stats_collection_title">Збор статыстыкі</string>
     <string name="accelerometer_title">Аўтапаварот экрана</string>
-    <string name="display_rotation_title">Налады аўтапаварота</string>
     <string name="display_rotation_enabled">Аўтапаварот уключаны</string>
     <string name="display_rotation_disabled">Аўтапаварот адключаны</string>
     <string name="display_rotation_unit">градусаў</string>
@@ -330,7 +322,7 @@
     <string name="weather_settings_title">Надвор\'е</string>
     <string name="weather_settings_no_services_prompt">Сэрвісы, якія забяспечваюць прагноз надвор\'я не ўсталяваны</string>
     <string name="weather_settings_no_services_summary">Усталюйце службу пастаўшчыка надвор\'я, каб атрымліваць абнаўленні пра надвор\'е</string>
-    <string name="weather_settings_activity_not_found">Не ўдаецца запусціць меню налад ад гэтага пастаўшчыка</string>
+    <string name="weather_settings_button">Налады пастаўшчыка</string>
     <string name="weather_settings_add_weather_provider">Дадаць пастаўшчыка надвор\'я</string>
     <string name="weather_settings_general_settings_title">Агульныя</string>
     <string name="weather_settings_providers_title">Пастаўшчыкі</string>
@@ -340,28 +332,25 @@
     <string name="weather_settings_keyword">надвор\'е</string>
     <string name="status_bar_show_weather_title">Паказваць надвор\'е</string>
     <string name="status_bar_show_weather_summary">Паказваць бягучае надвор\'е на панэлі стану</string>
-    <string name="perf_profile_settings_title">Захаванне энергіі і прадукцыйнасць</string>
     <string name="perf_profile_settings_summary">Карэкціраваць функцыі захавання энергіі і прадукцыйнасць прылады</string>
     <string name="perf_profile_overview_summary">Бягучы профіль: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
     <string name="perf_profile_category_title">Прадукцыйнасць прылады</string>
-    <string name="power_save_category_title">Захаванне энергіі</string>
-    <string name="power_save_title">Экстрэмальнае захаванне энергіі</string>
-    <string name="auto_power_save_title">Аўтаматычнае захаванне энергіі</string>
-    <string name="auto_power_save_summary_on">Аўтаматычна ўключаць рэжым захавання энергіі пры ўзроўні зараду акумулятара %s</string>
-    <string name="auto_power_save_summary_off">Не ўключаць рэжым захавання энергіі аўтаматычна</string>
+    <string name="perf_profile_title">Профіль прадукцыйнасці: <xliff:g id="perf_profile_name">%1$s </xliff:g></string>
+    <string name="perf_profile_fail_toast">Профіль прадукцыйнасці зараз недаступны</string>
     <string name="auto_power_save_never">Ніколі</string>
     <string name="long_screen_settings_title">Поўнаэкранныя праграмы</string>
     <string name="long_screen_settings_summary">Прымусовае выкарыстанне поўнаэкраннага рэжыму састарэлымі праграмамі</string>
     <string name="long_screen_settings_no_apps">Няма праграм</string>
     <string name="charging_sounds_settings_title">Гукі зарадкі</string>
     <string name="charging_sounds_enabled_title">Уключыць</string>
+    <string name="charging_sounds_enabled_summary">Прайграванне гуку пры падключэнні або адключэнні крыніцы сілкавання</string>
     <string name="power_notifications_vibrate_title">Вібрацыя</string>
     <string name="charging_sounds_ringtone_silent">Без гуку</string>
     <string name="touchscreen_gesture_settings_title">Жэсты сэнсарнага экрана</string>
-    <string name="touchscreen_gesture_settings_summary">Наладзьце жэсты сэнсарнага экрана для выканання хуткіх дзеянняў</string>
     <string name="touchscreen_gestures_haptic_feedback_summary">Вібрыраваць пры выяўленні жэста сэнсарнага экрана</string>
     <string name="touchscreen_gesture_two_finger_down_swipe_title">Правядзіце ўніз двума пальцамі</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Правядзіце ўверх адным пальцам</string>
+    <string name="touchscreen_gesture_single_tap_title">Адзіночны дотык</string>
     <string name="touchscreen_gesture_down_arrow_title">Намалюйце літару \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Намалюйце \"&lt;\"</string>
     <string name="touchscreen_gesture_right_arrow_title">Намалюйце \"&gt;\"</string>
@@ -379,12 +368,17 @@
     <string name="touchscreen_gesture_action_dialer">Адкрыць тэлефон</string>
     <string name="touchscreen_gesture_action_volume_down">Паменшыць гучнасць</string>
     <string name="touchscreen_gesture_action_volume_up">Павялічыць гучнасць</string>
-    <string name="touchscreen_gesture_action_ambient_display">Паказваць актыўны экран</string>
+    <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_disabled">Адключана</string>
+    <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nВытворца: %2$s</string>
     <string name="trust_feature_encryption">Шыфраванне</string>
     <string name="trust_feature_encryption_value_disabled">Адключана</string>
+    <string name="trust_notification_alerts_title">Апавяшчэнні сістэмы бяспекі</string>
+    <string name="trust_warnings_selinux">Статус SELinux</string>
     <string name="trust_warnings_keys">Подпіс зборкі</string>
+    <string name="trust_onboarding_title">Скажыце прывітанне Trust</string>
     <string name="trust_onboarding_done">Зразумела</string>
+    <string name="trust_restrict_usb_title">Абмежаваць USB</string>
     <string name="trust_restrict_usb_summary">Адключыць новыя гаджэты з USB, калі прылада заблакіравана</string>
     <string name="sms_security_check_limit_title">Абмежаванне паведамленняў SMS</string>
     <string name="sms_security_check_limit_always_confirm">Заўсёды пацвярджаць</string>
