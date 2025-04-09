@@ -19,8 +19,7 @@
         android:key="lockscreen_rotation"
         android:title="@string/display_lockscreen_rotation_title"
         android:dependency="accelerometer"
-        android:defaultValue="@*lineageos.platform:bool/config_lockScreenRotationEnabledByDefault"
-        lineage:requiresConfig="@*android:bool/config_enableLockScreenRotation" />
+        android:defaultValue="@*lineageos.platform:bool/config_lockScreenRotationEnabledByDefault" />
 
     <PreferenceCategory
         android:key="display_rotation_category"
