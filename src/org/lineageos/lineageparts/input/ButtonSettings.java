@@ -93,6 +93,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             "torch_long_press_power_gesture";
     private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT =
             "torch_long_press_power_timeout";
+    private static final String KEY_TORCH_POWER_BUTTON_TURN_OFF =
+            "torch_power_button_turn_off";
     private static final String KEY_CLICK_PARTIAL_SCREENSHOT =
             "click_partial_screenshot";
     private static final String KEY_SWAP_CAPACITIVE_KEYS = "swap_capacitive_keys";
@@ -193,6 +195,10 @@ public class ButtonSettings extends SettingsPreferenceFragment
         mTorchLongPressPowerTimeout = initList(KEY_TORCH_LONG_PRESS_POWER_TIMEOUT,
                 torchLongPressPowerTimeout);
 
+        // Power button to turn off torch
+        SwitchPreferenceCompat torchPowerButtonTurnOff =
+                findPreference(KEY_TORCH_POWER_BUTTON_TURN_OFF);
+
         // Home button answers calls.
         mHomeAnswerCall = findPreference(KEY_HOME_ANSWER_CALL);
 
@@ -265,6 +271,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
             if (!DeviceUtils.deviceSupportsFlashLight(requireActivity())) {
                 powerCategory.removePreference(torchLongPressPowerGesture);
                 powerCategory.removePreference(mTorchLongPressPowerTimeout);
+                powerCategory.removePreference(torchPowerButtonTurnOff);
             }
         }
         if (!hasPowerKey || powerCategory.getPreferenceCount() == 0) {
@@ -940,6 +947,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
             if (!DeviceUtils.deviceSupportsFlashLight(context)) {
                 result.add(KEY_TORCH_LONG_PRESS_POWER_GESTURE);
                 result.add(KEY_TORCH_LONG_PRESS_POWER_TIMEOUT);
+                result.add(KEY_TORCH_POWER_BUTTON_TURN_OFF);
             }
 
             if (!isKeyDisablerSupported(context)) {

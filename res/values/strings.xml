@@ -290,6 +290,9 @@
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 
+    <string name="torch_power_button_turn_off_title">Turn off torch with power button</string>
+    <string name="torch_power_button_turn_off_summary">Pressing power button turns off torch instead of waking screen</string>
+
     <!-- Profiles -->
     <string name="profile_menu_delete_title">Delete</string>
     <string name="profile_action_none">Leave unchanged</string>
